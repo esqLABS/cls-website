@@ -1,16 +1,30 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit\nLorem ipsum dolor sit amet, consectetur adipiscing elit https://esqlabs.com/."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Board Members and Staff",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "text": "Our Story\n        The Computational Life Sciences Foundation was founded to address the need for advanced computational tools in the life sciences. Our mission is to foster innovation and collaboration by developing and maintaining open source software solutions that improve research conditions and data quality in this vital field.\n\n      \n      \n        Placeholder500x500\n\n      \n    \n\n\n\n\n      \n        Placeholder500x500\n\n      \n\n      \n        Mission and Vision\n        Our mission is to advance the field of life sciences through cutting-edge computational methods and innovative research. We envision a world where computational techniques drive breakthrough discoveries in biology, medicine, and environmental science through open and precompetitive collaboration.\n      \n    \n\n\nBoard Members and Staff\n\n\n\n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computational Life Sciences Foundation",
+    "section": "",
+    "text": "Computational Life Sciences Foundation\n      Advancing Life Sciences through Computational Innovation.\n      Founded to develop and maintain open source software in the life sciences, the Computational Life Sciences Foundation aims to improve the R&D landscape through open cooperation and innovation.\n\n      Learn More\n      Donate now\n      \n    \n    \n    \n  \n\nOur Programs\n\n  Explore our initiatives in developing and promoting open source software for life sciences.\n\n\n  \n    \n      Programme 1\n      \n        Primary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n        Register\n      \n    \n  \n  \n    \n      Programme 2\n      \n        Primary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n        Register\n      \n    \n  \n  \n    \n      Programme 3\n      \n        Primary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n        Register\n      \n    \n  \n\n\nUpcoming Events\n\n  Stay updated with our latest events, workshops, and seminars.\n\n\n  \n    \n    \n    \n  \n  \n    \n      \n      \n        First slide label\n        Some representative placeholder content for the first slide.\n      \n    \n    \n      \n      \n        Second slide label\n        Some representative placeholder content for the second slide.\n      \n    \n    \n      \n      \n        Third slide label\n        Some representative placeholder content for the third slide.\n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\nSuccess Stories\n\n  Hear from those we've helped.\n\n\n\n\n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "objectID": "donate.html",
+    "href": "donate.html",
+    "title": "Donate",
+    "section": "",
+    "text": "Why Donate\nYour contributions help us develop and maintain open source software that advances research in the life sciences through open collaboration. Together, we can make a significant impact.\n\n\nDonation Options\nChoose to make a one-time donation, set up a recurring contribution, or donate in-kind.\n\nSuccess Stories\n\n  Hear from those we've helped.\n\n\n\n\n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n  \n  \n  \n    \n      Header\n      \n        Secondary card title\n        Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "objectID": "contact_us.html",
+    "href": "contact_us.html",
+    "title": "",
+    "section": "",
+    "text": "Contact Us\n      CLS Foundation, Am Sportplatz 7, 26683 Saterland, Germany\n      \n      Email: info@clsfoundation.org\n      \n      Phone: +49-123-456-7890"
   }
 ]
