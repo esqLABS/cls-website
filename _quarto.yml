@@ -4,15 +4,24 @@ project:
 website:
   search: false
   navbar:
-    logo: "https://esqlabs.com/wp-content/uploads/2018/05/ESQLABS_final_600px.png"
+    logo: "assets/logo.png"
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: "#programs-section"
+        text: Programs
+      - href: "#events-section"
+        text: Events
+      - href: donate.qmd
+        text: Donate
+      - href: about.qmd
+        text: About
+      - href: contact_us.qmd
+        text: Contact Us
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: false
 
