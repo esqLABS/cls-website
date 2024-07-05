@@ -12,6 +12,7 @@ page-layout: full
       <p>Email: info@clsfoundation.org</p>
       <br>
       <p>Phone: +49-123-456-7890</p>
+      <p>Phone: +49 15158559070</p>
       
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>

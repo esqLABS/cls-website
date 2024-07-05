@@ -1,6 +1,5 @@
 ---
 page-layout: full
-title: Donate
 ---
 
 # Why Donate
@@ -19,7 +18,7 @@ Choose to make a one-time donation, set up a recurring contribution, or donate i
 </p>
 
 <div class="grid">
-
+ <!--
   <div class="g-col-3">
     <div class="card border-secondary mb-3" style="max-width: 20rem;">
       <div class="card-header">Header</div>
@@ -59,6 +58,10 @@ Choose to make a one-time donation, set up a recurring contribution, or donate i
       </div>
     </div>
   </div>
+  
+  -->
   
 </div>
+
+<h4 class="text-center text-muted">Comming soon...</h4>
 ```
