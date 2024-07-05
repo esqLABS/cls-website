@@ -17,9 +17,28 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Save custom domain
+        id: save_cname
+        run: |
+          if git ls-remote --exit-code origin gh-pages; then
+            git fetch origin gh-pages
+            mkdir -p .gh-pages
+            git show origin/gh-pages:CNAME > .gh-pages/CNAME || echo "No CNAME file found"
+          fi
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore custom domain
+        if: steps.save_cname.outputs.result == 'success'
+        run: |
+          if [ -f .gh-pages/CNAME ]; then
+            mv .gh-pages/CNAME ./_site/CNAME
+            git add ./_site/CNAME
+            git commit -m "Restore CNAME file"
+            git push origin gh-pages
+          fi
