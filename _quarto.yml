@@ -4,7 +4,7 @@ project:
 website:
   search: false
   navbar:
-    logo: "assets/logo.png"
+    # logo: "assets/CLSFoundation_LogoGraphics.png"
     right:
       - href: index.qmd
         text: Home
@@ -24,6 +24,8 @@ format:
     theme: lux
     css: styles.css
     toc: false
+    include-after-body: "_includes/footer.html"
+
 
 editor: visual
 
