@@ -27,7 +27,7 @@ page-layout: full
   Explore our initiatives in developing and promoting open source software for life sciences.
 </p>
 <div class="grid">
-  <div class="g-col-4">
+  <div class="g-col-12">
     <div class="card border-primary mb-3">
       <div class="card-header">OPEN SYSTEMS PHARMACOLOGY</div>
       <div class="card-body">
