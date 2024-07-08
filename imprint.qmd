@@ -1,27 +1,35 @@
 # Impressum
 
 ## LEGAL NOTICE
-1. Information provided according to Sec. 5 German Telemedia Act (TMG)
+
+### 1. Information provided according to Sec. 5 German Telemedia Act (TMG)
 
 Computational Life Sciences Foundation gUG
 Am Sportplatz 7
 26683 Saterland
 
-2. Represented by
+### 2. Represented by
+
 Dr. Stephan Schaller
 
-3. Contact
-Telephone: 0151/58559070
+### 3. Contact
+
+Telephone: +49 (0)151/58559070
 Email: info@clsfoundation.org
 
-4. Register entry
+### 4. Register entry
+
 Entry in the Handelsregister.
 Registering court: Oldenburg
-Registration number: HRB 212150
+Registration number: HRB 220783
 
 5. VAT
-VAT Id number according to Sec. 27 a German Value Added Tax Act:
-DE312671242
+
+VAT ID number according to Sec. 27 a German Value Added Tax Act:
+
+<Coming up>
+
+German Tax ID: DE312671242
 
 6. Webdesign and Webscripting:
 
@@ -31,11 +39,9 @@ Am Sportplatz 7
 
 7. Indication of source for images and graphics
 
-Title graphic 3: www.open-systems-pharmacology.org
-Titel graphic 2: AdobeStock © Gorodenkoff #166977042
-Jobs graphic: AdobeStock © pressmaster #189825981
+Programms-rekated graphics: www.open-systems-pharmacology.org
 
-Remaining pictures from www.unsplash.com
+Remaining pictures are own creations.
 
 8. Dispute resolution
 
