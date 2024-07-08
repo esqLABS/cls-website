@@ -1,4 +1,4 @@
-# Impressum
+# Imprint
 
 ## LEGAL NOTICE
 
@@ -23,7 +23,7 @@ Entry in the Handelsregister.
 Registering court: Oldenburg
 Registration number: HRB 220783
 
-5. VAT
+### 5. VAT
 
 VAT ID number according to Sec. 27 a German Value Added Tax Act:
 
@@ -31,19 +31,19 @@ VAT ID number according to Sec. 27 a German Value Added Tax Act:
 
 German Tax ID: DE312671242
 
-6. Webdesign and Webscripting:
+### 6. Webdesign and Webscripting:
 
 ESQlabs GmbH
 Am Sportplatz 7
 26683 Saterland
 
-7. Indication of source for images and graphics
+### 7. Indication of source for images and graphics
 
 Programms-rekated graphics: www.open-systems-pharmacology.org
 
 Remaining pictures are own creations.
 
-8. Dispute resolution
+### 8. Dispute resolution
 
 The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr.
 
@@ -51,19 +51,20 @@ Please find our email in the Legal Notice.
 We do not take part in online dispute resolutions at consumer arbitration boards.
 
 ## DISCLAIMER
-1. Liability for Contents
+
+### 1. Liability for Contents
 
 As service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.
 
 Legal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.
 
-2. Liability for Links
+### 2. Liability for Links
 
 Our offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.
 
 The linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.
 
-3. Copyright
+### 3. Copyright
 
 Contents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only.
 
