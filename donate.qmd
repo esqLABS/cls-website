@@ -4,11 +4,13 @@ page-layout: full
 
 # Why Donate
 
-Your contributions help us develop and maintain open source software that advances research in the life sciences through open collaboration. Together, we can make a significant impact.
+Your contributions help us develop and maintain open-source software that advances research in the life sciences through open collaboration. 
+Together, we can make a significant impact.
 
 # Donation Options
 
 Choose to make a one-time donation, set up a recurring contribution, or donate in-kind.
+Contact us through info@clsfoundation.org
 
 <!-- Success Stories -->
 ```{=html}

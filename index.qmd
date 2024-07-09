@@ -5,9 +5,11 @@ page-layout: full
 ```{=html}
   <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
-      <img src="./assets/CLSFoundation_LogoGraphics.png" width="150px" />
+      <img src="./assets/CLSFoundation_Logo.png" width="100%" style="margin-bottom: 55px;" />
+      <!--
       <h1 class="display-5 fw-normal">Computational Life Sciences Foundation</h1>
       <p class="lead fw-normal">Advancing Life Sciences through Computational Innovation.</p>
+      -->
       <p>Founded to develop and maintain open source software in the life sciences, the Computational Life Sciences Foundation aims to improve the R&D landscape through open cooperation and innovation.
 </p>
       <a class="btn btn-outline-secondary" href="#">Learn More</a>
@@ -58,7 +60,7 @@ page-layout: full
       <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F801683359%2F2208805266763%2F1%2Foriginal.20240704-123420?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=cada23aaabe28bbaf36d908d9f03bc68" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>OSP Community Conference 2024</h5>
-        <p class="text-secondary">You can find all details on the program of thre OSP Community Conference 2024 and its program <a href="https://www.eventbrite.com/e/osp-community-conference-2024-tickets-933152463137?aff=oddtdtcreator">here</a>
+        <p class="text-secondary">You can find all details on the program of the OSP Community Conference 2024 and its program <a href="https://www.open-systems-pharmacology.org/conference.html">here</a>
       </p>
       </div>
     </div>

@@ -29,8 +29,6 @@ VAT ID number according to Sec. 27 a German Value Added Tax Act:
 
 <Coming up>
 
-German Tax ID: DE312671242
-
 ### 6. Webdesign and Webscripting:
 
 ESQlabs GmbH
@@ -39,9 +37,9 @@ Am Sportplatz 7
 
 ### 7. Indication of source for images and graphics
 
-Programms-rekated graphics: www.open-systems-pharmacology.org
+Programs-related graphics: www.open-systems-pharmacology.org
 
-Remaining pictures are own creations.
+The remaining pictures are CLSF-own creations.
 
 ### 8. Dispute resolution
 

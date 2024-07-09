@@ -3,8 +3,9 @@ project:
 
 website:
   search: false
+  favicon: "assets/CLSFoundation_LogoGraphics.png"
   navbar:
-    # logo: "assets/CLSFoundation_LogoGraphics.png"
+    logo: "assets/CLSFoundation_LogoGraphics.png"
     right:
       - href: index.qmd
         text: Home
