@@ -4,9 +4,7 @@
 
 ### 1. Information provided according to Sec. 5 German Telemedia Act (TMG)
 
-Computational Life Sciences Foundation gUG
-Am Sportplatz 7
-26683 Saterland
+Computational Life Sciences Foundation gUG Am Sportplatz 7 26683 Saterland
 
 ### 2. Represented by
 
@@ -14,26 +12,21 @@ Dr. Stephan Schaller
 
 ### 3. Contact
 
-Telephone: +49 (0)151/58559070
-Email: info@clsfoundation.org
+Telephone: +49 (0)151/58559070 Email: info\@clsfoundation.org
 
 ### 4. Register entry
 
-Entry in the Handelsregister.
-Registering court: Oldenburg
-Registration number: HRB 220783
+Entry in the Handelsregister. Registering court: Oldenburg Registration number: HRB 220783
 
 ### 5. VAT
 
-VAT ID number according to Sec. 27 a German Value Added Tax Act:
+VAT ID number: DE367679461 according to Sec. 27 a German Value Added Tax Act:
 
 <Coming up>
 
 ### 6. Webdesign and Webscripting:
 
-ESQlabs GmbH
-Am Sportplatz 7
-26683 Saterland
+ESQlabs GmbH Am Sportplatz 7 26683 Saterland
 
 ### 7. Indication of source for images and graphics
 
@@ -45,8 +38,7 @@ The remaining pictures are CLSF-own creations.
 
 The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr.
 
-Please find our email in the Legal Notice.
-We do not take part in online dispute resolutions at consumer arbitration boards.
+Please find our email in the Legal Notice. We do not take part in online dispute resolutions at consumer arbitration boards.
 
 ## DISCLAIMER
 
