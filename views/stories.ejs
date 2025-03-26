@@ -1,0 +1,21 @@
+```{=html}
+
+<div class="grid">
+
+  <% for (const story of items) { %>
+  
+  <div class="g-col-3">
+    <div class="card border-secondary mb-3" style="max-width: 20rem;">
+      <div class="card-header"><%- story.header %></div>
+      <div class="card-body">
+        <h4 class="card-title"><%- story.title %></h4>
+        <p class="card-text"><%- story.description %></p>
+      </div>
+    </div>
+  </div>
+  
+  <% } %>
+
+</div>
+
+```

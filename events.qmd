@@ -1,9 +1,14 @@
 ---
 title: "events"
-format: html
+listing:
+  - id: events
+    template: views/events.ejs
+    contents:
+      - data/events.yml
 ---
 
 ```{=html}
+
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="OSP Community Conference 2024"></button>
@@ -27,4 +32,6 @@ format: html
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+
 ```
