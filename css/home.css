@@ -1,0 +1,13 @@
+/* css styles */
+h2 {
+  text-align: center;
+  border-bottom: none;
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+h2 > p {
+  font-size: 1.1rem;
+  color:var(--bs-secondary-color);
+}

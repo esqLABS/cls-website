@@ -2,68 +2,14 @@
 page-layout: full
 ---
 
-# Why Donate
+## Why Donate
 
-Your contributions help us develop and maintain open-source software that advances research in the life sciences through open collaboration. 
-Together, we can make a significant impact.
+Your contributions help us develop and maintain open-source software that advances research in the life sciences through open collaboration. Together, we can make a significant impact.
 
-# Donation Options
+## Donation Options
 
-Choose to make a one-time donation, set up a recurring contribution, or donate in-kind.
-Contact us through info@clsfoundation.org
+Choose to make a one-time donation, set up a recurring contribution, or donate in-kind. Contact us through info\@clsfoundation.org
 
-<!-- Success Stories -->
-```{=html}
-<h1 class="display-6 fw-normal text-center mt-5">Success Stories</h1>
-<p class="fs-5 mb-5 text-muted">
-  Hear from those we've helped.
-</p>
+## Success Stories
 
-<div class="grid">
- <!--
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  -->
-  
-</div>
-
-<h4 class="text-center text-muted">Comming soon...</h4>
-```
+{{< include stories.qmd >}}

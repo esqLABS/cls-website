@@ -1,6 +1,6 @@
 project:
   type: website
-
+    
 website:
   search: false
   favicon: "assets/CLSFoundation_LogoGraphics.png"
@@ -9,9 +9,9 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: "#programs-section"
+      - href: "#our-programs"
         text: Programs
-      - href: "#events-section"
+      - href: "#upcoming-events"
         text: Events
       - href: donate.qmd
         text: Donate
@@ -23,10 +23,9 @@ website:
 format:
   html:
     theme: lux
-    css: styles.css
+    anchor-sections: false
+    css: css/styles.css
     toc: false
     include-after-body: "_includes/footer.html"
 
-
-editor: visual
 
