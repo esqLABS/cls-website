@@ -1,0 +1,110 @@
+/* ABOUT PAGE STYLES */
+
+/* About page section styling */
+.about-page h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Add space before the team members section */
+#section-team {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+/* Clean spacing for about page paragraphs */
+.about-page p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* DONATE PAGE STYLES */
+
+.donate-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.donate-heading {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.donate-heading-icon {
+    color: #d9534f;
+    margin-right: 0.5rem;
+}
+
+.donate-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate-highlight {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #333;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for donate section headings */
+#section-donate h2::before {
+    content: "\F415";
+    /* Bootstrap heart icon unicode */
+    font-family: "bootstrap-icons";
+    color: #d9534f;
+    margin-right: 0.5rem;
+}
+
+.donate-reason-card {
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-top: 4px solid #d9534f;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.donate-reason-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.donate-options-container {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.donate-option-icon {
+    color: #d9534f;
+    margin-right: 0.5rem;
+}
+
+/* RESPONSIVE STYLES FOR PAGES */
+@media (max-width: 768px) {
+    .about-page h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #section-team {
+        margin-top: 2.5rem;
+    }
+
+    .donate-section {
+        padding: 40px 0;
+    }
+
+    .donate-description {
+        font-size: 1.1rem;
+    }
+}

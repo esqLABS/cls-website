@@ -1,0 +1,125 @@
+```{=html}
+<style>
+    /* Custom styles for team member cards */
+    .member-card {
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .member-img-container {
+        width: 150px;
+        height: 150px;
+        margin: 1.5rem auto 1rem;
+        overflow: hidden;
+    }
+
+    .member-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #f8f9fa;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .member-name {
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        color: #333;
+    }
+
+    .member-position {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 1rem;
+    }
+
+    .member-bio {
+        font-size: 0.9rem;
+        color: #555;
+        padding: 0 1.5rem;
+        flex-grow: 1;
+    }
+
+    .member-social {
+        margin-top: auto;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .member-social a {
+        color: #555;
+        transition: color 0.3s ease;
+    }
+
+    .member-social a:hover {
+        color: #007bff;
+    }
+
+    .team-grid {
+        row-gap: 2rem;
+    }
+</style>
+
+<div class="grid team-grid">
+    <% for (const item of items) { %>
+        <div class="g-col-12 g-col-md-6 g-col-lg-4">
+            <div class="member-card">
+                <% if (item.image) { %>
+                    <div class="member-img-container">
+                        <img src="<%= item.image %>" alt="<%= item.title %>" class="member-img">
+                    </div>
+                    <% } else { %>
+                        <div class="member-img-container bg-light d-flex align-items-center justify-content-center">
+                            <i class="bi bi-person" style="font-size: 3rem; color: #ccc;"></i>
+                        </div>
+                        <% } %>
+
+                            <h3 class="member-name text-center">
+                                <%= item.title %>
+                            </h3>
+                            <% if (item.position) { %>
+                                <p class="member-position text-center">
+                                    <%= item.position %>
+                                </p>
+                                <% } %>
+
+                                    <div class="member-bio text-center">
+                                        <p>
+                                            <%= item.description %>
+                                        </p>
+                                    </div>
+
+                                    <div class="member-social">
+                                        <% if (item.email) { %>
+                                            <a href="mailto:<%= item.email %>" title="Email"><i
+                                                    class="bi bi-envelope"></i></a>
+                                            <% } %>
+                                                <% if (item.twitter) { %>
+                                                    <a href="https://twitter.com/<%= item.twitter.replace('@', '') %>"
+                                                        target="_blank" title="Twitter"><i
+                                                            class="bi bi-twitter"></i></a>
+                                                    <% } %>
+                                                        <% if (item.github) { %>
+                                                            <a href="https://github.com/<%= item.github %>"
+                                                                target="_blank" title="GitHub"><i
+                                                                    class="bi bi-github"></i></a>
+                                                            <% } %>
+                                    </div>
+            </div>
+        </div>
+        <% } %>
+</div>
+```

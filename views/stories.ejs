@@ -1,7 +1,21 @@
 ```{=html}
+<style>
+  .story-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+</style>
+
 <div class="list grid" style="column-gap: 10px;">
   <% for (const story of items) { %>
-    <div class="card border-secondary g-col-12 g-col-sm-6 g-col-md-4 mb-2">
+    <div class="card border-secondary g-col-12 g-col-sm-6 g-col-md-4 mb-2 story-card">
       <div class="card-header p-0">
         <img src="<%- story.thumbnail %>" class="card-img-top" alt="<%- story.title %>" />
       </div>

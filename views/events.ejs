@@ -1,7 +1,21 @@
 ```{=html}
+<style>
+    .event-card {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .event-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+</style>
+
 <div class="list">
     <% for (const event of items) { %>
-        <div class="card border-secondary mb-3 h-100">
+        <div class="card border-secondary mb-3 h-100 event-card">
             <div class="card-body d-flex p-0 h-100">
                 <div class="event-image-container" style="width: 300px; min-width: 300px;">
                     <img src="<%- event.image || '/images/default-event.jpg' %>" class="h-100 w-100 object-fit-cover"

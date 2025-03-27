@@ -3,7 +3,7 @@ title: "Our Programs"
 page-layout: full
 listing:
   - id: programs-full
-    template: views/programs.ejs
+    template: views/programs-grid.ejs
     contents: programs/*.qmd
     sort: "priority asc"
 ---

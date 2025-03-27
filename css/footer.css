@@ -1,0 +1,172 @@
+/* Footer Styles for Quarto */
+
+/* Main footer container */
+.footer,
+.nav-footer {
+    background: linear-gradient(135deg, #e6f0fa 0%, #d4e5f7 40%, #b5d0e8 70%, #70bfc7 100%);
+    padding: 3rem 2rem 2rem;
+    color: var(--text-color);
+    width: 100%;
+}
+
+/* Footer-specific styling */
+.footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.03);
+}
+
+/* Ensure no white background on inner elements */
+.nav-footer * {
+    background-color: transparent;
+}
+
+/* Footer columns and headings */
+.footer-items {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* Text alignment for footer columns */
+.nav-footer-left {
+    text-align: right;
+}
+
+.nav-footer-right {
+    text-align: left;
+}
+
+/* Content styling */
+.footer p,
+.nav-footer p {
+    margin-bottom: 0.4rem;
+    line-height: 1.6;
+}
+
+/* Footer links */
+.footer a,
+.nav-footer a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.75;
+}
+
+.nav-footer-left a {
+    justify-content: flex-end;
+}
+
+.footer a:hover,
+.nav-footer a:hover {
+    color: var(--secondary-color);
+    transform: translateX(3px);
+}
+
+.nav-footer-left a:hover {
+    transform: translateX(-3px);
+}
+
+/* Icon styling */
+.footer i,
+.nav-footer i {
+    width: 1.2rem;
+    text-align: center;
+    margin-right: 0.3rem;
+    font-size: 1rem;
+}
+
+/* Social links section */
+.social-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+    flex-wrap: nowrap;
+    width: auto;
+}
+
+/* Force social icons to stay inline */
+.nav-footer-right p:has(.social-row) {
+    display: flex;
+    white-space: nowrap;
+}
+
+.social-icon {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(44, 62, 80, 0.1) !important;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    margin: 0 0.3rem 0 0 !important;
+    padding: 0;
+    float: left;
+}
+
+.social-icon i {
+    margin: 0;
+    width: auto;
+}
+
+.social-icon:hover {
+    background: var(--primary-color) !important;
+    color: white;
+    transform: translateY(-3px) translateX(0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Copyright text */
+.footer p:last-of-type,
+.nav-footer p:last-of-type {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .footer-items {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 3rem 2rem;
+    }
+
+    .nav-footer-left,
+    .nav-footer-right {
+        text-align: left;
+    }
+
+    .nav-footer-left a {
+        justify-content: flex-start;
+    }
+
+    .nav-footer-left a:hover {
+        transform: translateX(3px);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .footer,
+    .nav-footer {
+        padding: 2.5rem 1.5rem 1.5rem;
+    }
+
+    .footer-items {
+        gap: 2.5rem 1.5rem;
+    }
+
+    .social-row {
+        gap: 0.5rem;
+    }
+}

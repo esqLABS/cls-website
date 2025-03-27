@@ -1,0 +1,225 @@
+/* LAYOUT STYLES */
+
+/* Hero layout */
+.hero-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Subtle gradient overlay */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.1) 0%, rgba(44, 62, 80, 0.05) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Radial gradient accents */
+.hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: -50%;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(44, 62, 80, 0.1) 0%, rgba(44, 62, 80, 0) 70%);
+    transform: rotate(-45deg);
+    pointer-events: none;
+}
+
+.hero-container {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content {
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Logo styles */
+.hero-logo {
+    max-width: 500px;
+    width: 85%;
+    margin-bottom: 2rem;
+    animation: fadeIn 1.5s ease-in-out;
+    filter: drop-shadow(0 5px 15px rgba(44, 62, 80, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.hero-logo:hover {
+    transform: scale(1.05);
+}
+
+/* Description styles */
+.hero-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #4a4a4a;
+    max-width: 700px;
+    animation: fadeIn 2.2s ease-in-out;
+}
+
+/* Hero buttons container */
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+/* SECTION LAYOUTS */
+
+/* Section height variations */
+.hero-height {
+    min-height: 75vh;
+    /* Hero gets standard height */
+}
+
+.compact-section {
+    min-height: 65vh;
+    /* Content sections get more compact height */
+}
+
+/* Full-height sections styling */
+.full-height-section {
+    display: flex;
+    /* Removed min-height from base class */
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+/* Enhanced section headings in full-height sections */
+.full-height-section h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.full-height-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #4ca1af, transparent);
+    border-radius: 2px;
+}
+
+/* Programs section */
+#section-programs {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 3rem 2rem;
+}
+
+/* Events section */
+#section-events {
+    background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 3rem 2rem;
+}
+
+/* Stories section */
+#section-stories {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e3e8ef 100%);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 3rem 2rem;
+}
+
+/* Content container for each section */
+.section-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* General layout utilities */
+.text-center {
+    text-align: center;
+}
+
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-10 {
+    width: 100%;
+    max-width: 83.333333%;
+    padding: 0 15px;
+}
+
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+
+    .full-height-section,
+    .hero-height,
+    .compact-section {
+        min-height: auto;
+        /* Remove fixed height on mobile */
+        padding: 2.5rem 1rem;
+    }
+
+    .section-content {
+        justify-content: flex-start;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content {
+        padding: 1.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .col-md-10 {
+        max-width: 100%;
+    }
+}

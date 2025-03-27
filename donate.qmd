@@ -1,15 +1,65 @@
 ---
 page-layout: full
+css:
+  - css/pages.css
 ---
+
+
+
+:::{.container .my-5}
+
+
+## Donation Options {#donation-options}
+
+:::{.donate-options-container}
+:::{.row}
+:::{.col-md-4 .mb-3}
+### <i class="bi bi-cash-coin donate-option-icon"></i> One-Time Gift
+Make an immediate impact with a single donation of any amount.
+:::
+:::{.col-md-4 .mb-3}
+### <i class="bi bi-calendar-check donate-option-icon"></i> Recurring Support
+Set up a monthly or yearly donation to provide sustained support.
+:::
+:::{.col-md-4 .mb-3}
+### <i class="bi bi-building donate-option-icon"></i> Corporate Giving
+Partner with us through sponsorships or matching gift programs.
+:::
+:::
+
+<a href="mailto:info@clsfoundation.org?subject=Donation%20Inquiry&body=I'm%20interested%20in%20making%20a%20donation%20to%20the%20Computational%20Life%20Sciences%20Foundation." class="btn btn-lg rounded-pill donate-button">Donate Now</a>
+:::
+:::
+
+
+
+
 
 ## Why Donate
 
-Your contributions help us develop and maintain open-source software that advances research in the life sciences through open collaboration. Together, we can make a significant impact.
+Every contribution, regardless of size, makes a difference in our ability to serve the scientific community.
 
-## Donation Options
+:::{.row}
+:::{.col-md-4 .mb-4}
+:::{.donate-reason-card}
+### <i class="bi bi-code-slash donate-option-icon"></i> Support Open Source
+Your donation helps maintain critical software tools used by thousands of researchers across the globe.
+:::
+:::
 
-Choose to make a one-time donation, set up a recurring contribution, or donate in-kind. Contact us through info\@clsfoundation.org
+:::{.col-md-4 .mb-4}
+:::{.donate-reason-card}
+### <i class="bi bi-lightbulb donate-option-icon"></i> Accelerate Innovation
+Fund advancements that make research more efficient, collaborative, and impactful.
+:::
+:::
 
-## Success Stories
+:::{.col-md-4 .mb-4}
+:::{.donate-reason-card}
+### <i class="bi bi-graph-up donate-option-icon"></i> Create Impact
+Help us continue developing tools that lead to real breakthroughs in healthcare and life sciences.
+:::
+:::
+:::
 
-{{< include stories.qmd >}}
+:::
