@@ -68,9 +68,10 @@
     height: 100%;
     padding: 1.5rem;
     border-radius: 10px;
-    border-top: 4px solid #d9534f;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
 }
+
 
 .donate-reason-card:hover {
     transform: translateY(-5px);
@@ -82,6 +83,21 @@
     border-radius: 15px;
     padding: 1.5rem;
     margin: 1.5rem 0;
+    width: 100%;
+}
+
+.donate-options-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.donate-options-container .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
 }
 
 .donate-option-icon {
@@ -106,5 +122,10 @@
 
     .donate-description {
         font-size: 1.1rem;
+    }
+
+    .donate-options-container .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }

@@ -2,9 +2,7 @@
 title: "Alex Johnson"
 position: "Board Chair"
 email: "alex.johnson@cls-foundation.org"
-twitter: "@alexjohnson"
-github: "alexjohnson"
-image: https://i.pravatar.cc/400
+image: https://i.pravatar.cc/400?img=7
 order: 3
 description: "Alex Johnson serves as the Board Chair with a background in both computational biology and business leadership, bringing a unique perspective to the foundation's governance."
 ---

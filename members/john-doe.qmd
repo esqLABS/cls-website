@@ -2,9 +2,7 @@
 title: "John Doe"
 position: "Executive Director"
 email: "john.doe@cls-foundation.org"
-twitter: "@johndoe"
-github: "johndoe"
-image: https://i.pravatar.cc/400
+image: https://i.pravatar.cc/400?img=69
 order: 1
 description: "John Doe is the Executive Director of the Computational Life Sciences Foundation with over 15 years of experience in computational biology."
 ---

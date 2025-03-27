@@ -12,22 +12,24 @@ css:
 ## Donation Options {#donation-options}
 
 :::{.donate-options-container}
-:::{.row}
-:::{.col-md-4 .mb-3}
+:::{.row .d-flex .justify-content-between}
+:::{.col-md-4 .col-12 .mb-3 .px-3}
 ### <i class="bi bi-cash-coin donate-option-icon"></i> One-Time Gift
 Make an immediate impact with a single donation of any amount.
 :::
-:::{.col-md-4 .mb-3}
+:::{.col-md-4 .col-12 .mb-3 .px-3}
 ### <i class="bi bi-calendar-check donate-option-icon"></i> Recurring Support
 Set up a monthly or yearly donation to provide sustained support.
 :::
-:::{.col-md-4 .mb-3}
+:::{.col-md-4 .col-12 .mb-3 .px-3}
 ### <i class="bi bi-building donate-option-icon"></i> Corporate Giving
 Partner with us through sponsorships or matching gift programs.
 :::
 :::
 
+<div class="text-center mt-4">
 <a href="mailto:info@clsfoundation.org?subject=Donation%20Inquiry&body=I'm%20interested%20in%20making%20a%20donation%20to%20the%20Computational%20Life%20Sciences%20Foundation." class="btn btn-lg rounded-pill donate-button">Donate Now</a>
+</div>
 :::
 :::
 
@@ -40,21 +42,21 @@ Partner with us through sponsorships or matching gift programs.
 Every contribution, regardless of size, makes a difference in our ability to serve the scientific community.
 
 :::{.row}
-:::{.col-md-4 .mb-4}
+:::{.col-md-6 .mb-4}
 :::{.donate-reason-card}
 ### <i class="bi bi-code-slash donate-option-icon"></i> Support Open Source
 Your donation helps maintain critical software tools used by thousands of researchers across the globe.
 :::
 :::
 
-:::{.col-md-4 .mb-4}
+:::{.col-md-6 .mb-4}
 :::{.donate-reason-card}
 ### <i class="bi bi-lightbulb donate-option-icon"></i> Accelerate Innovation
 Fund advancements that make research more efficient, collaborative, and impactful.
 :::
 :::
 
-:::{.col-md-4 .mb-4}
+:::{.col-md-6 .mb-4}
 :::{.donate-reason-card}
 ### <i class="bi bi-graph-up donate-option-icon"></i> Create Impact
 Help us continue developing tools that lead to real breakthroughs in healthcare and life sciences.
@@ -62,4 +64,3 @@ Help us continue developing tools that lead to real breakthroughs in healthcare 
 :::
 :::
 
-:::
