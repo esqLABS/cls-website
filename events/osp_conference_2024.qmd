@@ -1,0 +1,10 @@
+---
+title: "2024 OSP Community Conference"
+description: "Join us for the first OSP Community Conference at the iconic Gehry Building on the Novartis Campus in Basel, Switzerland."
+date: "2024-10-07"
+end_date: "2024-10-08"
+image: "https://www.open-systems-pharmacology.org/img/conference/basel-1.jpg"  # Placeholder image - should be replaced with actual conference image
+location: "Novartis Campus, Basel, Switzerland"
+url: "https://www.open-systems-pharmacology.org/conference_2024.html"
+categories: ["Conference", "OSP"]
+---

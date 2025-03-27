@@ -7,7 +7,9 @@ h2 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
-h2 > p {
+h2+p,
+h2~p:not(.btn) {
   font-size: 1.1rem;
-  color:var(--bs-secondary-color);
+  color: var(--bs-secondary-color);
+  text-align: center;
 }

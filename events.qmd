@@ -1,37 +1,14 @@
 ---
-title: "events"
+title: "Events"
+page-layout: full
 listing:
-  - id: events
+  - id: events-full
     template: views/events.ejs
-    contents:
-      - data/events.yml
+    contents: events/*.qmd
+    sort: "date desc"
 ---
 
-```{=html}
+Stay updated with our latest events, workshops, and seminars.
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="OSP Community Conference 2024"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F801683359%2F2208805266763%2F1%2Foriginal.20240704-123420?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=cada23aaabe28bbaf36d908d9f03bc68" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>OSP Community Conference 2024</h5>
-        <p class="text-secondary">You can find all details on the program of the OSP Community Conference 2024 and its program <a href="https://www.open-systems-pharmacology.org/conference.html">here</a>
-      </p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-```
+::: {#events-full}
+:::

@@ -1,22 +1,15 @@
 ---
-title: "programs"
+title: "Our Programs"
+page-layout: full
+listing:
+  - id: programs-full
+    template: views/programs.ejs
+    contents: programs/*.qmd
+    sort: "priority asc"
 ---
 
-<!-- #TODO implement custom listing -->
+Explore our initiatives in developing and promoting open source software for life sciences. Each program represents our commitment to advancing research and innovation through collaborative development and open access.
 
-```{=html}
-<div class="grid">
-  <div class="g-col-12">
-    <div class="card border-primary mb-3">
-      <div class="card-header">OPEN SYSTEMS PHARMACOLOGY</div>
-      <div class="card-body">
-        <h4 class="card-title">PK-SIM® AND MOBI® FOR PBPK AND QUANTITATIVE SYSTEMS PHARMACOLOGY</h4>
-        <p class="card-text">Reliable, powerful and easy-to-use modeling & simulation tools for pharmaceutical and other life-sciences applications. Qualified and accepted by the scientific community including academia, regulatory agencies and industry. Available free to everyone.
-</p>
-        <a type="button" href="https://www.open-systems-pharmacology.org/" class="btn btn-outline-info">Learn more</a>
-      </div>
-    </div>
-  </div>
+:::{#programs-full}
+:::
 
-</div>
-```

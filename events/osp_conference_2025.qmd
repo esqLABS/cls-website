@@ -1,0 +1,10 @@
+---
+title: "2025 OSP Community Conference"
+description: "Join us for the second OSP Community Conference at Sanofi's facilities in Vitry-sur-Seine, Paris, featuring collaboration, innovation, and networking in the Open Systems Pharmacology community."
+date: "2025-09-29"
+end_date: "2025-09-30"
+image: "https://www.open-systems-pharmacology.org/img/conference/paris_3.webp"  # Placeholder image - should be replaced with actual conference image
+location: "Sanofi Campus, Paris France"
+url: "https://www.open-systems-pharmacology.org/conference.html"
+categories: ["Conference", "OSP"]
+---

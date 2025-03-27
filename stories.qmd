@@ -1,23 +1,16 @@
 ---
 title: Success Stories
+page-layout: full
 listing:
-  - id: stories
+  - id: stories-full
     template: views/stories.ejs
-    contents:
-      - data/stories.yml
+    contents: stories/*.qmd
+    sort: "date desc"
 ---
-<!-- #TODO implement custom listing -->
 
-::: {#stories}
+These are all our success stories showcasing how we've helped organizations achieve their goals.
 
+:::{#stories-full}
 :::
-
-```{=html}
-<h4 class="text-center text-muted">
-
-Comming soon...
-
-</h4>
-```
 
 

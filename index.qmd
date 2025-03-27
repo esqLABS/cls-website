@@ -2,7 +2,24 @@
 page-layout: full
 css: 
   - css/home.css
+listing:
+  - id: stories
+    template: views/stories.ejs
+    contents: stories/*.qmd
+    sort: "date desc"
+    max-items: 3
+  - id: events
+    template: views/events.ejs
+    contents: events/*.qmd
+    sort: "date desc"
+    max-items: 3
+  - id: programs
+    template: views/programs.ejs
+    contents: programs/*.qmd
+    sort: "priority asc"
+    max-items: 6
 ---
+
 
 :::{.position-relative .overflow-hidden .p-3 .p-md-5 .text-center .bg-light .col-md-5 .p-lg-5 .mx-auto .my-5}
 
@@ -18,25 +35,38 @@ through open cooperation and innovation.
 
 :::
 
+
+
 ## Our Programs
 
 Explore our initiatives in developing and promoting open source software for 
 life sciences. 
 
-{{< include programs.qmd >}}
+:::{#programs}
+:::
 
-
+::: {.text-center .mt-4}
+[See All Programs](programs.qmd){.btn .btn-outline-primary}
+:::
 
 ## Upcoming Events
 
 Stay updated with our latest events, workshops, and seminars.
 
-{{< include events.qmd >}}
+::: {#events}
+:::
 
-
+::: {.text-center .mt-4}
+[See All Events](events.qmd){.btn .btn-outline-primary}
+:::
 
 ## Success Stories
 
-Hear from those we've helped.
+Hear from those we've helped.  
 
-{{< include stories.qmd >}}
+::: {#stories}
+:::
+
+::: {.text-center .mt-4}
+[More Stories](stories.qmd){.btn .btn-outline-primary}
+:::

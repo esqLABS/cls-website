@@ -1,0 +1,35 @@
+---
+title: "Open Science Platform"
+description: "A collaborative platform for sharing and managing scientific research data, promoting open science practices and reproducible research in life sciences."
+image: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?ixlib=rb-1.2.1"
+category: "Research Infrastructure"
+priority: 3
+url: "/programs/open-science-platform"
+---
+
+## About the Program
+
+The Open Science Platform is designed to revolutionize how researchers collaborate, share, and manage scientific data. Our platform aims to:
+
+- Facilitate FAIR (Findable, Accessible, Interoperable, Reusable) data principles
+- Enable seamless collaboration between research teams
+- Provide tools for reproducible research
+- Support open access publishing workflows
+
+## Planned Features
+
+- **Data Repository**: Secure storage and version control for research data
+- **Collaboration Tools**: Real-time collaboration and project management
+- **Integration Hub**: Connect with existing research tools and workflows
+- **Analytics Dashboard**: Track research impact and collaboration metrics
+- **Publishing Workflow**: Streamlined process for open access publishing
+
+## Expected Impact
+
+The platform will support:
+- Enhanced research reproducibility
+- Increased collaboration efficiency
+- Better research data management
+- Accelerated scientific discovery
+
+Launch planned for Q1 2025 with initial focus on life sciences research institutions. 
