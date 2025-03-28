@@ -1,0 +1,26 @@
+```{=html}
+<!-- 
+FormSubmit is a free form submission service that doesn't require registration.
+The recipient email is set to the foundation's email.
+-->
+<form action="https://formsubmit.co/info@clsfoundation.org" method="POST" class="donation-form">
+    <!-- Spam protection -->
+    <input type="text" name="_honey" style="display:none">
+
+    <!-- Disable captcha - change to "true" if you want to enable it -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Redirect after submission - change to your thank you page URL -->
+    <input type="hidden" name="_next" value="/donation-thanks.html">
+
+    <!-- Form subject -->
+    <input type="hidden" name="_subject" value="New Donation Interest">
+
+    <div class="form-group-inline">
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+        <button type="submit" class="submit-button donate-button">
+            Get in Touch
+        </button>
+    </div>
+</form>
+```

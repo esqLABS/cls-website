@@ -7,20 +7,20 @@ website:
   navbar:
     logo: "assets/CLSFoundation_LogoGraphics.png"
     right:
-      - href: index.qmd
-        text: Home
-      - href: "#section-programs"
-        text: Programs
-      - href: "#section-events"
-        text: Events
-      - href: "#section-stories"
+      - text: Home 
+        href: index.qmd
+      - text: Programs
+        href: programs.qmd
+      - text: Events
+        href: events.qmd
+      - href: stories.qmd
         text: Success Stories
-      - href: "#section-donate"
-        text: Donate
-      - href: about.qmd
-        text: About
-      - href: contact_us.qmd
-        text: Contact Us
+      - text: Donate
+        href: donate.qmd
+      - text: About
+        href: about.qmd
+      - text: Contact Us
+        href: contact_us.qmd
   page-footer:
     left: |
       **Contact**
@@ -39,11 +39,11 @@ website:
       **Menu**
       
       [<i class="bi bi-house-door"></i> Home](/)  
-      [<i class="bi bi-card-list"></i> Programs](/#section-programs)  
-      [<i class="bi bi-calendar-event"></i> Events](/#section-events)  
-      [<i class="bi bi-chat-quote"></i> Success Stories](/#section-stories)  
-      [<i class="bi bi-heart"></i> Donate](/donate)  
-      [<i class="bi bi-info-circle"></i> About](/about)
+      [<i class="bi bi-card-list"></i> Programs](/programs.html)  
+      [<i class="bi bi-calendar-event"></i> Events](/events.html)  
+      [<i class="bi bi-chat-quote"></i> Success Stories](/stories.html)  
+      [<i class="bi bi-heart"></i> Donate](/donate.html)  
+      [<i class="bi bi-info-circle"></i> About](/about.html)
       
 
     right: |
@@ -57,7 +57,7 @@ website:
         <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
       </div>
       
-      &copy; 2024 CLS Foundation
+      &copy; 2025 CLS Foundation
     background: light
 
 format:

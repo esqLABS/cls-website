@@ -1,18 +1,31 @@
 /* LAYOUT STYLES */
 
-/* Hero layout */
-.hero-section {
-    display: flex;
+/* SECTION LAYOUTS */
+
+
+/* Section height variations */
+.section-hero {
     align-items: center;
-    position: relative;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-top: -3rem;
+    /* Remove whitespace between navbar and hero */
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+    border-radius: 0;
+    /* Fullscreen hero */
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
 }
 
-/* Subtle gradient overlay */
-.hero-section::before {
+/* Gradient overlay for hero section */
+.section-hero::before {
     content: '';
     position: absolute;
     top: 0;
@@ -25,7 +38,7 @@
 }
 
 /* Radial gradient accents */
-.hero-section::after {
+.section-hero::after {
     content: '';
     position: absolute;
     bottom: -50%;
@@ -37,6 +50,7 @@
     pointer-events: none;
 }
 
+/* Hero components */
 .hero-container {
     padding: 3rem;
     width: 100%;
@@ -49,20 +63,21 @@
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 900px;
     text-align: center;
     position: relative;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 3rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    width: 90%;
 }
 
 /* Logo styles */
 .hero-logo {
-    max-width: 500px;
-    width: 85%;
+    max-width: 600px;
+    width: 90%;
     margin-bottom: 2rem;
     animation: fadeIn 1.5s ease-in-out;
     filter: drop-shadow(0 5px 15px rgba(44, 62, 80, 0.2));
@@ -75,11 +90,11 @@
 
 /* Description styles */
 .hero-description {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.8;
     margin-bottom: 2rem;
     color: #4a4a4a;
-    max-width: 700px;
+    max-width: 800px;
     animation: fadeIn 2.2s ease-in-out;
 }
 
@@ -91,39 +106,33 @@
     margin-top: 1.5rem;
 }
 
-/* SECTION LAYOUTS */
 
-/* Section height variations */
-.hero-height {
-    min-height: 75vh;
-    /* Hero gets standard height */
-}
-
-.compact-section {
-    min-height: 65vh;
-    /* Content sections get more compact height */
-}
-
-/* Full-height sections styling */
-.full-height-section {
+/* Base section styling for all sections */
+.section {
     display: flex;
-    /* Removed min-height from base class */
     flex-direction: column;
     justify-content: center;
-    padding: 3rem 0;
     position: relative;
-    margin-bottom: 2rem;
+    border-radius: 0;
+    min-height: 80vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Enhanced section headings in full-height sections */
-.full-height-section h2 {
+/* Enhanced section headings */
+.section h2 {
     margin-top: 0;
     margin-bottom: 2rem;
     position: relative;
     display: inline-block;
 }
 
-.full-height-section h2::after {
+.section h2::after {
     content: '';
     position: absolute;
     bottom: -15px;
@@ -135,40 +144,6 @@
     border-radius: 2px;
 }
 
-/* Programs section */
-#section-programs {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 0.5rem;
-    margin: 1rem 0;
-    padding: 3rem 2rem;
-}
-
-/* Events section */
-#section-events {
-    background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
-    border-radius: 0.5rem;
-    margin: 1rem 0;
-    padding: 3rem 2rem;
-}
-
-/* Stories section */
-#section-stories {
-    background: linear-gradient(135deg, #f5f7fa 0%, #e3e8ef 100%);
-    border-radius: 0.5rem;
-    margin: 1rem 0;
-    padding: 3rem 2rem;
-}
-
-/* Content container for each section */
-.section-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 /* General layout utilities */
 .text-center {
@@ -194,9 +169,9 @@
 /* Media queries for responsive design */
 @media (max-width: 768px) {
 
-    .full-height-section,
-    .hero-height,
-    .compact-section {
+    .section,
+    .section-hero,
+    .section-compact {
         min-height: auto;
         /* Remove fixed height on mobile */
         padding: 2.5rem 1rem;
@@ -212,14 +187,48 @@
     }
 
     .hero-content {
-        padding: 1.5rem;
+        padding: 2rem;
     }
 
     .hero-description {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .col-md-10 {
         max-width: 100%;
     }
+
+    .scroll-down {
+        bottom: 20px;
+    }
+
+    .scroll-down svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .scroll-down-section {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .scroll-down-section>div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .scroll-down-section svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Remove margin from the last section to avoid whitespace */
+.section:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Remove navbar bottom margin */
+.navbar {
+    margin-bottom: 0;
 }

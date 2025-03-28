@@ -1,6 +1,9 @@
 ---
 title: "Events"
 page-layout: full
+css:
+  - css/components.css
+  - css/events-cards.css
 listing:
   - id: events-full
     template: views/events.ejs

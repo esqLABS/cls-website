@@ -1,6 +1,9 @@
 ---
 title: Success Stories
 page-layout: full
+css:
+  - css/components.css
+  - css/stories-cards.css
 listing:
   - id: stories-full
     template: views/stories.ejs

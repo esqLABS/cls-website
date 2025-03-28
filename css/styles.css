@@ -1,16 +1,3 @@
-/* Card styles */
-.card-img-top {
-  width: 100%;
-  height: 15vw;
-  object-fit: cover;
-}
-
-.card-title {
-  margin-top: 0.5rem;
-}
-
-/* Add any general styles here that don't conflict with the carousel */
-
 /* Full-width footer support */
 .quarto-title-banner,
 .page-columns,

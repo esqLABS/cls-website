@@ -1,188 +1,35 @@
 ```{=html}
-<style>
-    /* Programs Carousel Custom Styles */
-    .programs-carousel {
-        padding: 1rem 0;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .programs-carousel .carousel-inner {
-        padding: 0.5em;
-        width: 97%;
-        margin: 0 auto;
-        display: flex;
-        overflow-x: auto;
-        scroll-behavior: smooth;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-    }
-
-    .programs-carousel .carousel-inner::-webkit-scrollbar {
-        display: none;
-    }
-
-    .programs-carousel .carousel-item {
-        display: block;
-        flex: 0 0 auto;
-        margin-right: 12px;
-        width: 45%;
-        min-width: 300px;
-        opacity: 1;
-        transform: none !important;
-        transition: none !important;
-        padding: 10px;
-    }
-
-    .programs-carousel .card {
-        width: 100%;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 360px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .programs-carousel .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    }
-
-    .programs-carousel .carousel-control-prev,
-    .programs-carousel .carousel-control-next {
-        width: 40px;
-        height: 40px;
-        background-color: #e1e1e1;
-        border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
-        opacity: 0.8;
-        z-index: 10;
-    }
-
-    .programs-carousel .carousel-control-prev {
-        left: 0.5%;
-    }
-
-    .programs-carousel .carousel-control-next {
-        right: 0.5%;
-    }
-
-    .programs-carousel .carousel-control-prev:hover,
-    .programs-carousel .carousel-control-next:hover {
-        opacity: 1;
-    }
-
-    .program-image-wrapper {
-        position: relative;
-        height: 100px;
-        overflow: hidden;
-        background: linear-gradient(45deg, #f3f4f6, #e5e7eb);
-    }
-
-    .program-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
-    }
-
-    .card:hover .program-image {
-        transform: scale(1.05);
-    }
-
-    .program-info {
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-    }
-
-    .program-category {
-        font-size: 0.75rem;
-        color: #6b7280;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        margin-bottom: 0.15rem;
-    }
-
-    .program-title {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: #111827;
-        margin-top: 0;
-        margin-bottom: 0.4rem;
-        line-height: 1.2;
-    }
-
-    .program-description {
-        color: #4b5563;
-        font-size: 0.875rem;
-        margin-bottom: 0.5rem;
-        display: -webkit-box;
-        -webkit-line-clamp: 5;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        flex-grow: 1;
-    }
-
-    .program-footer {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-top: auto;
-    }
-
-    @media (max-width: 767px) {
-        .programs-carousel .carousel-item {
-            width: 85%;
-        }
-
-        .programs-carousel .carousel-inner {
-            width: 100%;
-        }
-
-        .programs-carousel .carousel-control-prev,
-        .programs-carousel .carousel-control-next {
-            display: none;
-        }
-    }
-</style>
-
 <div id="programsCarousel" class="carousel slide programs-carousel">
-    <div class="carousel-inner">
-        <% for (let i=0; i < items.length; i++) { %>
-            <div class="carousel-item">
-                <div class="card">
-                    <div class="program-image-wrapper">
-                        <img src="<%- items[i].image || '/images/default-program.jpg' %>" alt="<%- items[i].title %>"
-                            class="program-image">
-                    </div>
-                    <div class="program-info">
-                        <div class="program-category"><%- items[i].category %></div>
-                        <h3 class="program-title"><%- items[i].title %></h3>
-                        <p class="program-description"><%- items[i].description %></p>
-                        <div class="program-footer">
-                            <a href="<%- items[i].path %>" class="btn btn-outline-secondary">Learn More</a>
+    <div class="programs-container">
+        <div class="carousel-inner">
+            <% for (let i=0; i < items.length; i++) { %>
+                <div class="carousel-item">
+                    <div class="card card-base">
+                        <div class="program-image-wrapper">
+                            <img src="<%- items[i].image || '/images/default-program.jpg' %>"
+                                alt="<%- items[i].title %>" class="program-image">
+                        </div>
+                        <div class="program-info">
+                            <div class="program-category"><%- items[i].category %></div>
+                            <h3 class="program-title"><%- items[i].title %></h3>
+                            <p class="program-description"><%- items[i].description %></p>
+                            <div class="program-footer">
+                                <a href="<%- items[i].path %>" class="btn btn-outline-secondary">Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <% } %>
+                <% } %>
+        </div>
+        <button class="carousel-control-prev" type="button" id="prevButton" aria-label="Previous">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" id="nextButton" aria-label="Next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <button class="carousel-control-prev" type="button" id="prevButton" aria-label="Previous">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" id="nextButton" aria-label="Next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
 </div>
 
 <script>

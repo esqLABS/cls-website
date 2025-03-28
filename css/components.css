@@ -38,75 +38,6 @@
     align-items: center;
 }
 
-.hero-btn {
-    padding: 0.8rem 2rem;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 50px;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-
-/* Fix the button hover effect to match rounded corners */
-.hero-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: transparent;
-    border-radius: 50px;
-    transform: scale(0);
-    transition: transform 0.5s ease;
-    z-index: -1;
-}
-
-.hero-btn-primary {
-    background-color: #2c3e50;
-    color: white !important;
-    border: none;
-}
-
-.hero-btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
-    color: white !important;
-    text-decoration: none;
-}
-
-.hero-btn-primary::before {
-    background-color: #1a252f;
-}
-
-.hero-btn-primary:hover::before {
-    transform: scale(1);
-}
-
-.hero-btn-secondary {
-    background-color: transparent;
-    color: #2c3e50 !important;
-    border: 2px solid #2c3e50;
-}
-
-.hero-btn-secondary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    color: #2c3e50 !important;
-}
-
-.hero-btn-secondary::before {
-    background-color: rgba(44, 62, 80, 0.1);
-}
-
-.hero-btn-secondary:hover::before {
-    transform: scale(1);
-}
-
 /* Donate button styling */
 .donate-button {
     font-size: 1.25rem;
@@ -130,6 +61,65 @@
 }
 
 /* CARD COMPONENTS */
+
+/* Base card styles - use these for all cards in the site */
+.card-base {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-base:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styles for cards */
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Card content containers */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Common title styles */
+.card-title-base {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #111827;
+}
+
+/* Common text styles */
+.card-text-base {
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+}
+
+/* Card footer with action buttons */
+.card-footer-base {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* Card with vertical layout */
+.card-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card with horizontal layout */
+.card-horizontal {
+    display: flex;
+}
+
 .card-img-top {
     width: 100%;
     height: 15vw;
@@ -200,7 +190,6 @@
         max-width: 300px;
     }
 
-    .hero-btn,
     .btn {
         width: 100%;
         text-align: center;

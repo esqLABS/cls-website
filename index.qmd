@@ -2,6 +2,12 @@
 page-layout: full
 css: 
   - css/pages.css
+  - css/components.css
+  - css/program-card.css
+  - css/programs-carousel.css
+  - css/events-cards.css
+  - css/stories-cards.css
+  - css/scrolldown.css
 listing:
   - id: programs
     template: views/programs.ejs
@@ -20,7 +26,7 @@ listing:
     max-items: 3
 ---
 
-:::{.hero-section .full-height-section .hero-height}
+:::{.section .section-hero}
 {{< include _includes/hero-shapes.html >}}
 
 :::{.hero-container}
@@ -41,11 +47,11 @@ through open cooperation and innovation.
 
 :::
 :::
+
+{{< include _includes/hero-scroll-down.html >}}
 :::
 
-:::{#section-programs .full-height-section .compact-section}
-:::{.section-content}
-
+:::{#section-programs  .section}
 ## Our Programs
 
 Explore our initiatives in developing and promoting open source software for 
@@ -58,12 +64,10 @@ life sciences.
 [See All Programs](programs.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
-:::
+{{< include _includes/programs-scroll-down.html >}}
 :::
 
-:::{#section-events .full-height-section .compact-section}
-:::{.section-content}
-
+:::{#section-events .section}
 ## Events
 
 Stay updated with our latest events, workshops, and seminars.
@@ -75,12 +79,11 @@ Stay updated with our latest events, workshops, and seminars.
 [See All Events](events.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
-:::
+{{< include _includes/events-scroll-down.html >}}
 :::
 
-:::{#section-stories .full-height-section .compact-section}
-:::{.section-content}
 
+:::{#section-stories .section}
 ## Success Stories
 
 Hear from those we've helped.  
@@ -92,12 +95,10 @@ Hear from those we've helped.
 [More Stories](stories.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
-:::
+{{< include _includes/stories-scroll-down.html >}}
 :::
 
-
-:::{#section-donate .full-height-section .donate-section}
-:::{.section-content}
+:::{#section-donate .section .donate-section}
 
 ## Support Our Mission
 
@@ -110,4 +111,6 @@ Your contributions directly fund the development of vital open-source tools that
 :::
 
 :::
-:::
+
+
+

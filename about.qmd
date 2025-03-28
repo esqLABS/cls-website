@@ -2,6 +2,8 @@
 page-layout: full
 css: 
   - css/pages.css
+  - css/components.css
+  - css/members-grid.css
 listing:
   - id: team-members
     contents: members/*.qmd

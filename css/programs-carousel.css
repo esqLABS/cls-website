@@ -1,0 +1,87 @@
+/* Programs Carousel Custom Styles */
+.programs-carousel {
+    padding: 1rem 0;
+    position: relative;
+    overflow: hidden;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+}
+
+.programs-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.programs-carousel .carousel-inner {
+    padding: 0.5em;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.programs-carousel .carousel-inner::-webkit-scrollbar {
+    display: none;
+}
+
+.programs-carousel .carousel-item {
+    display: block;
+    flex: 0 0 auto;
+    margin-right: 12px;
+    width: 45%;
+    min-width: 300px;
+    opacity: 1;
+    transform: none !important;
+    transition: none !important;
+    padding: 10px;
+}
+
+/* Card styles are now in program-card.css */
+
+.programs-carousel .carousel-control-prev,
+.programs-carousel .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+    z-index: 10;
+    position: absolute;
+}
+
+.programs-carousel .carousel-control-prev {
+    left: 10px;
+}
+
+.programs-carousel .carousel-control-next {
+    right: 10px;
+}
+
+.programs-carousel .carousel-control-prev:hover,
+.programs-carousel .carousel-control-next:hover {
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .programs-carousel .carousel-item {
+        width: 85%;
+    }
+
+    .programs-carousel .carousel-inner {
+        width: 100%;
+        padding: 0.5em 1em;
+    }
+
+    .programs-carousel .carousel-control-prev,
+    .programs-carousel .carousel-control-next {
+        display: none;
+    }
+}

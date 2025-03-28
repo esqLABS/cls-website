@@ -1,0 +1,20 @@
+/* Programs Grid Custom Styles */
+.programs-grid {
+    padding: 1rem 0;
+}
+
+.programs-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Program card styles are now in program-card.css */
+
+@media (max-width: 767px) {
+    .programs-grid-container {
+        grid-template-columns: 1fr;
+    }
+}

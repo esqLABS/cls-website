@@ -1,0 +1,68 @@
+/* Custom styles for team member cards */
+.member-card {
+    /* Inheriting from base card classes */
+    border-radius: 10px;
+    /* Override the default radius */
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* The member card inherits hover effects from card-base */
+
+.member-img-container {
+    width: 150px;
+    height: 150px;
+    margin: 1.5rem auto 1rem;
+    overflow: hidden;
+}
+
+.member-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member-name {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+.member-position {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.member-bio {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 1.5rem;
+    flex-grow: 1;
+}
+
+.member-social {
+    margin-top: auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.member-social a {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.member-social a:hover {
+    color: #007bff;
+}
+
+.team-grid {
+    row-gap: 2rem;
+}
