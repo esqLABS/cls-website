@@ -1,0 +1,222 @@
+---
+title: "CLS Foundation Website Content Management Guide"
+format: 
+  revealjs:
+    theme: default
+    slide-number: true
+    logo: "assets/CLSFoundation_LogoGraphics.png"
+    title-slide-attributes:
+      data-background-image: "assets/editing_guide/title-bg.png"
+      data-background-size: "cover"
+---
+
+##  {background-image="assets/editing_guide/index.jpeg" background-size="cover"}
+
+## Overview
+
+-   Website built with [Quarto](https://quarto.org/)
+-   Content written in plain text files with markdown formatting
+-   Automatically displays listings of programs, events, stories, and team members
+-   No coding skills required to add or update content
+
+
+## Repository Structure
+
+```         
+cls-website/
+├── programs/     # Add program files here
+├── events/       # Add event files here
+├── stories/      # Add story files here
+└── members/      # Add team member files here
+```
+
+As a content editor, you'll primarily work with files in these four directories.
+
+
+## Setup: What You Need
+
+1.  **Required Software:**
+    -   [R](https://cran.r-project.org/)
+    -   [Quarto](https://quarto.org/docs/get-started/)
+    -   [RStudio](https://posit.co/download/rstudio-desktop/)
+2.  **Initial Setup:**
+    -   Clone/download website repository
+    -   Open project in RStudio: `cls-website.Rproj`
+    -   Install dependencies: `renv::restore()`
+
+##  {background-image="assets/editing_guide/rstudio.png" background-size="cover"}
+
+## Markdown Basics
+
+-   Simple text-based formatting:
+    -   **Bold text** with `**bold**`
+    -   *Italic text* with `*italic*`
+    -   [Links](https://example.com) with `[text](url)`
+    -   Lists using `-` or `1.`
+    -   Headings with `#` symbols
+
+##  {background-image="assets/editing_guide/markdown_preview.png" background-size="cover"}
+
+
+## How Listings Work
+
+The website automatically:
+
+1.  Creates cards on listing pages (programs, events, stories)
+2.  Generates dedicated pages for each item
+3.  Includes items on the homepage
+
+Just add content files with the right metadata in the correct folders!
+
+::: {.callout-note}
+Each content file have specific set of metadata fields.
+:::
+
+
+## From Files to Web Pages
+
+:::: {.columns}
+
+::: {.column width="40%"}
+**Stories Directory:**
+```{.smaller-code style="font-size: 0.7em;"}
+stories/
+├── story_1.qmd
+│   ├── title: "How CompanyX Increased Efficiency"
+│   ├── description: "CompanyX streamlined operations..."
+│   ├── client: "CompanyX"
+│   ├── thumbnail: "https://picsum.photos/300/200?random=1"
+│   ├── date: "2024-03-20"
+│   ├── categories: ["Digital Transformation"]
+│   └── industry: "Manufacturing"
+│
+├── story_2.qmd
+│   ├── title: "Research Lab Collaboration"
+│   ├── description: "How we helped researchers..."
+│   ├── client: "University Research Lab"
+│   ├── thumbnail: "https://picsum.photos/300/200?random=2"
+│   ├── date: "2024-02-15"
+│   ├── categories: ["Research", "Collaboration"]
+│   └── industry: "Academic"
+│
+└── story_3.qmd
+    ├── title: "Healthcare Data Integration"
+    ├── description: "Improving patient outcomes..."
+    ├── client: "Regional Hospital"
+    ├── thumbnail: "https://picsum.photos/300/200?random=3"
+    ├── date: "2024-01-10"
+    ├── categories: ["Healthcare", "Data Integration"]
+    └── industry: "Healthcare"
+```
+:::
+
+::: {.column width="60%"}
+**Resulting Stories Page:**
+![](assets/editing_guide/Success%20Stories.jpeg)
+:::
+
+::::
+
+##  {background-image="assets/editing_guide/story_1.jpeg" background-size="cover"}
+
+
+
+## Adding Programs
+
+Create file in `programs/your-program-name.qmd` with:
+
+``` yaml
+---
+title: "Program Title"
+description: "Brief description of the program"
+image: "URL to program image"
+category: "Program Category"
+priority: 4  # Lower numbers appear first
+url: "URL to more information"
+---
+```
+
+##  {background-image="assets/editing_guide/programs.jpeg" background-size="cover"}
+
+## Adding Events
+
+Create file in `events/your-event-name.qmd` with:
+
+``` yaml
+---
+title: "Event Title"
+description: "Brief event description"
+date: "YYYY-MM-DD"
+end_date: "YYYY-MM-DD"  # Optional
+image: "URL to event image"
+location: "Event Location"
+url: "URL for more info"  # Optional
+categories: ["Category1", "Category2"]
+---
+```
+
+##  {background-image="assets/editing_guide/events.jpeg" background-size="cover"}
+
+## Adding Success Stories
+
+Create file in `stories/story-name.qmd` with:
+
+``` yaml
+---
+title: "Story Title"
+description: "Brief description"
+client: "Client Name"
+thumbnail: "URL to image"
+date: "YYYY-MM-DD"
+categories: ["Category1", "Category2"]
+industry: "Industry Type"
+---
+```
+
+##  {background-image="assets/editing_guide/stories.jpeg" background-size="cover"}
+
+## Adding Team Members
+
+Create file in `members/person-name.qmd` with:
+
+``` yaml
+---
+title: "Person Name"
+position: "Job Title"
+email: "email@example.com"
+image: "URL to profile image"
+order: 3  # Lower numbers appear first
+description: "Brief bio"
+---
+```
+
+##  {background-image="assets/editing_guide/team.jpeg" background-size="cover"}
+
+## Previewing Your Changes
+
+To see changes before publishing:
+
+1.  Open terminal in project folder
+2.  Run: `quarto preview`
+3.  Browser will open showing the site
+4.  Changes automatically refresh
+
+![](assets/editing_guide/preview.jpeg)
+
+## Publishing Changes
+
+When you're satisfied with your changes:
+
+1.  Commit and push changes to the main branch
+2.  Website automatically builds and deploys to <https://clsfoundation.org/>
+
+## Common Operations
+
+-   **Update content**: Edit the corresponding `.qmd` file
+-   **Remove content**: Delete the corresponding `.qmd` file
+-   **Change order**: Adjust `priority` or `order` values
+-   **Update styling**: Contact the web developer
+
+## Questions?
+
+Refer to the [Quarto documentation](https://quarto.org/docs/guide/) or contact your website administrator.
