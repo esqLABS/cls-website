@@ -1,13 +1,13 @@
 ---
 page-layout: full
 css: 
-  - css/pages.css
+  - css/index.css
   - css/components.css
   - css/program-card.css
   - css/programs-carousel.css
   - css/events-cards.css
   - css/stories-cards.css
-  - css/scrolldown.css
+
 listing:
   - id: programs
     template: views/programs.ejs

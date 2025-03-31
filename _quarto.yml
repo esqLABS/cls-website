@@ -13,8 +13,8 @@ website:
         href: programs.qmd
       - text: Events
         href: events.qmd
-      - href: stories.qmd
-        text: Success Stories
+      - text: Stories
+        href: stories.qmd
       - text: Donate
         href: donate.qmd
       - text: About
@@ -33,7 +33,6 @@ website:
       [+49 15158559070](tel:+4915158559070)  
       [info@clsfoundation.org](mailto:info@clsfoundation.org)
 
-      ### 
 
     center: |
       **Menu**
@@ -54,7 +53,7 @@ website:
       
       **Connect**
       <div class="social-row">
-        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://linkedin.com/company/clsfoundation/" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
       </div>
       
       &copy; 2025 CLS Foundation
@@ -67,7 +66,6 @@ format:
     css: 
       - css/base.css
       - css/components.css
-      - css/layout.css
       - css/styles.css
       - css/footer.css
     toc: false

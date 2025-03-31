@@ -160,6 +160,17 @@
     transform: translateY(-3px);
 }
 
+.contact-form button[type="submit"] {
+    float: right;
+    margin-top: 1rem;
+}
+
+/* Optional: Clear the float if needed */
+.contact-form::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* Thank You Page Styles */
 .thanks-section {

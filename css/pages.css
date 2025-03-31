@@ -20,43 +20,6 @@
 
 /* DONATE PAGE STYLES */
 
-.donate-section {
-    background-color: #f9f9f9;
-    padding: 60px 0;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    width: 100vw;
-    margin-bottom: -5rem;
-}
-
-.donate-heading {
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-}
-
-.donate-heading-icon {
-    color: #d9534f;
-    margin-right: 0.5rem;
-}
-
-.donate-description {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.donate-highlight {
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    color: #333;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* Style for donate section headings */
 #section-donate h2::before {
     content: "\F415";
