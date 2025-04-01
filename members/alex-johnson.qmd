@@ -1,5 +1,6 @@
 ---
 title: "Alex Johnson"
+draft: true
 position: "Board Chair"
 email: "alex.johnson@cls-foundation.org"
 image: https://i.pravatar.cc/400?img=7

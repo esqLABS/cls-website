@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "HealthCare Provider Reduces Patient Wait Times by 40%"
 description: "See how MedCenter revolutionized their patient scheduling and care coordination using our healthcare management solution."
 client: "MedCenter Healthcare"

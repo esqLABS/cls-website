@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "E-commerce Platform Boosts Sales by 85% with AI-Powered Personalization"
 description: "Learn how ShopSmart implemented our AI-driven personalization engine to transform their customer experience and dramatically increase sales."
 client: "ShopSmart"

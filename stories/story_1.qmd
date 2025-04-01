@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "How CompanyX Increased Their Efficiency by 50% Using Our Solution"
 description: "Learn how our platform helped CompanyX streamline their operations, reduce costs, and improve team collaboration across multiple departments."
 client: "CompanyX"

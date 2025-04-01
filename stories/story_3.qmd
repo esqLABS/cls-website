@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "FinTech Startup Achieves 99.99% Uptime with Cloud Migration"
 description: "Discover how FastPay's transition to our cloud infrastructure improved their service reliability and customer trust."
 client: "FastPay Financial"

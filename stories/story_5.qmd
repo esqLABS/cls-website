@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "University Achieves 95% Student Engagement with Digital Learning Platform"
 description: "Explore how Global University transformed their remote learning experience using our educational technology platform."
 client: "Global University"

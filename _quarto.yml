@@ -4,6 +4,7 @@ project:
 website:
   search: false
   favicon: "assets/CLSFoundation_LogoGraphics.png"
+  draft-mode: gone
   navbar:
     logo: "assets/CLSFoundation_LogoGraphics.png"
     right:

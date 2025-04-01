@@ -1,5 +1,6 @@
 ---
 title: "Jane Smith"
+draft: true
 position: "Chief Scientific Officer"
 email: "jane.smith@cls-foundation.org"
 image: https://i.pravatar.cc/400?img=25
