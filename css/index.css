@@ -1,0 +1,269 @@
+/* Section height variations */
+.section-hero {
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-top: -3rem;
+    /* Remove whitespace between navbar and hero */
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+    border-radius: 0;
+    /* Fullscreen hero */
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+/* Gradient overlay for hero section */
+.section-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.1) 0%, rgba(44, 62, 80, 0.05) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Radial gradient accents */
+.section-hero::after {
+    content: '';
+    position: absolute;
+    bottom: -50%;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(44, 62, 80, 0.1) 0%, rgba(44, 62, 80, 0) 70%);
+    transform: rotate(-45deg);
+    pointer-events: none;
+}
+
+/* Hero components */
+.hero-container {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content {
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 3rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    width: 90%;
+}
+
+/* Logo styles */
+.hero-logo {
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 2rem;
+    animation: fadeIn 1.5s ease-in-out;
+    filter: drop-shadow(0 5px 15px rgba(44, 62, 80, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.hero-logo:hover {
+    transform: scale(1.05);
+}
+
+/* Description styles */
+.hero-description {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #4a4a4a;
+    max-width: 800px;
+    animation: fadeIn 2.2s ease-in-out;
+}
+
+/* Hero buttons container */
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+/* Base section styling for all sections */
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: 0;
+    min-height: 80vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    border-bottom: none;
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+h2+p,
+h2~p:not(.btn) {
+    font-size: 1.1rem;
+    color: var(--bs-secondary-color);
+    text-align: center;
+}
+
+/* Enhanced section headings */
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #4ca1af, transparent);
+    border-radius: 2px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Donate section */
+.donate-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+    margin-bottom: -5rem;
+}
+
+
+
+.donate-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Scroll down arrow */
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    color: #2c3e50;
+}
+
+.scroll-down svg {
+    width: 40px;
+    height: 40px;
+    fill: currentColor;
+}
+
+/* Scroll down arrow for non-hero sections */
+.scroll-down-section {
+    position: relative;
+    bottom: auto;
+    margin: 2rem auto 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: none;
+    left: auto;
+}
+
+.scroll-down-section>div {
+    cursor: pointer;
+    color: #2c3e50;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-down-section svg {
+    animation: bounce-vertical 2s infinite;
+    width: 40px;
+    height: 40px;
+    fill: currentColor;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0) translateX(-50%);
+    }
+
+    40% {
+        transform: translateY(-20px) translateX(-50%);
+    }
+
+    60% {
+        transform: translateY(-10px) translateX(-50%);
+    }
+}
+
+@keyframes bounce-vertical {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-15px);
+    }
+
+    60% {
+        transform: translateY(-7px);
+    }
+}

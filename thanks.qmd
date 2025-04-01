@@ -1,0 +1,15 @@
+---
+page-layout: full
+title: Thank You
+css: css/contact.css
+---
+
+::: {.thanks-section}
+## Thank You for Your Message! {.thanks-heading}
+
+::: {.thanks-content}
+Your message has been received. We appreciate your interest in CLS Foundation and will get back to you as soon as possible, usually within 48 hours.
+
+[← Return to Home](/)
+:::
+::: 

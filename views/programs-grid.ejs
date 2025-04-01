@@ -1,0 +1,22 @@
+```{=html}
+<div class="programs-grid">
+    <div class="programs-grid-container">
+        <% for (let i=0; i < items.length; i++) { %>
+            <div class="program-card card-base">
+                <div class="program-image-wrapper">
+                    <img src="<%- items[i].image || '/images/default-program.jpg' %>" alt="<%- items[i].title %>"
+                        class="program-image">
+                </div>
+                <div class="program-info">
+                    <div class="program-category"><%- items[i].category %></div>
+                    <h3 class="program-title"><%- items[i].title %></h3>
+                    <p class="program-description"><%- items[i].description %></p>
+                    <div class="program-footer">
+                        <a href="<%- items[i].path %>" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+    </div>
+</div>
+```

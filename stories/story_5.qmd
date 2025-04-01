@@ -1,0 +1,43 @@
+---
+draft: true
+title: "University Achieves 95% Student Engagement with Digital Learning Platform"
+description: "Explore how Global University transformed their remote learning experience using our educational technology platform."
+client: "Global University"
+thumbnail: "https://picsum.photos/300/200?random=5"
+date: "2024-02-28"
+categories: ["Education", "Digital Learning", "Student Engagement"]
+industry: "Education"
+---
+
+## Challenge
+
+Global University needed to transition to hybrid learning while maintaining high levels of student engagement and academic performance. Their existing tools weren't designed for interactive remote learning experiences.
+
+## Solution
+
+Our educational technology platform provided:
+
+- Interactive virtual classrooms
+- Real-time collaboration tools
+- Automated assessment systems
+- Learning analytics dashboard
+- Mobile-first learning experience
+
+## Results
+
+The implementation showed remarkable outcomes:
+
+- 95% student engagement rate
+- 40% improvement in assignment completion
+- 55% increase in student collaboration
+- 35% better academic performance
+
+## Client Testimonial
+
+> "This platform has revolutionized how we deliver education. The engagement metrics speak for themselves, and both faculty and students have embraced the new digital learning environment."
+>
+> -- Prof. Jennifer Williams, Dean of Digital Learning at Global University
+
+## Looking Forward
+
+Global University is now piloting our advanced features including AI-powered tutoring and virtual reality labs for science courses. 

@@ -1,0 +1,13 @@
+---
+title: "Jane Smith"
+draft: true
+position: "Chief Scientific Officer"
+email: "jane.smith@cls-foundation.org"
+image: https://i.pravatar.cc/400?img=25
+order: 2
+description: "Jane Smith is the Chief Scientific Officer with a background in systems biology and computational modeling, focusing on multi-scale biological systems."
+---
+
+Jane Smith is the Chief Scientific Officer at the Computational Life Sciences Foundation. She has a background in systems biology and computational modeling, with a focus on multi-scale biological systems.
+
+Jane has led several large-scale collaborative projects and is passionate about open science and reproducible research. 

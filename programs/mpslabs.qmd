@@ -1,0 +1,45 @@
+---
+title: "MPSlabs"
+description: "Enhancing the predictive power of Microphysiological Systems (MPS) and Organ-on-Chips (OoCs) in drug testing through advanced software solutions and consulting services."
+image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-1.2.1"
+category: "Drug Testing & Simulation"
+priority: 2
+url: "https://esqlabs.com/mpslabs/"
+---
+
+## About the Program
+
+MPSlabs, a dedicated business unit of ESQlabs, develops software solutions and provides consulting services for pharmaceutical companies and research institutions working with microphysiological systems and organ-on-chips. Our mission is to enhance the predictive power of MPS and OoCs in drug testing by:
+
+- Emulating human physiological conditions
+- Translating results to in-human situations
+- Assessing drug efficacy
+- Early identification of potential hazards
+
+## Key Services
+
+Our platform is built on three main pillars:
+
+- **Multi-functional Scaling**: Optimization of MPS and OoC system morphology and geometry for accurate replication of human physiology in vitro
+
+- **Experimental Design and Operation**: Tailored protocol design services for precise experiment setup and modeling of complex biological processes
+
+- **Integration with ESQlabs Core**: Seamless incorporation of MPS and OoC data into ESQlabs core services for enhanced translational and predictive accuracy
+
+## Recent Achievements
+
+The program has established significant collaborations with industry leaders:
+
+- Partnership with Bayer for reducing animal testing in consumer health industry
+- Collaboration with Sanofi in advancing organ-on-chip technology
+- Secured €2.5M EIC Grant for technology validation with international end-users
+
+## Impact
+
+Our solutions support:
+- Reduction of animal testing in pharmaceutical research
+- Enhanced drug development efficiency
+- More accurate prediction of drug behavior
+- Accelerated path to clinical success
+
+The program continues to expand its partnerships and capabilities, working with leading pharmaceutical companies and research institutions worldwide. 

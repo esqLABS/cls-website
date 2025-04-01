@@ -1,0 +1,19 @@
+```{=html}
+<div class="list grid stories-grid">
+  <% for (const story of items) { %>
+    <div class="card card-base border-secondary g-col-12 g-col-sm-6 g-col-md-4 mb-2 story-card">
+      <div class="card-header p-0">
+        <img src="<%- story.thumbnail %>" class="card-img-top" alt="<%- story.title %>" />
+      </div>
+      <div class="card-body">
+        <h4 class="card-title"><%- story.title %></h4>
+        <div class="text-muted mb-2"><%- story.date %></div>
+        <p class="card-text"><%- story.description %></p>
+      </div>
+      <div class="card-footer bg-transparent border-top-0 d-flex justify-content-end">
+        <a href="<%- story.path %>" class="btn btn-outline-secondary">Read More</a>
+      </div>
+    </div>
+    <% } %>
+</div>
+```

@@ -1,69 +1,69 @@
 ---
 page-layout: full
+css:
+  - css/pages.css
+  - css/components.css
+  - css/contact.css
+  - css/donation.css
 ---
 
-# Why Donate
+## Donation Options {#donation-options}
 
-Your contributions help us develop and maintain open-source software that advances research in the life sciences through open collaboration. 
-Together, we can make a significant impact.
+:::{.donate-options-container}
 
-# Donation Options
+:::{.text-center}
+#### Interested in making a donation? Share your email and we'll contact you with all the details.
+:::
 
-Choose to make a one-time donation, set up a recurring contribution, or donate in-kind.
-Contact us through info@clsfoundation.org
+:::{.donation-form-container}
+{{< include _includes/donation-form.html >}}
+:::
 
-<!-- Success Stories -->
-```{=html}
-<h1 class="display-6 fw-normal text-center mt-5">Success Stories</h1>
-<p class="fs-5 mb-5 text-muted">
-  Hear from those we've helped.
-</p>
 
-<div class="grid">
- <!--
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="g-col-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Secondary card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  
-  -->
-  
-</div>
+:::{.donate-options-container}
+:::{.donate-option-card}
+### <i class="bi bi-cash-coin donate-option-icon"></i> One-Time Gift
+Make an immediate impact with a single donation of any amount.
+:::
+:::{.donate-option-card}
+### <i class="bi bi-calendar-check donate-option-icon"></i> Recurring Support
+Set up a monthly or yearly donation to provide sustained support.
+:::
+:::{.donate-option-card}
+### <i class="bi bi-building donate-option-icon"></i> Corporate Giving
+Partner with us through sponsorships or matching gift programs.
+:::
+:::
+:::
 
-<h4 class="text-center text-muted">Comming soon...</h4>
-```
+
+
+
+## Why Donate
+
+Every contribution, regardless of size, makes a difference in our ability to serve the scientific community.
+
+:::{.donate-reasons-container} 
+:::{.donate-reason-card}
+### <i class="bi bi-code-slash donate-option-icon"></i> Support Open Source
+Your donation helps maintain critical software tools used by thousands of researchers across the globe.
+:::
+
+:::{.donate-reason-card}
+### <i class="bi bi-lightbulb donate-option-icon"></i> Accelerate Innovation
+Fund advancements that make research more efficient, collaborative, and impactful.
+:::
+
+:::{.donate-reason-card}
+### <i class="bi bi-graph-up donate-option-icon"></i> Create Impact
+Help us continue developing tools that lead to real breakthroughs in healthcare and life sciences.
+:::
+
+:::{.donate-reason-card}
+### <i class="bi bi-people donate-option-icon"></i> Strengthen Community
+Support the growing community of researchers and developers working together to advance science.
+:::
+:::
+
+
+

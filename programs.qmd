@@ -1,0 +1,20 @@
+---
+title: "Our Programs"
+page-layout: full
+css:
+  - css/components.css
+  - css/program-card.css
+  - css/programs-grid.css
+listing:
+  - id: programs-full
+    template: views/programs-grid.ejs
+    contents: programs/*.qmd
+    sort: "priority asc"
+---
+
+
+Explore our initiatives in developing and promoting open source software for life sciences. Each program represents our commitment to advancing research and innovation through collaborative development and open access.
+
+:::{#programs-full}
+:::
+

@@ -1,0 +1,96 @@
+/* LAYOUT STYLES */
+
+/* SECTION LAYOUTS */
+
+
+
+
+
+
+/* General layout utilities */
+.text-center {
+    text-align: center;
+}
+
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-10 {
+    width: 100%;
+    max-width: 83.333333%;
+    padding: 0 15px;
+}
+
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+
+    .section,
+    .section-hero,
+    .section-compact {
+        min-height: auto;
+        /* Remove fixed height on mobile */
+        padding: 2.5rem 1rem;
+    }
+
+    .section-content {
+        justify-content: flex-start;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content {
+        padding: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+
+    .col-md-10 {
+        max-width: 100%;
+    }
+
+    .scroll-down {
+        bottom: 20px;
+    }
+
+    .scroll-down svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .scroll-down-section {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .scroll-down-section>div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .scroll-down-section svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Remove margin from the last section to avoid whitespace */
+.section:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Remove navbar bottom margin */
+.navbar {
+    margin-bottom: 0;
+}

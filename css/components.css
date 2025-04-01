@@ -1,0 +1,211 @@
+/* BUTTON COMPONENTS */
+
+/* Global button styles */
+.btn {
+    border-radius: 50px;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-pill {
+    border-radius: 50px !important;
+}
+
+/* Primary button styling */
+.btn-outline-primary {
+    color: #2c3e50 !important;
+    border-color: #2c3e50;
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(44, 62, 80, 0.1);
+    color: #2c3e50 !important;
+    border-color: #2c3e50;
+}
+
+/* Hero section button styles */
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    animation: fadeIn 2.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Donate button styling */
+.donate-button {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: white;
+}
+
+.donate-button:hover {
+    background-color: #c9302c;
+    border-color: #c9302c;
+}
+
+/* Add heart icon before donate button */
+.donate-button::before {
+    content: "\F415";
+    /* Bootstrap heart icon unicode */
+    font-family: "bootstrap-icons";
+    margin-right: 0.5rem;
+}
+
+/* CARD COMPONENTS */
+
+/* Base card styles - use these for all cards in the site */
+.card-base {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-base:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styles for cards */
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Card content containers */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Common title styles */
+.card-title-base {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #111827;
+}
+
+/* Common text styles */
+.card-text-base {
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+}
+
+/* Card footer with action buttons */
+.card-footer-base {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* Card with vertical layout */
+.card-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card with horizontal layout */
+.card-horizontal {
+    display: flex;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-title {
+    margin-top: 0.5rem;
+}
+
+/* DECORATIVE SHAPES */
+.hero-shape {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.hero-shape-1 {
+    top: -50px;
+    left: -100px;
+    width: 350px;
+    height: 350px;
+    animation: float 15s ease-in-out infinite;
+    opacity: 0.7;
+}
+
+.hero-shape-2 {
+    bottom: -100px;
+    right: -50px;
+    width: 300px;
+    height: 300px;
+    animation: float 18s ease-in-out infinite reverse;
+    opacity: 0.7;
+}
+
+/* ANIMATIONS */
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive button styles */
+@media (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-shape-1 {
+        width: 200px;
+        height: 200px;
+        top: -30px;
+        left: -50px;
+    }
+
+    .hero-shape-2 {
+        width: 150px;
+        height: 150px;
+        bottom: -50px;
+        right: -30px;
+    }
+}

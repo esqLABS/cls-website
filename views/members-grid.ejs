@@ -1,0 +1,41 @@
+```{=html}
+<div class="grid team-grid">
+    <% for (const item of items) { %>
+        <div class="g-col-12 g-col-md-6 g-col-lg-4">
+            <div class="member-card card-base">
+                <% if (item.image) { %>
+                    <div class="member-img-container">
+                        <img src="<%= item.image %>" alt="<%= item.title %>" class="member-img">
+                    </div>
+                    <% } else { %>
+                        <div class="member-img-container bg-light d-flex align-items-center justify-content-center">
+                            <i class="bi bi-person" style="font-size: 3rem; color: #ccc;"></i>
+                        </div>
+                        <% } %>
+
+                            <h3 class="member-name text-center">
+                                <%= item.title %>
+                            </h3>
+                            <% if (item.position) { %>
+                                <p class="member-position text-center">
+                                    <%= item.position %>
+                                </p>
+                                <% } %>
+
+                                    <div class="member-bio text-center">
+                                        <p>
+                                            <%= item.description %>
+                                        </p>
+                                    </div>
+
+                                    <div class="member-social">
+                                        <% if (item.email) { %>
+                                            <a href="mailto:<%= item.email %>" title="Email"><i
+                                                    class="bi bi-envelope"></i></a>
+                                            <% } %>
+                                    </div>
+            </div>
+        </div>
+        <% } %>
+</div>
+```

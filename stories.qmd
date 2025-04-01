@@ -1,0 +1,19 @@
+---
+title: Success Stories
+page-layout: full
+css:
+  - css/components.css
+  - css/stories-cards.css
+listing:
+  - id: stories-full
+    template: views/stories.ejs
+    contents: stories/*.qmd
+    sort: "date desc"
+---
+
+These are all our success stories showcasing how we've helped organizations achieve their goals.
+
+:::{#stories-full}
+:::
+
+

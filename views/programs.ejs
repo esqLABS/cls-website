@@ -1,0 +1,51 @@
+```{=html}
+<div id="programsCarousel" class="carousel slide programs-carousel">
+    <div class="programs-container">
+        <div class="carousel-inner">
+            <% for (let i=0; i < items.length; i++) { %>
+                <div class="carousel-item">
+                    <div class="card card-base">
+                        <div class="program-image-wrapper">
+                            <img src="<%- items[i].image || '/images/default-program.jpg' %>"
+                                alt="<%- items[i].title %>" class="program-image">
+                        </div>
+                        <div class="program-info">
+                            <div class="program-category"><%- items[i].category %></div>
+                            <h3 class="program-title"><%- items[i].title %></h3>
+                            <p class="program-description"><%- items[i].description %></p>
+                            <div class="program-footer">
+                                <a href="<%- items[i].path %>" class="btn btn-outline-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+        <button class="carousel-control-prev" type="button" id="prevButton" aria-label="Previous">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" id="nextButton" aria-label="Next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const carousel = document.querySelector('.carousel-inner');
+        const prevButton = document.getElementById('prevButton');
+        const nextButton = document.getElementById('nextButton');
+        const itemWidth = carousel.querySelector('.carousel-item').offsetWidth + 12; // width + margin
+
+        prevButton.addEventListener('click', function () {
+            carousel.scrollBy({ left: -itemWidth, behavior: 'smooth' });
+        });
+
+        nextButton.addEventListener('click', function () {
+            carousel.scrollBy({ left: itemWidth, behavior: 'smooth' });
+        });
+    });
+</script>
+```

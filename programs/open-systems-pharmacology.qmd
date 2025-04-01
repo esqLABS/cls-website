@@ -1,0 +1,34 @@
+---
+title: "Open Systems Pharmacology"
+description: "PK-Sim® and MoBi® for PBPK and Quantitative Systems Pharmacology - Reliable, powerful and easy-to-use modeling & simulation tools for pharmaceutical and life-sciences applications."
+image: "https://www.open-systems-pharmacology.org/img/osp_logo.png"
+category: "Modeling & Simulation"
+priority: 1
+url: "https://www.open-systems-pharmacology.org/"
+---
+
+## About the Program
+
+The Open Systems Pharmacology (OSP) Suite is a powerful and user-friendly modeling and simulation platform that combines state-of-the-art tools for:
+
+- Physiologically-based Pharmacokinetic (PBPK) modeling
+- Quantitative Systems Pharmacology (QSP)
+- Population analysis and simulation
+
+## Key Features
+
+- **PK-Sim®**: A comprehensive platform for PBPK modeling and simulation
+- **MoBi®**: A flexible tool for model building and evaluation
+- **Open Source**: Free access to source code and binaries
+- **Validated**: Qualified and accepted by regulatory agencies
+- **Community-Driven**: Active development and support from a global community
+
+## Impact
+
+The OSP Suite is used worldwide by:
+- Pharmaceutical companies
+- Regulatory agencies
+- Academic institutions
+- Research organizations
+
+Supporting critical decisions in drug development and regulatory submissions. 
