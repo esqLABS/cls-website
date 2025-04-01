@@ -3,6 +3,8 @@ project:
     
 website:
   search: false
+  repo-url: "https://github.com/esqLABS/cls-website"
+  site-url: "https://clsfoundation.org/"
   favicon: "assets/CLSFoundation_LogoGraphics.png"
   draft-mode: gone
   navbar:
