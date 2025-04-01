@@ -4,14 +4,8 @@
     "items": []
   },
   {
-    "listing": "/about.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
-      "/programs/open-systems-pharmacology.html",
-      "/programs/mpslabs.html",
       "/events/osp_conference_2025.html",
       "/events/osp_conference_2024.html"
     ]
@@ -24,10 +18,16 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
+      "/programs/open-systems-pharmacology.html",
+      "/programs/mpslabs.html",
       "/events/osp_conference_2025.html",
       "/events/osp_conference_2024.html"
     ]
+  },
+  {
+    "listing": "/about.html",
+    "items": []
   }
 ]

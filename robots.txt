@@ -1,1 +1,1 @@
-Sitemap: https://esqLABS.github.io/cls-website/sitemap.xml
+Sitemap: https://clsfoundation.org/sitemap.xml
