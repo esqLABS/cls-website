@@ -1,0 +1,33 @@
+[
+  {
+    "listing": "/stories.html",
+    "items": []
+  },
+  {
+    "listing": "/about.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/programs/open-systems-pharmacology.html",
+      "/programs/mpslabs.html",
+      "/events/osp_conference_2025.html",
+      "/events/osp_conference_2024.html"
+    ]
+  },
+  {
+    "listing": "/programs.html",
+    "items": [
+      "/programs/open-systems-pharmacology.html",
+      "/programs/mpslabs.html"
+    ]
+  },
+  {
+    "listing": "/events.html",
+    "items": [
+      "/events/osp_conference_2025.html",
+      "/events/osp_conference_2024.html"
+    ]
+  }
+]

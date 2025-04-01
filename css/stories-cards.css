@@ -1,0 +1,29 @@
+/* Story cards styling */
+.story-card {
+    /* Inheriting from base card classes */
+    height: 100%;
+}
+
+/* The story card inherits hover effects from card-base */
+
+.story-card .card-img-top {
+    height: 200px;
+}
+
+.story-card .card-title {
+    font-size: 1.25rem;
+}
+
+.story-card .card-text {
+    font-size: 0.9rem;
+}
+
+.stories-grid {
+    column-gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .story-card .card-img-top {
+        height: 180px;
+    }
+}

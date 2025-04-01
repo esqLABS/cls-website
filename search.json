@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "donate.html",
-    "href": "donate.html",
-    "title": "Why Donate",
-    "section": "",
-    "text": "Why Donate\nYour contributions help us develop and maintain open-source software that advances research in the life sciences through open collaboration. Together, we can make a significant impact.\n\n\nDonation Options\nChoose to make a one-time donation, set up a recurring contribution, or donate in-kind. Contact us through info@clsfoundation.org\n\nSuccess Stories\n\n  Hear from those we've helped.\n\n\n\n \n  \n\n\nComming soon..."
-  },
-  {
-    "objectID": "imprint.html",
-    "href": "imprint.html",
-    "title": "Imprint",
-    "section": "",
-    "text": "Computational Life Sciences Foundation gUG Am Sportplatz 7 26683 Saterland\n\n\n\nDr. Stephan Schaller\n\n\n\nTelephone: +49 (0)151/58559070 Email: info@clsfoundation.org\n\n\n\nEntry in the Handelsregister. Registering court: Oldenburg Registration number: HRB 220783\n\n\n\nVAT ID number: DE367679461 according to Sec. 27 a German Value Added Tax Act:\n\n\n\n\nESQlabs GmbH Am Sportplatz 7 26683 Saterland\n\n\n\nPrograms-related graphics: www.open-systems-pharmacology.org\nThe remaining pictures are CLSF-own creations.\n\n\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr.\nPlease find our email in the Legal Notice. We do not take part in online dispute resolutions at consumer arbitration boards.\n\n\n\n\n\n\nAs service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.\nLegal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.\n\n\n\nOur offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.\nThe linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.\n\n\n\nContents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only.\nThe commercial use of our contents without permission of the originator is prohibited.\nCopyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately."
-  },
-  {
-    "objectID": "imprint.html#legal-notice",
-    "href": "imprint.html#legal-notice",
-    "title": "Imprint",
-    "section": "",
-    "text": "Computational Life Sciences Foundation gUG Am Sportplatz 7 26683 Saterland\n\n\n\nDr. Stephan Schaller\n\n\n\nTelephone: +49 (0)151/58559070 Email: info@clsfoundation.org\n\n\n\nEntry in the Handelsregister. Registering court: Oldenburg Registration number: HRB 220783\n\n\n\nVAT ID number: DE367679461 according to Sec. 27 a German Value Added Tax Act:\n\n\n\n\nESQlabs GmbH Am Sportplatz 7 26683 Saterland\n\n\n\nPrograms-related graphics: www.open-systems-pharmacology.org\nThe remaining pictures are CLSF-own creations.\n\n\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr.\nPlease find our email in the Legal Notice. We do not take part in online dispute resolutions at consumer arbitration boards."
-  },
-  {
-    "objectID": "imprint.html#disclaimer",
-    "href": "imprint.html#disclaimer",
-    "title": "Imprint",
-    "section": "",
-    "text": "As service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.\nLegal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.\n\n\n\nOur offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.\nThe linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.\n\n\n\nContents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only.\nThe commercial use of our contents without permission of the originator is prohibited.\nCopyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Board Members and Staff",
-    "section": "",
-    "text": "Our Story\n        The Computational Life Sciences Foundation was founded to address the need for advanced computational tools in the life sciences. Our mission is to foster innovation and collaboration by developing and maintaining open source software solutions that improve research conditions and data quality in this vital field.\n\n      \n      \n      \n    \n\n\n\n\n      \n\n      \n        Mission and Vision\n        Our mission is to advance the field of life sciences through cutting-edge computational methods and innovative research. We envision a world where computational techniques drive breakthrough discoveries in biology, medicine, and environmental science through open and precompetitive collaboration.\n      \n    \n\n\nBoard Members and Staff\n\n\n\nComming soon..."
-  },
-  {
     "objectID": "dataprivacy.html",
     "href": "dataprivacy.html",
     "title": "dataprivacy",
@@ -133,17 +98,318 @@
     "text": "6. Questions and comments\nIf you have any questions or comments regarding this privacy policy, please feel free to contact us using the contact information provided above."
   },
   {
-    "objectID": "contact_us.html",
-    "href": "contact_us.html",
+    "objectID": "imprint.html",
+    "href": "imprint.html",
+    "title": "Imprint",
+    "section": "",
+    "text": "Computational Life Sciences Foundation gUG Am Sportplatz 7 26683 Saterland\n\n\n\nDr. Stephan Schaller\n\n\n\nTelephone: +49 (0)151/58559070 Email: info@clsfoundation.org\n\n\n\nEntry in the Handelsregister. Registering court: Oldenburg Registration number: HRB 220783\n\n\n\nVAT ID number: DE367679461 according to Sec. 27 a German Value Added Tax Act:\n\n\n\n\nESQlabs GmbH Am Sportplatz 7 26683 Saterland\n\n\n\nPrograms-related graphics: www.open-systems-pharmacology.org\nThe remaining pictures are CLSF-own creations.\n\n\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr.\nPlease find our email in the Legal Notice. We do not take part in online dispute resolutions at consumer arbitration boards.\n\n\n\n\n\n\nAs service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.\nLegal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.\n\n\n\nOur offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.\nThe linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.\n\n\n\nContents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only.\nThe commercial use of our contents without permission of the originator is prohibited.\nCopyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately."
+  },
+  {
+    "objectID": "imprint.html#legal-notice",
+    "href": "imprint.html#legal-notice",
+    "title": "Imprint",
+    "section": "",
+    "text": "Computational Life Sciences Foundation gUG Am Sportplatz 7 26683 Saterland\n\n\n\nDr. Stephan Schaller\n\n\n\nTelephone: +49 (0)151/58559070 Email: info@clsfoundation.org\n\n\n\nEntry in the Handelsregister. Registering court: Oldenburg Registration number: HRB 220783\n\n\n\nVAT ID number: DE367679461 according to Sec. 27 a German Value Added Tax Act:\n\n\n\n\nESQlabs GmbH Am Sportplatz 7 26683 Saterland\n\n\n\nPrograms-related graphics: www.open-systems-pharmacology.org\nThe remaining pictures are CLSF-own creations.\n\n\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr.\nPlease find our email in the Legal Notice. We do not take part in online dispute resolutions at consumer arbitration boards."
+  },
+  {
+    "objectID": "imprint.html#disclaimer",
+    "href": "imprint.html#disclaimer",
+    "title": "Imprint",
+    "section": "",
+    "text": "As service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.\nLegal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.\n\n\n\nOur offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.\nThe linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.\n\n\n\nContents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only.\nThe commercial use of our contents without permission of the originator is prohibited.\nCopyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately."
+  },
+  {
+    "objectID": "stories.html",
+    "href": "stories.html",
+    "title": "Success Stories",
+    "section": "",
+    "text": "These are all our success stories showcasing how we’ve helped organizations achieve their goals.\n\n\n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "donate.html",
+    "href": "donate.html",
     "title": "",
     "section": "",
-    "text": "Contact Us\n      CLS Foundation, Am Sportplatz 7, 26683 Saterland, Germany\n      \n      Email: info@clsfoundation.org\n      \n      Phone: +49 15158559070"
+    "text": "Get in Touch\n        \n    \n\n\n\n\n\nMake an immediate impact with a single donation of any amount.\n\n\n\nSet up a monthly or yearly donation to provide sustained support.\n\n\n\nPartner with us through sponsorships or matching gift programs."
+  },
+  {
+    "objectID": "donate.html#donation-options",
+    "href": "donate.html#donation-options",
+    "title": "",
+    "section": "",
+    "text": "Get in Touch\n        \n    \n\n\n\n\n\nMake an immediate impact with a single donation of any amount.\n\n\n\nSet up a monthly or yearly donation to provide sustained support.\n\n\n\nPartner with us through sponsorships or matching gift programs."
+  },
+  {
+    "objectID": "donate.html#why-donate",
+    "href": "donate.html#why-donate",
+    "title": "",
+    "section": "Why Donate",
+    "text": "Why Donate\nEvery contribution, regardless of size, makes a difference in our ability to serve the scientific community.\n\n\n Support Open Source\nYour donation helps maintain critical software tools used by thousands of researchers across the globe.\n\n\n Accelerate Innovation\nFund advancements that make research more efficient, collaborative, and impactful.\n\n\n Create Impact\nHelp us continue developing tools that lead to real breakthroughs in healthcare and life sciences.\n\n\n Strengthen Community\nSupport the growing community of researchers and developers working together to advance science."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "The Computational Life Sciences Foundation was founded to address the need for advanced computational tools in the life sciences. Our mission is to foster innovation and collaboration by developing and maintaining open source software solutions that improve research conditions and data quality in this vital field."
+  },
+  {
+    "objectID": "about.html#our-story",
+    "href": "about.html#our-story",
+    "title": "",
+    "section": "",
+    "text": "The Computational Life Sciences Foundation was founded to address the need for advanced computational tools in the life sciences. Our mission is to foster innovation and collaboration by developing and maintaining open source software solutions that improve research conditions and data quality in this vital field."
+  },
+  {
+    "objectID": "about.html#mission-and-vision",
+    "href": "about.html#mission-and-vision",
+    "title": "",
+    "section": "Mission and Vision",
+    "text": "Mission and Vision\nOur mission is to advance the field of life sciences through cutting-edge computational methods and innovative research. We envision a world where computational techniques drive breakthrough discoveries in biology, medicine, and environmental science through open and precompetitive collaboration."
+  },
+  {
+    "objectID": "about.html#section-team",
+    "href": "about.html#section-team",
+    "title": "",
+    "section": "Board Members and Staff",
+    "text": "Board Members and Staff\n\n\n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "programs/mpslabs.html",
+    "href": "programs/mpslabs.html",
+    "title": "MPSlabs",
+    "section": "",
+    "text": "MPSlabs, a dedicated business unit of ESQlabs, develops software solutions and provides consulting services for pharmaceutical companies and research institutions working with microphysiological systems and organ-on-chips. Our mission is to enhance the predictive power of MPS and OoCs in drug testing by:\n\nEmulating human physiological conditions\nTranslating results to in-human situations\nAssessing drug efficacy\nEarly identification of potential hazards"
+  },
+  {
+    "objectID": "programs/mpslabs.html#about-the-program",
+    "href": "programs/mpslabs.html#about-the-program",
+    "title": "MPSlabs",
+    "section": "",
+    "text": "MPSlabs, a dedicated business unit of ESQlabs, develops software solutions and provides consulting services for pharmaceutical companies and research institutions working with microphysiological systems and organ-on-chips. Our mission is to enhance the predictive power of MPS and OoCs in drug testing by:\n\nEmulating human physiological conditions\nTranslating results to in-human situations\nAssessing drug efficacy\nEarly identification of potential hazards"
+  },
+  {
+    "objectID": "programs/mpslabs.html#key-services",
+    "href": "programs/mpslabs.html#key-services",
+    "title": "MPSlabs",
+    "section": "Key Services",
+    "text": "Key Services\nOur platform is built on three main pillars:\n\nMulti-functional Scaling: Optimization of MPS and OoC system morphology and geometry for accurate replication of human physiology in vitro\nExperimental Design and Operation: Tailored protocol design services for precise experiment setup and modeling of complex biological processes\nIntegration with ESQlabs Core: Seamless incorporation of MPS and OoC data into ESQlabs core services for enhanced translational and predictive accuracy"
+  },
+  {
+    "objectID": "programs/mpslabs.html#recent-achievements",
+    "href": "programs/mpslabs.html#recent-achievements",
+    "title": "MPSlabs",
+    "section": "Recent Achievements",
+    "text": "Recent Achievements\nThe program has established significant collaborations with industry leaders:\n\nPartnership with Bayer for reducing animal testing in consumer health industry\nCollaboration with Sanofi in advancing organ-on-chip technology\nSecured €2.5M EIC Grant for technology validation with international end-users"
+  },
+  {
+    "objectID": "programs/mpslabs.html#impact",
+    "href": "programs/mpslabs.html#impact",
+    "title": "MPSlabs",
+    "section": "Impact",
+    "text": "Impact\nOur solutions support: - Reduction of animal testing in pharmaceutical research - Enhanced drug development efficiency - More accurate prediction of drug behavior - Accelerated path to clinical success\nThe program continues to expand its partnerships and capabilities, working with leading pharmaceutical companies and research institutions worldwide."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Founded to develop and maintain open source software in the life sciences, the Computational Life Sciences Foundation aims to improve the R&D landscape through open cooperation and innovation.\n\n\nLearn More Donate Now"
+  },
+  {
+    "objectID": "index.html#our-programs",
+    "href": "index.html#our-programs",
+    "title": "",
+    "section": "Our Programs",
+    "text": "Our Programs\nExplore our initiatives in developing and promoting open source software for life sciences.\n\n\n    \n        \n            \n                \n                    \n                        \n                            \n                        \n                        \n                            Modeling & Simulation\n                            Open Systems Pharmacology\n                            PK-Sim® and MoBi® for PBPK and Quantitative Systems Pharmacology - Reliable, powerful and easy-to-use modeling & simulation tools for pharmaceutical and life-sciences applications.\n                            \n                                Learn More\n                            \n                        \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            Drug Testing & Simulation\n                            MPSlabs\n                            Enhancing the predictive power of Microphysiological Systems (MPS) and Organ-on-Chips (OoCs) in drug testing through advanced software solutions and consulting services.\n                            \n                                Learn More\n                            \n                        \n                    \n                \n                \n        \n        \n            \n            Previous\n        \n        \n            \n            Next\n        \n    \n\n\n\n\nNo matching items\n\n\n\nSee All Programs"
+  },
+  {
+    "objectID": "index.html#events",
+    "href": "index.html#events",
+    "title": "",
+    "section": "Events",
+    "text": "Events\nStay updated with our latest events, workshops, and seminars.\n\n\n    \n        \n            \n                \n                    \n                \n                \n                    2025 OSP Community Conference\n                    \n                         Sep 29, 2025\n                            \n                                 Sanofi Campus, Paris France\n                                \n                    \n                    Join us for the second OSP Community Conference at Sanofi's facilities in Vitry-sur-Seine, Paris, featuring collaboration, innovation, and networking in the Open Systems Pharmacology community.\n                    \n                        Learn\n                            More\n                    \n                \n            \n        \n        \n        \n            \n                \n                    \n                \n                \n                    2024 OSP Community Conference\n                    \n                         Oct 7, 2024\n                            \n                                 Novartis Campus, Basel, Switzerland\n                                \n                    \n                    Join us for the first OSP Community Conference at the iconic Gehry Building on the Novartis Campus in Basel, Switzerland.\n                    \n                        Learn\n                            More\n                    \n                \n            \n        \n        \n\n\nNo matching items\n\n\n\nSee All Events"
+  },
+  {
+    "objectID": "index.html#success-stories",
+    "href": "index.html#success-stories",
+    "title": "",
+    "section": "Success Stories",
+    "text": "Success Stories\nHear from those we’ve helped.\n\n\n  \n\n\nNo matching items\n\n\n\nMore Stories"
+  },
+  {
+    "objectID": "index.html#support-our-mission",
+    "href": "index.html#support-our-mission",
+    "title": "",
+    "section": "Support Our Mission",
+    "text": "Support Our Mission\n\nYour contributions directly fund the development of vital open-source tools that accelerate breakthroughs in life sciences research.\n\n\nDonate Now"
+  },
+  {
+    "objectID": "contact_us.html",
+    "href": "contact_us.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Your Name\n        \n    \n\n    \n        Your Email\n        \n    \n\n    \n        Subject\n        \n    \n\n    \n        Message\n        \n    \n\n    \n        \n             Send Message\n        \n    \n\n\nPlease allow up to 48 hours for a response. For urgent matters, please call us directly.\n\n\nWe’d love to hear from you! Please reach out using any of the following methods:\n CLS Foundation, Am Sportplatz 7, 26683 Saterland, Germany\n Email: info@clsfoundation.org\n Phone: +49 15158559070\n Office Hours: Monday-Friday, 9:00 AM - 5:00 PM CET"
+  },
+  {
+    "objectID": "contact_us.html#our-location",
+    "href": "contact_us.html#our-location",
+    "title": "Contact Us",
+    "section": "Our Location",
+    "text": "Our Location"
+  },
+  {
+    "objectID": "programs/open-systems-pharmacology.html",
+    "href": "programs/open-systems-pharmacology.html",
+    "title": "Open Systems Pharmacology",
+    "section": "",
+    "text": "The Open Systems Pharmacology (OSP) Suite is a powerful and user-friendly modeling and simulation platform that combines state-of-the-art tools for:\n\nPhysiologically-based Pharmacokinetic (PBPK) modeling\nQuantitative Systems Pharmacology (QSP)\nPopulation analysis and simulation"
+  },
+  {
+    "objectID": "programs/open-systems-pharmacology.html#about-the-program",
+    "href": "programs/open-systems-pharmacology.html#about-the-program",
+    "title": "Open Systems Pharmacology",
+    "section": "",
+    "text": "The Open Systems Pharmacology (OSP) Suite is a powerful and user-friendly modeling and simulation platform that combines state-of-the-art tools for:\n\nPhysiologically-based Pharmacokinetic (PBPK) modeling\nQuantitative Systems Pharmacology (QSP)\nPopulation analysis and simulation"
+  },
+  {
+    "objectID": "programs/open-systems-pharmacology.html#key-features",
+    "href": "programs/open-systems-pharmacology.html#key-features",
+    "title": "Open Systems Pharmacology",
+    "section": "Key Features",
+    "text": "Key Features\n\nPK-Sim®: A comprehensive platform for PBPK modeling and simulation\nMoBi®: A flexible tool for model building and evaluation\nOpen Source: Free access to source code and binaries\nValidated: Qualified and accepted by regulatory agencies\nCommunity-Driven: Active development and support from a global community"
+  },
+  {
+    "objectID": "programs/open-systems-pharmacology.html#impact",
+    "href": "programs/open-systems-pharmacology.html#impact",
+    "title": "Open Systems Pharmacology",
+    "section": "Impact",
+    "text": "Impact\nThe OSP Suite is used worldwide by: - Pharmaceutical companies - Regulatory agencies - Academic institutions - Research organizations\nSupporting critical decisions in drug development and regulatory submissions."
+  },
+  {
+    "objectID": "programs.html",
+    "href": "programs.html",
     "title": "Our Programs",
     "section": "",
-    "text": "Founded to develop and maintain open source software in the life sciences, the Computational Life Sciences Foundation aims to improve the R&D landscape through open cooperation and innovation.\n\n      Learn More\n      Donate now\n      \n    \n    \n    \n  \n\nOur Programs\n\n  Explore our initiatives in developing and promoting open source software for life sciences.\n\n\n  \n    \n      OPEN SYSTEMS PHARMACOLOGY\n      \n        PK-SIM® AND MOBI® FOR PBPK AND QUANTITATIVE SYSTEMS PHARMACOLOGY\n        Reliable, powerful and easy-to-use modeling & simulation tools for pharmaceutical and other life-sciences applications. Qualified and accepted by the scientific community including academia, regulatory agencies and industry. Available free to everyone.\n\n        Learn more\n      \n    \n  \n\n\n\nUpcoming Events\n\n  Stay updated with our latest events, workshops, and seminars.\n\n\n  \n    \n  \n  \n    \n      \n      \n        OSP Community Conference 2024\n        You can find all details on the program of the OSP Community Conference 2024 and its program here\n      \n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\nSuccess Stories\n\n  Hear from those we've helped.\n\n\n\n\n  \n  \n\nComming soon..."
+    "text": "Explore our initiatives in developing and promoting open source software for life sciences. Each program represents our commitment to advancing research and innovation through collaborative development and open access.\n\n\n    \n        \n            \n                \n                    \n                \n                \n                    Modeling & Simulation\n                    Open Systems Pharmacology\n                    PK-Sim® and MoBi® for PBPK and Quantitative Systems Pharmacology - Reliable, powerful and easy-to-use modeling & simulation tools for pharmaceutical and life-sciences applications.\n                    \n                        Learn More\n                    \n                \n            \n            \n            \n                \n                    \n                \n                \n                    Drug Testing & Simulation\n                    MPSlabs\n                    Enhancing the predictive power of Microphysiological Systems (MPS) and Organ-on-Chips (OoCs) in drug testing through advanced software solutions and consulting services.\n                    \n                        Learn More\n                    \n                \n            \n            \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "thanks.html",
+    "href": "thanks.html",
+    "title": "Thank You",
+    "section": "",
+    "text": "Your message has been received. We appreciate your interest in CLS Foundation and will get back to you as soon as possible, usually within 48 hours.\n← Return to Home"
+  },
+  {
+    "objectID": "thanks.html#thank-you-for-your-message",
+    "href": "thanks.html#thank-you-for-your-message",
+    "title": "Thank You",
+    "section": "",
+    "text": "Your message has been received. We appreciate your interest in CLS Foundation and will get back to you as soon as possible, usually within 48 hours.\n← Return to Home"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Stay updated with our latest events, workshops, and seminars.\n\n\n    \n        \n            \n                \n                    \n                \n                \n                    2025 OSP Community Conference\n                    \n                         Sep 29, 2025\n                            \n                                 Sanofi Campus, Paris France\n                                \n                    \n                    Join us for the second OSP Community Conference at Sanofi's facilities in Vitry-sur-Seine, Paris, featuring collaboration, innovation, and networking in the Open Systems Pharmacology community.\n                    \n                        Learn\n                            More\n                    \n                \n            \n        \n        \n        \n            \n                \n                    \n                \n                \n                    2024 OSP Community Conference\n                    \n                         Oct 7, 2024\n                            \n                                 Novartis Campus, Basel, Switzerland\n                                \n                    \n                    Join us for the first OSP Community Conference at the iconic Gehry Building on the Novartis Campus in Basel, Switzerland.\n                    \n                        Learn\n                            More\n                    \n                \n            \n        \n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "website-guide.html#overview",
+    "href": "website-guide.html#overview",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Overview",
+    "text": "Overview\n\nWebsite built with Quarto\nContent written in plain text files with markdown formatting\nAutomatically displays listings of programs, events, stories, and team members\nNo coding skills required to add or update content"
+  },
+  {
+    "objectID": "website-guide.html#repository-structure",
+    "href": "website-guide.html#repository-structure",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Repository Structure",
+    "text": "Repository Structure\ncls-website/\n├── programs/     # Add program files here\n├── events/       # Add event files here\n├── stories/      # Add story files here\n└── members/      # Add team member files here\nAs a content editor, you’ll primarily work with files in these four directories."
+  },
+  {
+    "objectID": "website-guide.html#setup-what-you-need",
+    "href": "website-guide.html#setup-what-you-need",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Setup: What You Need",
+    "text": "Setup: What You Need\n\nRequired Software:\n\nR\nQuarto\nRStudio\n\nInitial Setup:\n\nClone/download website repository\nOpen project in RStudio: cls-website.Rproj\nInstall dependencies: renv::restore()"
+  },
+  {
+    "objectID": "website-guide.html#markdown-basics",
+    "href": "website-guide.html#markdown-basics",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Markdown Basics",
+    "text": "Markdown Basics\n\nSimple text-based formatting:\n\nBold text with **bold**\nItalic text with *italic*\nLinks with [text](url)\nLists using - or 1.\nHeadings with # symbols"
+  },
+  {
+    "objectID": "website-guide.html#how-listings-work",
+    "href": "website-guide.html#how-listings-work",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "How Listings Work",
+    "text": "How Listings Work\nThe website automatically:\n\nCreates cards on listing pages (programs, events, stories)\nGenerates dedicated pages for each item\nIncludes items on the homepage\n\nJust add content files with the right metadata in the correct folders!\n\n\n\n\n\n\nNote\n\n\nEach content file have specific set of metadata fields."
+  },
+  {
+    "objectID": "website-guide.html#from-files-to-web-pages",
+    "href": "website-guide.html#from-files-to-web-pages",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "From Files to Web Pages",
+    "text": "From Files to Web Pages\n\n\nStories Directory:\nstories/\n├── story_1.qmd\n│   ├── title: \"How CompanyX Increased Efficiency\"\n│   ├── description: \"CompanyX streamlined operations...\"\n│   ├── client: \"CompanyX\"\n│   ├── thumbnail: \"https://picsum.photos/300/200?random=1\"\n│   ├── date: \"2024-03-20\"\n│   ├── categories: [\"Digital Transformation\"]\n│   └── industry: \"Manufacturing\"\n│\n├── story_2.qmd\n│   ├── title: \"Research Lab Collaboration\"\n│   ├── description: \"How we helped researchers...\"\n│   ├── client: \"University Research Lab\"\n│   ├── thumbnail: \"https://picsum.photos/300/200?random=2\"\n│   ├── date: \"2024-02-15\"\n│   ├── categories: [\"Research\", \"Collaboration\"]\n│   └── industry: \"Academic\"\n│\n└── story_3.qmd\n    ├── title: \"Healthcare Data Integration\"\n    ├── description: \"Improving patient outcomes...\"\n    ├── client: \"Regional Hospital\"\n    ├── thumbnail: \"https://picsum.photos/300/200?random=3\"\n    ├── date: \"2024-01-10\"\n    ├── categories: [\"Healthcare\", \"Data Integration\"]\n    └── industry: \"Healthcare\"\n\nResulting Stories Page:"
+  },
+  {
+    "objectID": "website-guide.html#adding-programs",
+    "href": "website-guide.html#adding-programs",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Adding Programs",
+    "text": "Adding Programs\nCreate file in programs/your-program-name.qmd with:\n---\ntitle: \"Program Title\"\ndescription: \"Brief description of the program\"\nimage: \"URL to program image\"\ncategory: \"Program Category\"\npriority: 4  # Lower numbers appear first\nurl: \"URL to more information\"\n---"
+  },
+  {
+    "objectID": "website-guide.html#adding-events",
+    "href": "website-guide.html#adding-events",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Adding Events",
+    "text": "Adding Events\nCreate file in events/your-event-name.qmd with:\n---\ntitle: \"Event Title\"\ndescription: \"Brief event description\"\ndate: \"YYYY-MM-DD\"\nend_date: \"YYYY-MM-DD\"  # Optional\nimage: \"URL to event image\"\nlocation: \"Event Location\"\nurl: \"URL for more info\"  # Optional\ncategories: [\"Category1\", \"Category2\"]\n---"
+  },
+  {
+    "objectID": "website-guide.html#adding-success-stories",
+    "href": "website-guide.html#adding-success-stories",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Adding Success Stories",
+    "text": "Adding Success Stories\nCreate file in stories/story-name.qmd with:\n---\ntitle: \"Story Title\"\ndescription: \"Brief description\"\nclient: \"Client Name\"\nthumbnail: \"URL to image\"\ndate: \"YYYY-MM-DD\"\ncategories: [\"Category1\", \"Category2\"]\nindustry: \"Industry Type\"\n---"
+  },
+  {
+    "objectID": "website-guide.html#adding-team-members",
+    "href": "website-guide.html#adding-team-members",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Adding Team Members",
+    "text": "Adding Team Members\nCreate file in members/person-name.qmd with:\n---\ntitle: \"Person Name\"\nposition: \"Job Title\"\nemail: \"email@example.com\"\nimage: \"URL to profile image\"\norder: 3  # Lower numbers appear first\ndescription: \"Brief bio\"\n---"
+  },
+  {
+    "objectID": "website-guide.html#previewing-your-changes",
+    "href": "website-guide.html#previewing-your-changes",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Previewing Your Changes",
+    "text": "Previewing Your Changes\nTo see changes before publishing:\n\nOpen terminal in project folder\nRun: quarto preview\nBrowser will open showing the site\nChanges automatically refresh"
+  },
+  {
+    "objectID": "website-guide.html#publishing-changes",
+    "href": "website-guide.html#publishing-changes",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Publishing Changes",
+    "text": "Publishing Changes\nWhen you’re satisfied with your changes:\n\nCommit and push changes to the main branch\nWebsite automatically builds and deploys to https://clsfoundation.org/"
+  },
+  {
+    "objectID": "website-guide.html#common-operations",
+    "href": "website-guide.html#common-operations",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Common Operations",
+    "text": "Common Operations\n\nUpdate content: Edit the corresponding .qmd file\nRemove content: Delete the corresponding .qmd file\nChange order: Adjust priority or order values\nUpdate styling: Contact the web developer"
+  },
+  {
+    "objectID": "website-guide.html#questions",
+    "href": "website-guide.html#questions",
+    "title": "CLS Foundation Website Content Management Guide",
+    "section": "Questions?",
+    "text": "Questions?\nRefer to the Quarto documentation or contact your website administrator."
   }
 ]

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contact_us</title>
+<title>Contact Us</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4441cf79d9ddeeb067cfba4aa7c84172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -51,9 +50,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body class="nav-fixed">
@@ -77,12 +81,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#programs-section"> 
+    <a class="nav-link" href="./programs.html"> 
 <span class="menu-text">Programs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#events-section"> 
+    <a class="nav-link" href="./events.html"> 
 <span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./stories.html"> 
+<span class="menu-text">Stories</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./donate.html"> 
@@ -111,64 +119,89 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Contact Us</h1>
+</div>
 
 
 
-<!-- Contact Details -->
-  <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
-      <p class="lead fw-normal">Contact Us</p>
-      <p>CLS Foundation, Am Sportplatz 7, 26683 Saterland, Germany</p>
-      <br>
-      <p>Email: info@clsfoundation.org</p>
-      <br>
-      <p>Phone: +49 15158559070</p>
-      
-    </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999126763074!2d2.294481315674221!3d48.85884417928785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ef0f94a2e2b%3A0x421d7cb9a1ff9a5c!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1617515087413!5m2!1sen!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+
+
+</header>
+
+
+<div class="contact-container contact-row">
+<div class="contact-column">
+<div class="contact-form">
+<!-- 
+FormSubmit is a free form submission service that doesn't require registration.
+To change the recipient email, simply replace the email below with your own.
+-->
+<form action="https://formsubmit.co/info@clsfoundation.org" method="POST">
+    <!-- Spam protection -->
+    <input type="text" name="_honey" style="display:none">
+
+    <!-- Disable captcha - change to "true" if you want to enable it -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Redirect after submission - change to your thank you page URL -->
+    <input type="hidden" name="_next" value="/thanks.html">
+
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required="">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required="">
+    </div>
+
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required="">
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required=""></textarea>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="submit-button">
+            <i class="bi bi-send"></i> Send Message
+        </button>
+    </div>
+</form>
+</div>
+<p><em>Please allow up to 48 hours for a response. For urgent matters, please call us directly.</em></p>
+</div>
+<div class="contact-column contact-info">
+<p>We’d love to hear from you! Please reach out using any of the following methods:</p>
+<p><i class="bi bi-geo-alt"></i> CLS Foundation, Am Sportplatz 7, 26683 Saterland, Germany</p>
+<p><i class="bi bi-envelope"></i> Email: <a href="mailto:info@clsfoundation.org">info@clsfoundation.org</a></p>
+<p><i class="bi bi-telephone"></i> Phone: <a href="tel:+4915158559070">+49 15158559070</a></p>
+<p><i class="bi bi-clock"></i> Office Hours: Monday-Friday, 9:00 AM - 5:00 PM CET</p>
+</div>
+</div>
+<section id="our-location" class="level2 contact-subheading contact-map-container">
+<h2 class="contact-subheading" data-anchor-id="our-location">Our Location</h2>
+<div class="contact-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.1664432142006!2d7.693166915631947!3d53.13957689999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b72c7bd17e8ff9%3A0xe4e7fcadabf7db0a!2sAm%20Sportplatz%207%2C%2026683%20Saterland%2C%20Germany!5e0!3m2!1sen!2sus!4v1650876000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</section>
 
 
 
 </main> <!-- /main -->
-<div class="b-example-divider"></div>
-
-  <footer class="grid">
-    <div class="g-col-6 col mb-3">
-      <h5>Contact</h5>
-      <p><bold>CLS Foundation</bold> <br> 
-      Am Sportplatz 7 <br> 
-      26683 Saterland <br> 
-      Germany <br>
-      Tel. +49 15158559070
-      <a href="./" class="d-flex align-items-center mb-3 link-dark text-decoration-none">info@clsfoundation.org
-
-</a></p>
-      <p class="text-muted">© 2024</p>
-    </div>
-
-    <div class="g-col-3 col mb-3">
-      <h5>Menu</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="./" class="nav-link p-0 text-muted">Home</a></li>
-        <li class="nav-item mb-2"><a href="#programs-section" class="nav-link p-0 text-muted">Programs</a></li>
-        <li class="nav-item mb-2"><a href="#events-section" class="nav-link p-0 text-muted">Events</a></li>
-        <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-muted">Donate</a></li>
-        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
-      </ul>
-    </div>
-
-    <div class="g-col-3 col mb-3">
-      <h5>Links</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="imprint.html" class="nav-link p-0 text-muted">Imprint</a></li>
-        <li class="nav-item mb-2"><a href="dataprivacy.html" class="nav-link p-0 text-muted">Data Privacy</a></li>
-      </ul>
-    </div>
-
-  </footer>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -189,13 +222,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -251,8 +277,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -363,7 +387,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -590,6 +613,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><strong>Contact</strong></p>
+<p>CLS Foundation<br>
+Am Sportplatz 7<br>
+26683 Saterland<br>
+Germany</p>
+<p><a href="tel:+4915158559070">+49 15158559070</a><br>
+<a href="mailto:info@clsfoundation.org">info@clsfoundation.org</a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><strong>Menu</strong></p>
+<p><a href="."><i class="bi bi-house-door"></i> Home</a><br>
+<a href="./programs.html"><i class="bi bi-card-list"></i> Programs</a><br>
+<a href="./events.html"><i class="bi bi-calendar-event"></i> Events</a><br>
+<a href="./stories.html"><i class="bi bi-chat-quote"></i> Success Stories</a><br>
+<a href="./donate.html"><i class="bi bi-heart"></i> Donate</a><br>
+<a href="./about.html"><i class="bi bi-info-circle"></i> About</a></p>
+</div>
+    <div class="nav-footer-right">
+<p><strong>Links</strong></p>
+<p><a href="./imprint"><i class="bi bi-file-text"></i> Imprint</a><br>
+<a href="./dataprivacy"><i class="bi bi-shield-lock"></i> Data Privacy</a></p>
+<strong>Connect</strong>
+<div class="social-row">
+<p><a href="https://linkedin.com/company/clsfoundation/" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
+</div>
+<p>© 2025 CLS Foundation</p>
+</div>
+  </div>
+</footer>
 
 
 

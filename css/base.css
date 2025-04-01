@@ -1,0 +1,37 @@
+/* Base styles for the site */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #4ca1af;
+    --text-color: #4a4a4a;
+    --light-bg: #f5f7fa;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Container layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Link styles */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
