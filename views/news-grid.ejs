@@ -1,0 +1,45 @@
+```{=html}
+<div class="news-list">
+    <% for (const item of items) { %>
+        <div class="news-list-item">
+            <article class="news-article">
+                <div class="news-content">
+                    <header class="news-header">
+                        <div class="news-meta">
+                            <time datetime="<%= item.date %>" class="news-date">
+                                <%= new Date(item.date).toLocaleDateString('en-US', { year: 'numeric' , month: 'long' ,
+                                    day: 'numeric' }) %>
+                            </time>
+                            <% if (item.category) { %>
+                                <span class="news-category">
+                                    <%= item.category %>
+                                </span>
+                                <% } %>
+                        </div>
+                        <h2 class="news-title">
+                            <a href="<%- item.path %>">
+                                <%= item.title %>
+                            </a>
+                        </h2>
+                    </header>
+                    <% if (item.image) { %>
+                        <div class="news-image">
+                            <img src="<%- item.image %>" alt="<%- item.title %>">
+                        </div>
+                        <% } %>
+                            <% if (item.description) { %>
+                                <div class="news-excerpt">
+                                    <p>
+                                        <%= item.description %>
+                                    </p>
+                                </div>
+                                <% } %>
+                                    <footer class="news-footer">
+                                        <a href="<%- item.path %>" class="read-more">Read More →</a>
+                                    </footer>
+                </div>
+            </article>
+        </div>
+        <% } %>
+</div>
+```

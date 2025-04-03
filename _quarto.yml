@@ -16,6 +16,8 @@ website:
         href: programs.qmd
       - text: Events
         href: events.qmd
+      - text: News
+        href: news.qmd
       - text: Stories
         href: stories.qmd
       - text: Donate
@@ -40,12 +42,13 @@ website:
     center: |
       **Menu**
       
-      [<i class="bi bi-house-door"></i> Home](/)  
-      [<i class="bi bi-card-list"></i> Programs](/programs.html)  
-      [<i class="bi bi-calendar-event"></i> Events](/events.html)  
-      [<i class="bi bi-chat-quote"></i> Success Stories](/stories.html)  
+      [<i class="bi bi-info-circle"></i> About](/about.html)  
       [<i class="bi bi-heart"></i> Donate](/donate.html)  
-      [<i class="bi bi-info-circle"></i> About](/about.html)
+      [<i class="bi bi-calendar-event"></i> Events](/events.html)  
+      [<i class="bi bi-house-door"></i> Home](/)  
+      [<i class="bi bi-newspaper"></i> News](/news.html)  
+      [<i class="bi bi-card-list"></i> Programs](/programs.html)  
+      [<i class="bi bi-chat-quote"></i> Stories](/stories.html)
       
 
     right: |

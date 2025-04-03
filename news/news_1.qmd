@@ -1,0 +1,10 @@
+---
+title: "News Title"
+description: "A brief description of the news item"
+date: "2024-04-03"
+categories: "Announcement"  # optional
+# image: "path/to/image.jpg"  # optional
+draft: false
+---
+
+News content goes here...

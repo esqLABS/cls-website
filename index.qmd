@@ -8,6 +8,7 @@ css:
   - css/events-cards.css
   - css/stories-cards.css
   - css/donation.css
+  - css/news.css
 
 listing:
   - id: programs
@@ -23,6 +24,11 @@ listing:
   - id: stories
     template: views/stories.ejs
     contents: stories/*.qmd
+    sort: "date desc"
+    max-items: 3
+  - id: news
+    template: views/news.ejs
+    contents: news/*.qmd
     sort: "date desc"
     max-items: 3
 ---
@@ -43,14 +49,29 @@ through open cooperation and innovation.
 :::
 
 :::{.hero-buttons}
-[Learn More](about.qmd){.btn .btn-lg .rounded-pill .btn-secondary}
-[Donate Now](donate.qmd){.btn .btn-lg .rounded-pill .donate-button}
+[About Our Foundation](about.qmd){.btn .btn-lg .rounded-pill .btn-secondary}
+[Support Our Mission](donate.qmd){.btn .btn-lg .rounded-pill .donate-button}
 :::
 
 :::
 :::
 
 {{< include _includes/hero-scroll-down.html >}}
+:::
+
+
+
+:::{#section-news .section}
+## Latest News
+
+Stay informed about our latest developments and announcements.
+
+:::{#news}
+:::
+
+:::{.text-center}
+[Browse All News](news.qmd){.btn .btn-primary .btn-lg .rounded-pill}
+:::
 :::
 
 :::{#section-programs  .section}
@@ -63,7 +84,7 @@ life sciences.
 :::
 
 :::{.text-center}
-[See All Programs](programs.qmd){.btn .btn-primary .btn-lg .rounded-pill}
+[View All Programs](programs.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
 {{< include _includes/programs-scroll-down.html >}}
@@ -78,7 +99,7 @@ Stay updated with our latest events, workshops, and seminars.
 :::
 
 :::{.text-center}
-[See All Events](events.qmd){.btn .btn-primary .btn-lg .rounded-pill}
+[Browse All Events](events.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
 {{< include _includes/events-scroll-down.html >}}
@@ -94,11 +115,12 @@ Hear from those we've helped.
 :::
 
 :::{.text-center}
-[More Stories](stories.qmd){.btn .btn-primary .btn-lg .rounded-pill}
+[Read All Stories](stories.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
 {{< include _includes/stories-scroll-down.html >}}
 :::
+
 
 :::{#section-donate .section .donate-section}
 
@@ -110,7 +132,7 @@ Your contributions directly fund the development of vital open-source tools that
 :::
 
 
-[Donate Now](donate.qmd){.btn .btn-lg .rounded-pill .donate-button}
+[Donate Today](donate.qmd){.btn .btn-lg .rounded-pill .donate-button}
 :::
 :::
 

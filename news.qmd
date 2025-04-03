@@ -1,0 +1,18 @@
+---
+title: "News"
+description: "Latest updates and announcements from the Computational Life Sciences Foundation"
+listing:
+  - id: news-grid
+    template: views/news-grid.ejs
+    contents: news/*.qmd
+    sort: "date desc"
+    categories: true
+    sort-ui: [date]
+    filter-ui: true
+    page-size: 9
+page-layout: full
+css: css/news.css
+---
+
+:::{#news-grid}
+::: 
