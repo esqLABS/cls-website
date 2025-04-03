@@ -86,7 +86,6 @@ life sciences.
 [View All Programs](programs.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
-{{< include _includes/programs-scroll-down.html >}}
 :::
 
 :::{#section-events .section}
@@ -101,7 +100,6 @@ Stay updated with our latest events, workshops, and seminars.
 [Browse All Events](events.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
-{{< include _includes/events-scroll-down.html >}}
 :::
 
 
@@ -117,7 +115,6 @@ Hear from those we've helped.
 [Read All Stories](stories.qmd){.btn .btn-primary .btn-lg .rounded-pill}
 :::
 
-{{< include _includes/stories-scroll-down.html >}}
 :::
 
 
