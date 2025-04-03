@@ -311,7 +311,7 @@
 <span id="cb2-26"><a></a>    ├── categories: ["Healthcare", "Data Integration"]</span>
 <span id="cb2-27"><a></a>    └── industry: "Healthcare"</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:60%;">
-<p><strong>Resulting Stories Page:</strong> <img data-src="assets/editing_guide/Success Stories.jpeg"></p>
+<p><strong>Resulting Stories Page:</strong> <img data-src="assets/editing_guide/stories_page.jpeg"></p>
 </div></div>
 </section>
 <section id="section-3" class="slide level2" data-background-image="assets/editing_guide/story_1.jpeg" data-background-size="cover">
@@ -353,14 +353,15 @@
 <h2>Adding Success Stories</h2>
 <p>Create file in <code>stories/story-name.qmd</code> with:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a></a><span class="pp">---</span></span>
-<span id="cb5-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Story Title"</span></span>
-<span id="cb5-3"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief description"</span></span>
-<span id="cb5-4"><a></a><span class="fu">client</span><span class="kw">:</span><span class="at"> </span><span class="st">"Client Name"</span></span>
-<span id="cb5-5"><a></a><span class="fu">thumbnail</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to image"</span></span>
-<span id="cb5-6"><a></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">"YYYY-MM-DD"</span></span>
-<span id="cb5-7"><a></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">"Category1"</span><span class="kw">,</span><span class="at"> </span><span class="st">"Category2"</span><span class="kw">]</span></span>
-<span id="cb5-8"><a></a><span class="fu">industry</span><span class="kw">:</span><span class="at"> </span><span class="st">"Industry Type"</span></span>
-<span id="cb5-9"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-2"><a></a><span class="fu">draft</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span><span class="co">  # Set to true if the story is not ready to be published</span></span>
+<span id="cb5-3"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Story Title"</span></span>
+<span id="cb5-4"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief description of the story"</span></span>
+<span id="cb5-5"><a></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">"YYYY-MM-DD"</span></span>
+<span id="cb5-6"><a></a><span class="fu">client</span><span class="kw">:</span><span class="at"> </span><span class="st">"Client Name"</span></span>
+<span id="cb5-7"><a></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to story image"</span><span class="co">  # Optional</span></span>
+<span id="cb5-8"><a></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">"Category1"</span><span class="kw">,</span><span class="at"> </span><span class="st">"Category2"</span><span class="kw">]</span></span>
+<span id="cb5-9"><a></a><span class="fu">industry</span><span class="kw">:</span><span class="at"> </span><span class="st">"Industry Type"</span></span>
+<span id="cb5-10"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="section-6" class="slide level2" data-background-image="assets/editing_guide/stories.jpeg" data-background-size="cover">
 <h2></h2>
@@ -370,12 +371,47 @@
 <p>Create file in <code>members/person-name.qmd</code> with:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a></a><span class="pp">---</span></span>
 <span id="cb6-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Person Name"</span></span>
-<span id="cb6-3"><a></a><span class="fu">position</span><span class="kw">:</span><span class="at"> </span><span class="st">"Job Title"</span></span>
-<span id="cb6-4"><a></a><span class="fu">email</span><span class="kw">:</span><span class="at"> </span><span class="st">"email@example.com"</span></span>
-<span id="cb6-5"><a></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to profile image"</span></span>
-<span id="cb6-6"><a></a><span class="fu">order</span><span class="kw">:</span><span class="at"> </span><span class="dv">3</span><span class="co">  # Lower numbers appear first</span></span>
-<span id="cb6-7"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief bio"</span></span>
-<span id="cb6-8"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-3"><a></a><span class="fu">draft</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span><span class="co">  # Set to true if the member should not be displayed yet</span></span>
+<span id="cb6-4"><a></a><span class="fu">position</span><span class="kw">:</span><span class="at"> </span><span class="st">"Job Title"</span></span>
+<span id="cb6-5"><a></a><span class="fu">email</span><span class="kw">:</span><span class="at"> </span><span class="st">"email@example.com"</span></span>
+<span id="cb6-6"><a></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to profile image"</span><span class="co">  # Optional</span></span>
+<span id="cb6-7"><a></a><span class="fu">order</span><span class="kw">:</span><span class="at"> </span><span class="dv">3</span><span class="co">  # Lower numbers appear first</span></span>
+<span id="cb6-8"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief bio that appears in the member card"</span></span>
+<span id="cb6-9"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="default-placeholders" class="slide level2">
+<h2>Default Placeholders</h2>
+<p>If no image is provided in the frontmatter, default placeholders will be used:</p>
+<div class="columns">
+<div class="column" style="width:25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/placeholders/programs.png" height="150"></p>
+<figcaption>Programs</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/placeholders/events.png" height="150"></p>
+<figcaption>Events</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/placeholders/stories.png" height="150"></p>
+<figcaption>Stories</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/placeholders/news.png" height="150"></p>
+<figcaption>News</figcaption>
+</figure>
+</div>
+</div></div>
 </section>
 <section id="section-7" class="slide level2" data-background-image="assets/editing_guide/team.jpeg" data-background-size="cover">
 <h2></h2>

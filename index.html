@@ -136,6 +136,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news'] = new List('listing-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -178,6 +206,8 @@ window.Quarto = {
 <link rel="stylesheet" href="css/programs-carousel.css">
 <link rel="stylesheet" href="css/events-cards.css">
 <link rel="stylesheet" href="css/stories-cards.css">
+<link rel="stylesheet" href="css/donation.css">
+<link rel="stylesheet" href="css/news.css">
 </head>
 
 <body class="nav-fixed">
@@ -207,6 +237,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./events.html"> 
 <span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./stories.html"> 
@@ -257,7 +291,7 @@ window.Quarto = {
 <p>Founded to develop and maintain open source software in the life sciences, the Computational Life Sciences Foundation aims to improve the R&amp;D landscape through open cooperation and innovation.</p>
 </div>
 <div class="hero-buttons">
-<p><a href="./about.html" class="btn btn-lg rounded-pill btn-secondary">Learn More</a> <a href="./donate.html" class="btn btn-lg rounded-pill donate-button">Donate Now</a></p>
+<p><a href="./about.html" class="btn btn-lg rounded-pill btn-secondary">About Our Foundation</a> <a href="./donate.html" class="btn btn-lg rounded-pill donate-button">Support Our Mission</a></p>
 </div>
 </div>
 </div>
@@ -280,6 +314,23 @@ window.Quarto = {
     }
 </script>
 </section>
+<section id="section-news">
+<section id="latest-news" class="level2">
+<h2 data-anchor-id="latest-news">Latest News</h2>
+<p>Stay informed about our latest developments and announcements.</p>
+<div id="listing-news" class="quarto-listing quarto-listing-container-custom">
+<div class="list">
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<div class="text-center">
+<p><a href="./news.html" class="btn btn-primary btn-lg rounded-pill">Browse All News</a></p>
+</div>
+</section>
+</section>
 <section id="section-programs">
 <section id="our-programs" class="level2">
 <h2 data-anchor-id="our-programs">Our Programs</h2>
@@ -300,22 +351,6 @@ window.Quarto = {
                             <p class="program-description">PK-Sim® and MoBi® for PBPK and Quantitative Systems Pharmacology - Reliable, powerful and easy-to-use modeling &amp; simulation tools for pharmaceutical and life-sciences applications.</p>
                             <div class="program-footer">
                                 <a href="./programs/open-systems-pharmacology.html" class="btn btn-outline-secondary">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="carousel-item">
-                    <div class="card card-base">
-                        <div class="program-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-1.2.1" alt="MPSlabs" class="program-image">
-                        </div>
-                        <div class="program-info">
-                            <div class="program-category">Drug Testing &amp; Simulation</div>
-                            <h3 class="program-title">MPSlabs</h3>
-                            <p class="program-description">Enhancing the predictive power of Microphysiological Systems (MPS) and Organ-on-Chips (OoCs) in drug testing through advanced software solutions and consulting services.</p>
-                            <div class="program-footer">
-                                <a href="./programs/mpslabs.html" class="btn btn-outline-secondary">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -354,7 +389,7 @@ No matching items
 </div>
 </div>
 <div class="text-center">
-<p><a href="./programs.html" class="btn btn-primary btn-lg rounded-pill">See All Programs</a></p>
+<p><a href="./programs.html" class="btn btn-primary btn-lg rounded-pill">View All Programs</a></p>
 </div>
 <!-- Scroll down arrow component for programs section -->
 <div class="scroll-down-section">
@@ -400,8 +435,7 @@ No matching items
                     </div>
                     <p class="card-text flex-grow-1">Join us for the second OSP Community Conference at Sanofi's facilities in Vitry-sur-Seine, Paris, featuring collaboration, innovation, and networking in the Open Systems Pharmacology community.</p>
                     <div class="d-flex justify-content-end mt-auto">
-                        <a href="https://www.open-systems-pharmacology.org/conference.html" class="btn btn-outline-secondary">Learn
-                            More</a>
+                        <a href="./events/osp_conference_2025.html" class="btn btn-outline-secondary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -422,8 +456,7 @@ No matching items
                     </div>
                     <p class="card-text flex-grow-1">Join us for the first OSP Community Conference at the iconic Gehry Building on the Novartis Campus in Basel, Switzerland.</p>
                     <div class="d-flex justify-content-end mt-auto">
-                        <a href="https://www.open-systems-pharmacology.org/conference_2024.html" class="btn btn-outline-secondary">Learn
-                            More</a>
+                        <a href="./events/osp_conference_2024.html" class="btn btn-outline-secondary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -435,7 +468,7 @@ No matching items
 </div>
 </div>
 <div class="text-center">
-<p><a href="./events.html" class="btn btn-primary btn-lg rounded-pill">See All Events</a></p>
+<p><a href="./events.html" class="btn btn-primary btn-lg rounded-pill">Browse All Events</a></p>
 </div>
 <!-- Scroll down arrow component for events section -->
 <div class="scroll-down-section">
@@ -472,7 +505,7 @@ No matching items
 </div>
 </div>
 <div class="text-center">
-<p><a href="./stories.html" class="btn btn-primary btn-lg rounded-pill">More Stories</a></p>
+<p><a href="./stories.html" class="btn btn-primary btn-lg rounded-pill">Read All Stories</a></p>
 </div>
 <!-- Scroll down arrow component for stories section -->
 <div class="scroll-down-section">
@@ -499,11 +532,11 @@ No matching items
 <section id="section-donate" class="donate-section">
 <section id="support-our-mission" class="level2">
 <h2 data-anchor-id="support-our-mission">Support Our Mission</h2>
+<div class="text-center">
 <div class="donate-description">
 <p>Your contributions directly fund the development of vital open-source tools that accelerate breakthroughs in life sciences research.</p>
 </div>
-<div class="text-center">
-<p><a href="./donate.html" class="btn btn-lg rounded-pill donate-button">Donate Now</a></p>
+<p><a href="./donate.html" class="btn btn-lg rounded-pill donate-button">Donate Today</a></p>
 </div>
 </section>
 </section>
@@ -936,12 +969,13 @@ Germany</p>
 </div>   
     <div class="nav-footer-center">
 <p><strong>Menu</strong></p>
-<p><a href="."><i class="bi bi-house-door"></i> Home</a><br>
-<a href="./programs.html"><i class="bi bi-card-list"></i> Programs</a><br>
-<a href="./events.html"><i class="bi bi-calendar-event"></i> Events</a><br>
-<a href="./stories.html"><i class="bi bi-chat-quote"></i> Success Stories</a><br>
+<p><a href="./about.html"><i class="bi bi-info-circle"></i> About</a><br>
 <a href="./donate.html"><i class="bi bi-heart"></i> Donate</a><br>
-<a href="./about.html"><i class="bi bi-info-circle"></i> About</a></p>
+<a href="./events.html"><i class="bi bi-calendar-event"></i> Events</a><br>
+<a href="."><i class="bi bi-house-door"></i> Home</a><br>
+<a href="./news.html"><i class="bi bi-newspaper"></i> News</a><br>
+<a href="./programs.html"><i class="bi bi-card-list"></i> Programs</a><br>
+<a href="./stories.html"><i class="bi bi-chat-quote"></i> Stories</a></p>
 </div>
     <div class="nav-footer-right">
 <p><strong>Links</strong></p>

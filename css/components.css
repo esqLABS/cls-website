@@ -38,27 +38,6 @@
     align-items: center;
 }
 
-/* Donate button styling */
-.donate-button {
-    font-size: 1.25rem;
-    padding: 10px 30px;
-    background-color: #d9534f;
-    border-color: #d9534f;
-    color: white;
-}
-
-.donate-button:hover {
-    background-color: #c9302c;
-    border-color: #c9302c;
-}
-
-/* Add heart icon before donate button */
-.donate-button::before {
-    content: "\F415";
-    /* Bootstrap heart icon unicode */
-    font-family: "bootstrap-icons";
-    margin-right: 0.5rem;
-}
 
 /* CARD COMPONENTS */
 
@@ -208,4 +187,72 @@
         bottom: -50px;
         right: -30px;
     }
+}
+
+.card-footer .btn-outline-secondary,
+.program-footer .btn-outline-secondary,
+.d-flex .btn-outline-secondary {
+    color: var(--bs-primary);
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    border: 2px solid var(--bs-primary);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-footer .btn-outline-secondary::after,
+.program-footer .btn-outline-secondary::after,
+.d-flex .btn-outline-secondary::after {
+    content: " →";
+    margin-left: 0.25rem;
+}
+
+.card-footer .btn-outline-secondary:hover,
+.program-footer .btn-outline-secondary:hover,
+.d-flex .btn-outline-secondary:hover {
+    color: white;
+    text-decoration: none;
+    background-color: var(--bs-primary);
+    transform: translateY(-2px);
+    border-color: var(--bs-primary);
+}
+
+.member-img-container {
+    width: 100%;
+    padding-top: 100%;
+    /* 1:1 Aspect Ratio */
+    position: relative;
+    overflow: hidden;
+    background-color: var(--bs-light);
+    border-radius: 8px 8px 0 0;
+}
+
+.member-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.member-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bs-light);
+}
+
+.member-placeholder .bi-person-circle {
+    font-size: 5rem;
+    color: var(--bs-gray-400);
 }

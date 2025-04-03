@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/stories.html",
+    "listing": "/news.html",
     "items": []
   },
   {
@@ -11,7 +11,6 @@
     "listing": "/index.html",
     "items": [
       "/programs/open-systems-pharmacology.html",
-      "/programs/mpslabs.html",
       "/events/osp_conference_2025.html",
       "/events/osp_conference_2024.html"
     ]
@@ -19,9 +18,12 @@
   {
     "listing": "/programs.html",
     "items": [
-      "/programs/open-systems-pharmacology.html",
-      "/programs/mpslabs.html"
+      "/programs/open-systems-pharmacology.html"
     ]
+  },
+  {
+    "listing": "/stories.html",
+    "items": []
   },
   {
     "listing": "/events.html",

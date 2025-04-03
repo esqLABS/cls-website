@@ -57,8 +57,6 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="css/components.css">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/pages.css">
-<link rel="stylesheet" href="css/contact.css">
 <link rel="stylesheet" href="css/donation.css">
 </head>
 
@@ -89,6 +87,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./events.html"> 
 <span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./stories.html"> 
@@ -124,51 +126,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="donation-options" class="level2">
-<h2 data-anchor-id="donation-options">Donation Options</h2>
-<div class="donate-options-container">
-<section id="interested-in-making-a-donation-share-your-email-and-well-contact-you-with-all-the-details." class="level4 text-center">
-<h4 data-anchor-id="interested-in-making-a-donation-share-your-email-and-well-contact-you-with-all-the-details.">Interested in making a donation? Share your email and we’ll contact you with all the details.</h4>
-</section>
-<div class="donation-form-container">
-<!-- 
-FormSubmit is a free form submission service that doesn't require registration.
-The recipient email is set to the foundation's email.
--->
-<form action="https://formsubmit.co/info@clsfoundation.org" method="POST" class="donation-form">
-    <!-- Spam protection -->
-    <input type="text" name="_honey" style="display:none">
-
-    <!-- Disable captcha - change to "true" if you want to enable it -->
-    <input type="hidden" name="_captcha" value="false">
-
-    <!-- Redirect after submission - change to your thank you page URL -->
-    <input type="hidden" name="_next" value="/donation-thanks.html">
-
-    <!-- Form subject -->
-    <input type="hidden" name="_subject" value="New Donation Interest">
-
-    <div class="form-group-inline">
-        <input type="email" id="email" name="email" placeholder="Your email address" required="">
-        <button type="submit" class="submit-button donate-button">
-            Get in Touch
-        </button>
-    </div>
-</form>
+<section id="support-our-mission" class="level2 donate-section">
+<h2 data-anchor-id="support-our-mission">Support Our Mission</h2>
+<div class="text-center">
+<div class="donate-description">
+<p>Help us drive innovation in life sciences through open source software</p>
 </div>
-<div class="donate-options-container">
-<section id="one-time-gift" class="level3 donate-option-card">
-<h3 data-anchor-id="one-time-gift"><i class="bi bi-cash-coin donate-option-icon"></i> One-Time Gift</h3>
-<p>Make an immediate impact with a single donation of any amount.</p>
-</section>
-<section id="recurring-support" class="level3 donate-option-card">
-<h3 data-anchor-id="recurring-support"><i class="bi bi-calendar-check donate-option-icon"></i> Recurring Support</h3>
-<p>Set up a monthly or yearly donation to provide sustained support.</p>
-</section>
-<section id="corporate-giving" class="level3 donate-option-card">
-<h3 data-anchor-id="corporate-giving"><i class="bi bi-building donate-option-icon"></i> Corporate Giving</h3>
-<p>Partner with us through sponsorships or matching gift programs.</p>
-</section>
+<p><span class="d-grid gap-2 d-sm-flex justify-content-sm-center"><a href="https://buy.stripe.com/dR6eXq6DQfPE35e7sx" class="btn btn-lg rounded-pill donate-button">Donate Now</a></span></p>
+<div class="text-muted mt-3">
+<p>Interested in other ways to support our mission? <a href="contact.qmd">Contact us</a> to discuss corporate giving, matching programs, or planned donations.</p>
 </div>
 </div>
 </section>
@@ -622,12 +588,13 @@ Germany</p>
 </div>   
     <div class="nav-footer-center">
 <p><strong>Menu</strong></p>
-<p><a href="."><i class="bi bi-house-door"></i> Home</a><br>
-<a href="./programs.html"><i class="bi bi-card-list"></i> Programs</a><br>
-<a href="./events.html"><i class="bi bi-calendar-event"></i> Events</a><br>
-<a href="./stories.html"><i class="bi bi-chat-quote"></i> Success Stories</a><br>
+<p><a href="./about.html"><i class="bi bi-info-circle"></i> About</a><br>
 <a href="./donate.html"><i class="bi bi-heart"></i> Donate</a><br>
-<a href="./about.html"><i class="bi bi-info-circle"></i> About</a></p>
+<a href="./events.html"><i class="bi bi-calendar-event"></i> Events</a><br>
+<a href="."><i class="bi bi-house-door"></i> Home</a><br>
+<a href="./news.html"><i class="bi bi-newspaper"></i> News</a><br>
+<a href="./programs.html"><i class="bi bi-card-list"></i> Programs</a><br>
+<a href="./stories.html"><i class="bi bi-chat-quote"></i> Stories</a></p>
 </div>
     <div class="nav-footer-right">
 <p><strong>Links</strong></p>
