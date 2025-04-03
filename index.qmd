@@ -33,7 +33,6 @@ listing:
     max-items: 3
 ---
 
-
 :::{.section .section-hero}
 {{< include _includes/hero-shapes.html >}}
 

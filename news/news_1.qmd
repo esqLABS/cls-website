@@ -4,7 +4,7 @@ description: "A brief description of the news item"
 date: "2024-04-03"
 categories: "Announcement"  # optional
 # image: "path/to/image.jpg"  # optional
-draft: false
+draft: true
 ---
 
 News content goes here...
