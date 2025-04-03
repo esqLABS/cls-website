@@ -38,27 +38,6 @@
     align-items: center;
 }
 
-/* Donate button styling */
-.donate-button {
-    font-size: 1.25rem;
-    padding: 10px 30px;
-    background-color: #d9534f;
-    border-color: #d9534f;
-    color: white;
-}
-
-.donate-button:hover {
-    background-color: #c9302c;
-    border-color: #c9302c;
-}
-
-/* Add heart icon before donate button */
-.donate-button::before {
-    content: "\F415";
-    /* Bootstrap heart icon unicode */
-    font-family: "bootstrap-icons";
-    margin-right: 0.5rem;
-}
 
 /* CARD COMPONENTS */
 

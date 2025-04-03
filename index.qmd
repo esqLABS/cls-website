@@ -7,6 +7,7 @@ css:
   - css/programs-carousel.css
   - css/events-cards.css
   - css/stories-cards.css
+  - css/donation.css
 
 listing:
   - id: programs
@@ -25,6 +26,7 @@ listing:
     sort: "date desc"
     max-items: 3
 ---
+
 
 :::{.section .section-hero}
 {{< include _includes/hero-shapes.html >}}
@@ -102,15 +104,13 @@ Hear from those we've helped.
 
 ## Support Our Mission
 
+:::{.text-center}
 :::{.donate-description}
 Your contributions directly fund the development of vital open-source tools that accelerate breakthroughs in life sciences research.
 :::
 
-:::{.text-center}
+
 [Donate Now](donate.qmd){.btn .btn-lg .rounded-pill .donate-button}
 :::
-
 :::
-
-
 

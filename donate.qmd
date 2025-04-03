@@ -1,43 +1,25 @@
 ---
 page-layout: full
 css:
-  - css/pages.css
   - css/components.css
-  - css/contact.css
   - css/donation.css
 ---
 
-## Donation Options {#donation-options}
-
-:::{.donate-options-container}
+:::{.donate-section}
+## Support Our Mission
 
 :::{.text-center}
-#### Interested in making a donation? Share your email and we'll contact you with all the details.
+:::{.donate-description}
+Help us drive innovation in life sciences through open source software
 :::
 
-:::{.donation-form-container}
-{{< include _includes/donation-form.html >}}
-:::
+[<a href="https://buy.stripe.com/dR6eXq6DQfPE35e7sx" class="btn btn-lg rounded-pill donate-button">Donate Now</a>]{.d-grid .gap-2 .d-sm-flex .justify-content-sm-center}
 
-
-:::{.donate-options-container}
-:::{.donate-option-card}
-### <i class="bi bi-cash-coin donate-option-icon"></i> One-Time Gift
-Make an immediate impact with a single donation of any amount.
-:::
-:::{.donate-option-card}
-### <i class="bi bi-calendar-check donate-option-icon"></i> Recurring Support
-Set up a monthly or yearly donation to provide sustained support.
-:::
-:::{.donate-option-card}
-### <i class="bi bi-building donate-option-icon"></i> Corporate Giving
-Partner with us through sponsorships or matching gift programs.
+:::{.text-muted .mt-3}
+Interested in other ways to support our mission? [Contact us](contact.qmd) to discuss corporate giving, matching programs, or planned donations.
 :::
 :::
 :::
-
-
-
 
 ## Why Donate
 
@@ -64,6 +46,7 @@ Help us continue developing tools that lead to real breakthroughs in healthcare 
 Support the growing community of researchers and developers working together to advance science.
 :::
 :::
+
 
 
 
