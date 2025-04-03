@@ -45,6 +45,16 @@ Each content file (`.qmd`) you create (with the proper metadata) automatically a
 
 ![](assets/editing_guide/programs.jpeg)
 
+## Default Placeholders
+
+If no image is provided in the frontmatter metadata, the website will automatically use default placeholder images:
+
+| Programs | Events | Stories | News |
+|:--------:|:------:|:-------:|:----:|
+| ![](assets/placeholders/programs.png){height=150} | ![](assets/placeholders/events.png){height=150} | ![](assets/placeholders/stories.png){height=150} | ![](assets/placeholders/news.png){height=150} |
+
+These placeholders ensure a consistent look even when custom images are not available. You can always replace them later by adding an `image` field to your content's frontmatter.
+
 ## Setup Your Work Environment
 
 1. **Install Required Software:**
@@ -159,13 +169,14 @@ categories: ["Category1", "Category2"]
 
 Create a new file in the `stories/` folder named `story-name.qmd` with this metadata:
 
-```
+```yaml
 ---
+draft: false  # Set to true if the story is not ready to be published
 title: "Story Title"
 description: "Brief description"
-client: "Client Name"
-thumbnail: "URL to image"
 date: "YYYY-MM-DD"
+client: "Client Name"
+image: "URL to image"  # Optional
 categories: ["Category1", "Category2"]
 industry: "Industry Type"
 ---
@@ -177,14 +188,15 @@ industry: "Industry Type"
 
 Create a new file in the `members/` folder named `person-name.qmd` with this metadata:
 
-```
+```yaml
 ---
 title: "Person Name"
+draft: false  # Set to true if the member should not be displayed yet
 position: "Job Title"
 email: "email@example.com"
-image: "URL to profile image"
+image: "URL to profile image"  # Optional
 order: 3  # Lower numbers appear first
-description: "Brief bio"
+description: "Brief bio that appears in the member card"
 ---
 ```
 

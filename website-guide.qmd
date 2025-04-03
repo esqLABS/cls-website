@@ -19,7 +19,6 @@ format:
 -   Automatically displays listings of programs, events, stories, and team members
 -   No coding skills required to add or update content
 
-
 ## Repository Structure
 
 ```         
@@ -112,7 +111,7 @@ stories/
 
 ::: {.column width="60%"}
 **Resulting Stories Page:**
-![](assets/editing_guide/Success%20Stories.jpeg)
+![](assets/editing_guide/stories_page.jpeg)
 :::
 
 ::::
@@ -163,11 +162,12 @@ Create file in `stories/story-name.qmd` with:
 
 ``` yaml
 ---
+draft: false  # Set to true if the story is not ready to be published
 title: "Story Title"
-description: "Brief description"
-client: "Client Name"
-thumbnail: "URL to image"
+description: "Brief description of the story"
 date: "YYYY-MM-DD"
+client: "Client Name"
+image: "URL to story image"  # Optional
 categories: ["Category1", "Category2"]
 industry: "Industry Type"
 ---
@@ -182,13 +182,41 @@ Create file in `members/person-name.qmd` with:
 ``` yaml
 ---
 title: "Person Name"
+draft: false  # Set to true if the member should not be displayed yet
 position: "Job Title"
 email: "email@example.com"
-image: "URL to profile image"
+image: "URL to profile image"  # Optional
 order: 3  # Lower numbers appear first
-description: "Brief bio"
+description: "Brief bio that appears in the member card"
 ---
 ```
+
+
+
+## Default Placeholders
+
+If no image is provided in the frontmatter, default placeholders will be used:
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![Programs](assets/placeholders/programs.png){height=150}
+:::
+
+::: {.column width="25%"}
+![Events](assets/placeholders/events.png){height=150}
+:::
+
+::: {.column width="25%"}
+![Stories](assets/placeholders/stories.png){height=150}
+:::
+
+::: {.column width="25%"}
+![News](assets/placeholders/news.png){height=150}
+:::
+
+::::
+
 
 ##  {background-image="assets/editing_guide/team.jpeg" background-size="cover"}
 
