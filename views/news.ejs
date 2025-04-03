@@ -2,32 +2,37 @@
 <div class="list">
     <% for (const item of items) { %>
         <div class="news-card">
-            <div class="news-card-content">
-                <div class="news-meta">
-                    <span class="news-date">
-                        <%= new Date(item.date).toLocaleDateString('en-US', { year: 'numeric' , month: 'long' ,
-                            day: 'numeric' }) %>
-                    </span>
-                    <% if (item.category) { %>
-                        <span class="news-category">
-                            <%= item.category %>
-                        </span>
-                        <% } %>
+            <% if (item.image || true) { %>
+                <div class="news-card-image">
+                    <img src="<%- item.image || '/assets/placeholders/news.png' %>" alt="<%- item.title %>">
                 </div>
-                <h3 class="news-title">
-                    <a href="<%- item.path %>">
-                        <%= item.title %>
-                    </a>
-                </h3>
-                <% if (item.description) { %>
-                    <p class="news-description">
-                        <%= item.description %>
-                    </p>
-                    <% } %>
-                        <div class="news-footer">
-                            <a href="<%- item.path %>" class="read-more">Read More →</a>
+                <% } %>
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-date">
+                                <%= new Date(item.date).toLocaleDateString('en-US', { year: 'numeric' , month: 'long' ,
+                                    day: 'numeric' }) %>
+                            </span>
+                            <% if (item.category) { %>
+                                <span class="news-category">
+                                    <%= item.category %>
+                                </span>
+                                <% } %>
                         </div>
-            </div>
+                        <h3 class="news-title">
+                            <a href="<%- item.path %>">
+                                <%= item.title %>
+                            </a>
+                        </h3>
+                        <% if (item.description) { %>
+                            <p class="news-description">
+                                <%= item.description %>
+                            </p>
+                            <% } %>
+                                <div class="news-footer">
+                                    <a href="<%- item.path %>" class="read-more">Read More →</a>
+                                </div>
+                    </div>
         </div>
         <% } %>
 </div>

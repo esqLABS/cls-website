@@ -3,7 +3,7 @@ draft: true
 title: "E-commerce Platform Boosts Sales by 85% with AI-Powered Personalization"
 description: "Learn how ShopSmart implemented our AI-driven personalization engine to transform their customer experience and dramatically increase sales."
 client: "ShopSmart"
-thumbnail: "https://picsum.photos/300/200?random=4"
+image: "https://picsum.photos/300/200?random=4"
 date: "2024-03-05"
 categories: ["E-commerce", "AI/ML", "Customer Experience"]
 industry: "Retail"

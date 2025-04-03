@@ -1,10 +1,10 @@
 ---
 draft: true
-title: "How CompanyX Increased Their Efficiency by 50% Using Our Solution"
-description: "Learn how our platform helped CompanyX streamline their operations, reduce costs, and improve team collaboration across multiple departments."
+title: "Revolutionizing Drug Development with Open Source Tools"
+description: "How our software helped accelerate a critical drug development process"
+date: "2024-01-15"
+# image: "https://picsum.photos/300/200?random=1"
 client: "CompanyX"
-thumbnail: "https://picsum.photos/300/200?random=1"
-date: "2024-03-20"
 categories: ["Digital Transformation", "Process Optimization"]
 industry: "Manufacturing"
 ---

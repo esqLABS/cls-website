@@ -3,7 +3,8 @@
   <% for (const story of items) { %>
     <div class="card card-base border-secondary g-col-12 g-col-sm-6 g-col-md-4 mb-2 story-card">
       <div class="card-header p-0">
-        <img src="<%- story.thumbnail %>" class="card-img-top" alt="<%- story.title %>" />
+        <img src="<%- story.image || '/assets/placeholders/stories.png' %>" class="card-img-top"
+          alt="<%- story.title %>" />
       </div>
       <div class="card-body">
         <h4 class="card-title"><%- story.title %></h4>

@@ -3,7 +3,7 @@ draft: true
 title: "HealthCare Provider Reduces Patient Wait Times by 40%"
 description: "See how MedCenter revolutionized their patient scheduling and care coordination using our healthcare management solution."
 client: "MedCenter Healthcare"
-thumbnail: "https://picsum.photos/300/200?random=2"
+image: "https://picsum.photos/300/200?random=2"
 date: "2024-03-15"
 categories: ["Healthcare", "Process Automation"]
 industry: "Healthcare"

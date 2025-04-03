@@ -3,7 +3,7 @@ draft: true
 title: "FinTech Startup Achieves 99.99% Uptime with Cloud Migration"
 description: "Discover how FastPay's transition to our cloud infrastructure improved their service reliability and customer trust."
 client: "FastPay Financial"
-thumbnail: "https://picsum.photos/300/200?random=3"
+image: "https://picsum.photos/300/200?random=3"
 date: "2024-03-10"
 categories: ["FinTech", "Cloud Infrastructure"]
 industry: "Financial Services"

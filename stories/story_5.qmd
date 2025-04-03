@@ -3,7 +3,7 @@ draft: true
 title: "University Achieves 95% Student Engagement with Digital Learning Platform"
 description: "Explore how Global University transformed their remote learning experience using our educational technology platform."
 client: "Global University"
-thumbnail: "https://picsum.photos/300/200?random=5"
+image: "https://picsum.photos/300/200?random=5"
 date: "2024-02-28"
 categories: ["Education", "Digital Learning", "Student Engagement"]
 industry: "Education"
