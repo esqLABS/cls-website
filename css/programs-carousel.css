@@ -42,6 +42,16 @@
     padding: 10px;
 }
 
+/* Style for single program card */
+.programs-carousel .carousel-inner:has(.carousel-item:only-child) {
+    justify-content: center;
+}
+
+.programs-carousel .carousel-item:only-child {
+    width: 60%;
+    margin-right: 0;
+}
+
 /* Card styles are now in program-card.css */
 
 .programs-carousel .carousel-control-prev,
