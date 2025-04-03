@@ -26,9 +26,15 @@ The Open Systems Pharmacology (OSP) Suite is a powerful and user-friendly modeli
 ## Impact
 
 The OSP Suite is used worldwide by:
+
 - Pharmaceutical companies
 - Regulatory agencies
 - Academic institutions
 - Research organizations
 
-Supporting critical decisions in drug development and regulatory submissions. 
+Supporting critical decisions in drug development and regulatory submissions.
+
+:::{.text-center}
+[Learn More](https://www.open-systems-pharmacology.org/){.btn .btn-outline-secondary}
+:::
+
