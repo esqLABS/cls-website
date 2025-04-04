@@ -340,7 +340,7 @@
     "href": "website-guide.html#adding-programs",
     "title": "CLS Foundation Website Content Management Guide",
     "section": "Adding Programs",
-    "text": "Adding Programs\nCreate file in programs/your-program-name.qmd with:\n---\ntitle: \"Program Title\"\ndescription: \"Brief description of the program\"\nimage: \"URL to program image\"\ncategory: \"Program Category\"\npriority: 4  # Lower numbers appear first\nurl: \"URL to more information\"\n---"
+    "text": "Adding Programs\nCreate file in programs/your-program-name.qmd with:\n---\ntitle: \"Program Title\"\ndescription: \"Brief description of the program\"\nimage: \"URL to program image\"\ncategories: \"Program Category\"\npriority: 4  # Lower numbers appear first\nurl: \"URL to more information\"\n---"
   },
   {
     "objectID": "website-guide.html#adding-events",
@@ -396,6 +396,6 @@
     "href": "website-guide.html#questions",
     "title": "CLS Foundation Website Content Management Guide",
     "section": "Questions?",
-    "text": "Questions?\nRefer to the Quarto documentation or contact your website administrator."
+    "text": "Questions?\n\nRefer to the Quarto documentation,\nRead the repository README,\nContact your tech team 👩‍💻 👨‍🔧"
   }
 ]
