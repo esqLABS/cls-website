@@ -31,7 +31,6 @@ cls-website/
 
 As a content editor, you'll primarily work with files in these four directories.
 
-
 ## Setup: What You Need
 
 1.  **Required Software:**
@@ -56,7 +55,6 @@ As a content editor, you'll primarily work with files in these four directories.
 
 ##  {background-image="assets/editing_guide/markdown_preview.png" background-size="cover"}
 
-
 ## How Listings Work
 
 The website automatically:
@@ -67,18 +65,17 @@ The website automatically:
 
 Just add content files with the right metadata in the correct folders!
 
-::: {.callout-note}
+::: callout-note
 Each content file have specific set of metadata fields.
 :::
 
-
 ## From Files to Web Pages
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="40%"}
 **Stories Directory:**
-```{.smaller-code style="font-size: 0.7em;"}
+
+``` {.smaller-code style="font-size: 0.7em;"}
 stories/
 ├── story_1.qmd
 │   ├── title: "How CompanyX Increased Efficiency"
@@ -110,15 +107,11 @@ stories/
 :::
 
 ::: {.column width="60%"}
-**Resulting Stories Page:**
-![](assets/editing_guide/stories_page.jpeg)
+**Resulting Stories Page:** ![](assets/editing_guide/stories_page.jpeg)
 :::
-
-::::
+:::::
 
 ##  {background-image="assets/editing_guide/story_1.jpeg" background-size="cover"}
-
-
 
 ## Adding Programs
 
@@ -129,7 +122,7 @@ Create file in `programs/your-program-name.qmd` with:
 title: "Program Title"
 description: "Brief description of the program"
 image: "URL to program image"
-category: "Program Category"
+categories: "Program Category"
 priority: 4  # Lower numbers appear first
 url: "URL to more information"
 ---
@@ -191,14 +184,11 @@ description: "Brief bio that appears in the member card"
 ---
 ```
 
-
-
 ## Default Placeholders
 
 If no image is provided in the frontmatter, default placeholders will be used:
 
-:::: {.columns}
-
+::::::: columns
 ::: {.column width="25%"}
 ![Programs](assets/placeholders/programs.png){height=150}
 :::
@@ -214,9 +204,7 @@ If no image is provided in the frontmatter, default placeholders will be used:
 ::: {.column width="25%"}
 ![News](assets/placeholders/news.png){height=150}
 :::
-
-::::
-
+:::::::
 
 ##  {background-image="assets/editing_guide/team.jpeg" background-size="cover"}
 
@@ -229,7 +217,7 @@ To see changes before publishing:
 3.  Browser will open showing the site
 4.  Changes automatically refresh
 
-![](assets/editing_guide/preview.jpeg)
+![](assets/editing_guide/preview.png)
 
 ## Publishing Changes
 
@@ -247,4 +235,6 @@ When you're satisfied with your changes:
 
 ## Questions?
 
-Refer to the [Quarto documentation](https://quarto.org/docs/guide/) or contact your website administrator.
+- Refer to the [Quarto documentation](https://quarto.org/docs/guide/),
+- Read the [repository README](https://github.com/esqLABS/cls-website),
+- Contact your tech team 👩‍💻 👨‍🔧

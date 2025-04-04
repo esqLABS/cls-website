@@ -51,7 +51,7 @@ If no image is provided in the frontmatter metadata, the website will automatica
 
 | Programs | Events | Stories | News |
 |:--------:|:------:|:-------:|:----:|
-| ![](assets/placeholders/programs.png){height=150} | ![](assets/placeholders/events.png){height=150} | ![](assets/placeholders/stories.png){height=150} | ![](assets/placeholders/news.png){height=150} |
+| ![](assets/placeholders/programs.png) | ![](assets/placeholders/events.png) | ![](assets/placeholders/stories.png) | ![](assets/placeholders/news.png) |
 
 These placeholders ensure a consistent look even when custom images are not available. You can always replace them later by adding an `image` field to your content's frontmatter.
 
