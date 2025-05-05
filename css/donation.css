@@ -24,6 +24,18 @@
     color: #4b5563;
 }
 
+/* Donation buttons container */
+.donation-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.donation-button-wrapper {
+    margin: 0 0.5rem;
+}
 
 /* DONATION REASONS STYLES */
 
@@ -64,7 +76,39 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Donate initiatives section */
+.donate-initiatives {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 
+.initiative-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 1.75rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.initiative-card>h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: calc(1.2rem + 0.3vw);
+    width: 100%;
+}
+
+.initiative-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
 /* Donate button styling */
 .donate-button {
@@ -88,6 +132,68 @@
     margin-right: 0.5rem;
 }
 
+/* Sponsor button styling */
+.sponsor-button,
+.sponsor-button-alt {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    color: white;
+}
+
+.sponsor-button:hover,
+.sponsor-button-alt:hover {
+    background-color: #449d44;
+    border-color: #449d44;
+}
+
+/* Add award icon before sponsor button */
+.sponsor-button::before,
+.sponsor-button-alt::before {
+    content: "\F5A2";
+    /* Bootstrap trophy icon unicode */
+    font-family: "bootstrap-icons";
+    margin-right: 0.5rem;
+}
+
+.sponsor-button-alt {
+    font-size: 1rem;
+    padding: 8px 24px;
+    margin-top: 1rem;
+}
+
+/* Support button styling */
+.support-button,
+.support-button-alt {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: white;
+}
+
+.support-button:hover,
+.support-button-alt:hover {
+    background-color: #31b0d5;
+    border-color: #31b0d5;
+}
+
+/* Add tools icon before support button */
+.support-button::before,
+.support-button-alt::before {
+    content: "\F836";
+    /* Bootstrap tools icon unicode */
+    font-family: "bootstrap-icons";
+    margin-right: 0.5rem;
+}
+
+.support-button-alt {
+    font-size: 1rem;
+    padding: 8px 24px;
+    margin-top: 1rem;
+}
+
 /* Media queries for responsive layout */
 @media (max-width: 1200px) {
     .donate-reasons-container {
@@ -98,10 +204,14 @@
     .donate-reason-card {
         padding: 1.25rem;
     }
+
+    .donate-initiatives {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 }
 
 @media (max-width: 768px) {
-
     .donate-section {
         padding: 40px 0;
     }
@@ -109,6 +219,12 @@
     .donate-description {
         font-size: 1.1rem;
         padding: 0 1rem;
+    }
+
+    .donation-buttons-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
 
     .donate-reasons-container {
@@ -119,5 +235,9 @@
 
     .donate-reason-card {
         padding: 1.25rem;
+    }
+
+    .donate-initiatives {
+        gap: 1rem;
     }
 }

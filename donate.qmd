@@ -13,10 +13,16 @@ css:
 Help us drive innovation in life sciences through open source software
 :::
 
-[<a href="https://buy.stripe.com/dR6eXq6DQfPE35e7sx" class="btn btn-lg rounded-pill donate-button">Donate Now</a>]{.d-grid .gap-2 .d-sm-flex .justify-content-sm-center}
+:::{.donation-buttons-container}
+[<a href="https://buy.stripe.com/dR6eXq6DQfPE35e7sx" class="btn btn-lg rounded-pill donate-button">Donate</a>]{.donation-button-wrapper}
+
+[<a href="https://www.paypal.com/ncp/payment/C9FGDLJBBB8X4" class="btn btn-lg rounded-pill sponsor-button">Sponsor</a>]{.donation-button-wrapper}
+
+[<a href="https://www.paypal.com/ncp/payment/2BKGXBW2DR374" class="btn btn-lg rounded-pill support-button">Support</a>]{.donation-button-wrapper}
+:::
 
 :::{.text-muted .mt-3}
-Interested in other ways to support our mission? [Contact us](contact.qmd) to discuss corporate giving, matching programs, or planned donations.
+Interested in other ways to support our mission? [Contact us](contact_us.qmd) to discuss corporate giving, matching programs, or planned donations.
 :::
 :::
 :::
@@ -44,6 +50,24 @@ Help us continue developing tools that lead to real breakthroughs in healthcare 
 :::{.donate-reason-card}
 ### <i class="bi bi-people donate-option-icon"></i> Strengthen Community
 Support the growing community of researchers and developers working together to advance science.
+:::
+:::
+
+## Our Initiatives
+
+:::{.donate-initiatives}
+:::{.initiative-card}
+### <i class="bi bi-trophy donate-option-icon"></i> Become a Sponsor for the OSP CC 2025
+Support our Open Source in Pharma Community Conference 2025 and help bring together innovators in pharmaceutical research.
+
+[<a href="https://www.paypal.com/ncp/payment/C9FGDLJBBB8X4" class="btn rounded-pill sponsor-button-alt">Sponsor</a>]{.donation-button-wrapper}
+:::
+
+:::{.initiative-card}
+### <i class="bi bi-tools donate-option-icon"></i> Support our OSP Project
+Help us develop and maintain open source tools that empower researchers worldwide to advance scientific discovery.
+
+[<a href="https://www.paypal.com/ncp/payment/2BKGXBW2DR374" class="btn rounded-pill support-button-alt">Support</a>]{.donation-button-wrapper}
 :::
 :::
 
