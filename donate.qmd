@@ -14,11 +14,11 @@ Help us drive innovation in life sciences through open source software
 :::
 
 :::{.donation-buttons-container}
-[<a href="https://buy.stripe.com/dR6eXq6DQfPE35e7sx" class="btn btn-lg rounded-pill donate-button">Donate</a>]{.donation-button-wrapper}
+[<a href="https://www.paypal.com/donate?campaign_id=54G8UHUJP5UXE" class="btn btn-lg rounded-pill support-button"><i class="bi bi-rocket-takeoff-fill"></i> Support</a>]{.donation-button-wrapper}
 
-[<a href="https://www.paypal.com/ncp/payment/C9FGDLJBBB8X4" class="btn btn-lg rounded-pill sponsor-button">Sponsor</a>]{.donation-button-wrapper}
+[<a href="https://www.paypal.com/ncp/payment/C9FGDLJBBB8X4" class="btn btn-lg rounded-pill sponsor-button"><i class="bi bi-trophy-fill"></i> Sponsor</a>]{.donation-button-wrapper}
 
-[<a href="https://www.paypal.com/ncp/payment/2BKGXBW2DR374" class="btn btn-lg rounded-pill support-button">Support</a>]{.donation-button-wrapper}
+[<a href="https://www.paypal.com/ncp/payment/2BKGXBW2DR374" class="btn btn-lg rounded-pill donate-button"><i class="bi bi-heart-fill"></i> Donate</a>]{.donation-button-wrapper}
 :::
 
 :::{.text-muted .mt-3}
@@ -27,9 +27,73 @@ Interested in other ways to support our mission? [Contact us](contact_us.qmd) to
 :::
 :::
 
-## Why Donate
+## Support
 
-Every contribution, regardless of size, makes a difference in our ability to serve the scientific community.
+:::{.section-container}
+Support is directed towards specific projects or initiatives. By supporting our projects, you help ensure their continued development and maintenance.
+
+:::{.donate-reasons-container .support-cards}
+:::{.donate-reason-card}
+### <i class="bi bi-laptop donate-option-icon"></i> OSP Suite Web UI (For Mac)
+Support the development of our OSP Suite Web UI specifically for Mac users, enabling more researchers to utilize our tools.
+
+[<a href="https://www.paypal.com/donate?campaign_id=54G8UHUJP5UXE" class="btn rounded-pill support-button-alt"><i class="bi bi-rocket-takeoff-fill"></i> Support This Project</a>]{.donation-button-wrapper}
+:::
+
+:::{.donate-reason-card}
+### <i class="bi bi-code-square donate-option-icon"></i> Support Specific Feature Implementation
+Interested in supporting the implementation of a specific feature or issue? Browse our GitHub repositories and issues to find specific projects you'd like to support. [Contact us](contact_us.qmd) to discuss supporting its development.
+
+[<a href="https://github.com/Open-Systems-Pharmacology" class="btn rounded-pill github-button">Browse Repositories</a>]{.donation-button-wrapper}
+:::
+:::
+:::
+
+## Sponsor
+
+:::{.section-container}
+Sponsorship provides recognition and benefits while supporting our mission. Choose from different tiers to find the sponsorship level that works for you.
+
+:::{.donate-reasons-container}
+:::{.donate-reason-card}
+### <i class="bi bi-award donate-option-icon"></i> Bronze Sponsorship (1000-2500 €)
+- Recognition of sponsor on our website and materials
+:::
+
+:::{.donate-reason-card}
+### <i class="bi bi-award-fill donate-option-icon"></i> Silver Sponsorship (3000-4500 €)
+- Recognition of sponsor on our website and materials
+- 2 Delegate Passes for events
+:::
+
+:::{.donate-reason-card}
+### <i class="bi bi-trophy donate-option-icon"></i> Gold Sponsorship (5000-9500 €)
+- Recognition of sponsor on our website and materials
+- 4 Delegate Passes for events
+:::
+
+:::{.donate-reason-card}
+### <i class="bi bi-trophy-fill donate-option-icon"></i> Platinum Sponsorship (10000+ €)
+- Recognition of sponsor on our website and materials
+- 1 Delegate Pass per 1000 €
+:::
+:::
+
+:::{.text-center .mt-5}
+[<a href="https://www.paypal.com/ncp/payment/C9FGDLJBBB8X4" class="btn btn-lg rounded-pill sponsor-button"><i class="bi bi-trophy-fill"></i> Become a Sponsor</a>]{.donation-button-wrapper}
+
+For more information about sponsorship opportunities, please [contact us](contact_us.qmd).
+:::
+:::
+
+## Donation
+
+:::{.section-container}
+Donations are generous offerings from organizations and foundations that want to contribute to our mission without expecting anything in return. Your generosity enables us to continue developing open source tools for the life sciences community.
+
+:::{.text-center .mt-4 .mb-5}
+[<a href="https://www.paypal.com/ncp/payment/2BKGXBW2DR374" class="btn btn-lg rounded-pill donate-button"><i class="bi bi-heart-fill"></i> Make a Donation</a>]{.donation-button-wrapper}
+:::
 
 :::{.donate-reasons-container} 
 :::{.donate-reason-card}
@@ -51,23 +115,6 @@ Help us continue developing tools that lead to real breakthroughs in healthcare 
 ### <i class="bi bi-people donate-option-icon"></i> Strengthen Community
 Support the growing community of researchers and developers working together to advance science.
 :::
-:::
-
-## Our Initiatives
-
-:::{.donate-initiatives}
-:::{.initiative-card}
-### <i class="bi bi-trophy donate-option-icon"></i> Become a Sponsor for the OSP CC 2025
-Support our Open Source in Pharma Community Conference 2025 and help bring together innovators in pharmaceutical research.
-
-[<a href="https://www.paypal.com/ncp/payment/C9FGDLJBBB8X4" class="btn rounded-pill sponsor-button-alt">Sponsor</a>]{.donation-button-wrapper}
-:::
-
-:::{.initiative-card}
-### <i class="bi bi-tools donate-option-icon"></i> Support our OSP Project
-Help us develop and maintain open source tools that empower researchers worldwide to advance scientific discovery.
-
-[<a href="https://www.paypal.com/ncp/payment/2BKGXBW2DR374" class="btn rounded-pill support-button-alt">Support</a>]{.donation-button-wrapper}
 :::
 :::
 

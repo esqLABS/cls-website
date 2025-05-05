@@ -124,14 +124,6 @@
     border-color: #c9302c;
 }
 
-/* Add heart icon before donate button */
-.donate-button::before {
-    content: "\F415";
-    /* Bootstrap heart icon unicode */
-    font-family: "bootstrap-icons";
-    margin-right: 0.5rem;
-}
-
 /* Sponsor button styling */
 .sponsor-button,
 .sponsor-button-alt {
@@ -146,15 +138,6 @@
 .sponsor-button-alt:hover {
     background-color: #449d44;
     border-color: #449d44;
-}
-
-/* Add award icon before sponsor button */
-.sponsor-button::before,
-.sponsor-button-alt::before {
-    content: "\F5A2";
-    /* Bootstrap trophy icon unicode */
-    font-family: "bootstrap-icons";
-    margin-right: 0.5rem;
 }
 
 .sponsor-button-alt {
@@ -179,19 +162,33 @@
     border-color: #31b0d5;
 }
 
-/* Add tools icon before support button */
-.support-button::before,
-.support-button-alt::before {
-    content: "\F836";
-    /* Bootstrap tools icon unicode */
-    font-family: "bootstrap-icons";
-    margin-right: 0.5rem;
-}
-
 .support-button-alt {
     font-size: 1rem;
     padding: 8px 24px;
     margin-top: 1rem;
+}
+
+/* GitHub button styling */
+.github-button {
+    font-size: 1rem;
+    padding: 8px 24px;
+    margin-top: 1rem;
+    background-color: #333;
+    border-color: #333;
+    color: white;
+}
+
+.github-button:hover {
+    background-color: #24292e;
+    border-color: #24292e;
+}
+
+/* Add GitHub icon before GitHub button */
+.github-button::before {
+    content: "\F3ED";
+    /* Bootstrap github icon unicode */
+    font-family: "bootstrap-icons";
+    margin-right: 0.5rem;
 }
 
 /* Media queries for responsive layout */
@@ -240,4 +237,26 @@
     .donate-initiatives {
         gap: 1rem;
     }
+}
+
+/* Support cards specific styling */
+.support-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.support-cards .donate-reason-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.support-cards .donation-button-wrapper {
+    align-self: flex-end;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: right;
 }
