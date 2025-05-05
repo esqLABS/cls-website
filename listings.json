@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": []
-  },
-  {
-    "listing": "/about.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/programs/open-systems-pharmacology.html",
@@ -16,10 +8,8 @@
     ]
   },
   {
-    "listing": "/programs.html",
-    "items": [
-      "/programs/open-systems-pharmacology.html"
-    ]
+    "listing": "/news.html",
+    "items": []
   },
   {
     "listing": "/stories.html",
@@ -30,6 +20,16 @@
     "items": [
       "/events/osp_conference_2025.html",
       "/events/osp_conference_2024.html"
+    ]
+  },
+  {
+    "listing": "/about.html",
+    "items": []
+  },
+  {
+    "listing": "/programs.html",
+    "items": [
+      "/programs/open-systems-pharmacology.html"
     ]
   }
 ]
