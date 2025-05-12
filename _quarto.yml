@@ -74,10 +74,13 @@ format:
       - css/components.css
       - css/styles.css
       - css/footer.css
+      - css/navbar.css
+      - css/mobile.css
     toc: false
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
     html-math-method: mathjax
     self-contained: false
 

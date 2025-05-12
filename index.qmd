@@ -34,12 +34,33 @@ listing:
 ---
 
 :::{.section .section-hero}
-{{< include _includes/hero-shapes.html >}}
+
+```{=html}
+<!-- Decorative shapes for hero section -->
+<div class="hero-shapes-container">
+    <div class="hero-shape hero-shape-1"></div>
+    <div class="hero-shape hero-shape-2"></div>
+</div>
+
+<!-- Mobile optimized decorative elements -->
+<div class="mobile-hero-decoration">
+    <div class="mobile-hero-shape mobile-hero-shape-1"></div>
+    <div class="mobile-hero-shape mobile-hero-shape-2"></div>
+</div>
+```
 
 :::{.hero-container}
 :::{.hero-content}
 
-![](./assets/CLSFoundation_Logo.png){.hero-logo alt="Computational Life Sciences Foundation Logo"}
+![](./assets/CLSFoundation_LogoGraphics.png){.hero-logo alt="Computational Life Sciences Foundation Logo"}
+
+:::{.hero-title}
+# COMPUTATIONAL LIFE SCIENCES FOUNDATION
+:::
+
+:::{.hero-tagline}
+Advancing Computational Life Sciences through Open Collaboration
+:::
 
 :::{.hero-description}
 Founded to develop and maintain open source software in the life sciences, 
@@ -48,8 +69,8 @@ through open cooperation and innovation.
 :::
 
 :::{.hero-buttons}
-[About Our Foundation](about.qmd){.btn .btn-lg .rounded-pill .btn-secondary}
-[Support Our Mission](donate.qmd){.btn .btn-lg .rounded-pill .donate-button}
+<div class="hero-button-wrapper">[About Our Foundation](about.qmd){.btn .btn-lg .rounded-pill .btn-primary}</div>
+<div class="hero-button-wrapper">[Support Our Mission](donate.qmd){.btn .btn-lg .rounded-pill .donate-button}</div>
 :::
 
 :::

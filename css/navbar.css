@@ -1,0 +1,126 @@
+/* Navbar Styles */
+
+/* Base navbar */
+.navbar {
+    padding: 1rem 1.5rem;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    transition: all 0.3s ease;
+}
+
+/* Improve navbar menu appearance */
+.navbar-nav .nav-link {
+    margin: 0 0.5rem;
+    position: relative;
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bs-primary);
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+    width: 100%;
+}
+
+/* Navbar toggler (hamburger) styling */
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Mobile navbar responsive styles */
+@media (max-width: 991px) {
+    .navbar {
+        padding: 0.75rem 1rem;
+    }
+
+    .navbar-brand img {
+        max-height: 45px;
+    }
+
+    .navbar-collapse {
+        margin-top: 0.5rem;
+        padding: 1rem;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-nav {
+        padding: 0.5rem 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.6rem 0.75rem;
+        margin: 0.25rem 0;
+        border-radius: 6px;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-nav .nav-link::after {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand img {
+        max-height: 40px;
+    }
+
+    .navbar-toggler {
+        padding: 0.4rem;
+    }
+
+    /* Make mobile menu items easier to tap */
+    .navbar-nav .nav-link {
+        padding: 0.75rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* Fixed navbar for mobile */
+@media (max-width: 576px) {
+    .navbar.sticky-top {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Mobile menu full width */
+    .navbar-collapse {
+        border-radius: 0 0 8px 8px;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 1rem;
+    }
+}
