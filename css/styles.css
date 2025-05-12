@@ -28,3 +28,46 @@
     max-width: 1320px;
   }
 }
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Fix navbar on mobile */
+  .navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Fix content layout */
+  .quarto-title-banner {
+    padding: 1.5rem 1rem;
+  }
+
+  .page-columns {
+    display: block;
+  }
+
+  /* Fix overflow issues */
+  .overflow-x-auto {
+    max-width: 100vw;
+  }
+}

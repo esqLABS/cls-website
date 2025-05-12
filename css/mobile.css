@@ -1,0 +1,411 @@
+/* Mobile Responsive Styles */
+
+/* Base mobile adjustments */
+@media (max-width: 768px) {
+
+    /* Adjust font sizes for mobile */
+    body {
+        font-size: 16px;
+    }
+
+    h1,
+    .h1 {
+        font-size: 2rem;
+    }
+
+    h2,
+    .h2 {
+        font-size: 1.75rem;
+    }
+
+    h3,
+    .h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Navigation adjustments */
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand img {
+        max-height: 40px;
+    }
+
+    /* Hamburger menu adjustment */
+    .navbar-toggler {
+        border: none;
+        padding: 0.5rem;
+    }
+
+    /* Improve spacing in the navbar dropdown */
+    .navbar-collapse {
+        margin-top: 0.5rem;
+    }
+
+    /* Add some space between navbar items */
+    .navbar-nav .nav-item {
+        padding: 0.25rem 0;
+    }
+
+    /* Section margins and paddings */
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    /* Hero section additional adjustments */
+    .section-hero {
+        margin-top: -2rem;
+        min-height: auto;
+        max-height: none;
+        display: flex;
+        align-items: center;
+        padding: 4rem 0 3rem;
+    }
+
+    .hero-container {
+        padding: 0.75rem;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-content {
+        padding: 1.25rem;
+        min-height: auto;
+        width: 92%;
+        margin: 0 auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-logo {
+        max-width: 75%;
+        margin: 0 auto 0.75rem;
+        display: block;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0 auto 1.25rem;
+        text-align: center;
+    }
+
+    /* Hero buttons can still be horizontal on tablets */
+    .hero-buttons {
+        max-width: 90%;
+        gap: 0.75rem;
+        margin: 0.75rem auto 0;
+    }
+
+    /* Simplify hero shapes on mobile */
+    .hero-shape {
+        opacity: 0.15;
+    }
+
+    .hero-shape-1 {
+        width: 200px;
+        height: 200px;
+        top: -50px;
+        right: -50px;
+    }
+
+    .hero-shape-2 {
+        width: 180px;
+        height: 180px;
+        bottom: -50px;
+        left: -50px;
+    }
+
+    /* Show mobile decorations */
+    .mobile-hero-decoration {
+        display: block;
+    }
+
+    /* Button adjustments */
+    .btn-lg {
+        padding: 0.5rem 1.25rem;
+        font-size: 1rem;
+    }
+
+    /* Card layouts */
+    .card {
+        margin-bottom: 1.5rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    /* Grid adjustments */
+    .row {
+        margin-left: -0.5rem;
+        margin-right: -0.5rem;
+    }
+
+    .col,
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-sm,
+    .col-md,
+    .col-lg,
+    .col-xl {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    /* Improve spacing */
+    .mt-5,
+    .my-5 {
+        margin-top: 2rem !important;
+    }
+
+    .mb-5,
+    .my-5 {
+        margin-bottom: 2rem !important;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 2rem !important;
+    }
+
+    .pb-5,
+    .py-5 {
+        padding-bottom: 2rem !important;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 576px) {
+
+    /* Further reduce sizing for very small screens */
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h1,
+    .h1 {
+        font-size: 1.75rem;
+    }
+
+    h2,
+    .h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Hero section enhancements for small screens */
+    .section-hero {
+        min-height: auto;
+        padding: 3rem 0 2rem;
+    }
+
+    .hero-content {
+        width: 96%;
+        padding: 1rem;
+        margin: 0 auto;
+        border-radius: 0.5rem;
+    }
+
+    .hero-logo {
+        max-width: 85%;
+        margin: 0 auto 0.5rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    /* Force hero buttons to stack on small screens */
+    .hero-buttons {
+        flex-direction: column;
+        max-width: 250px;
+        width: 100%;
+        gap: 0.85rem;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        min-width: 0;
+    }
+
+    /* Hide desktop shapes on very small screens */
+    .hero-shape {
+        opacity: 0.1;
+    }
+
+    .hero-shape-1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero-shape-2 {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Smaller mobile shapes */
+    .mobile-hero-shape-1 {
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        right: -5%;
+    }
+
+    .mobile-hero-shape-2 {
+        width: 60px;
+        height: 60px;
+        bottom: 0;
+        left: -5%;
+    }
+
+    /* Adjust hero buttons for very small screens */
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        gap: 0.5rem;
+    }
+
+    .hero-buttons .btn {
+        margin-bottom: 0;
+        width: 100%;
+        padding: 0.6rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    /* Adjust card layouts for very small screens */
+    .card-horizontal {
+        flex-direction: column;
+    }
+
+    /* Footer adjustments for small screens */
+    .nav-footer-left,
+    .nav-footer-center,
+    .nav-footer-right {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .social-row {
+        justify-content: center;
+    }
+}
+
+/* Very small mobile screens */
+@media (max-width: 360px) {
+    .section-hero {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .hero-content {
+        width: 98%;
+        padding: 0.75rem;
+    }
+
+    .hero-logo {
+        max-width: 90%;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-description {
+        font-size: 0.85rem;
+        line-height: 1.3;
+        margin-bottom: 0.75rem;
+    }
+
+    /* Hide desktop shapes completely */
+    .hero-shape {
+        display: none;
+    }
+
+    /* Very small mobile shapes */
+    .mobile-hero-shape-1 {
+        width: 60px;
+        height: 60px;
+        opacity: 0.1;
+    }
+
+    .mobile-hero-shape-2 {
+        width: 40px;
+        height: 40px;
+        opacity: 0.1;
+    }
+
+    .hero-buttons .btn {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    /* Donation page adjustments for very small screens */
+    .donate-reason-card {
+        padding: 1rem !important;
+    }
+
+    .donate-reason-card>h3 {
+        font-size: 1rem !important;
+    }
+
+    .donate-option-icon {
+        font-size: 1rem !important;
+    }
+
+    .support-button-alt,
+    .github-button {
+        font-size: 0.9rem !important;
+        padding: 0.5rem 1rem !important;
+    }
+}
+
+/* Fix for horizontal overflow issues */
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Safari iOS viewport height fix */
+@supports (-webkit-touch-callout: none) {
+    .min-vh-100 {
+        min-height: -webkit-fill-available;
+    }
+
+    .section-hero {
+        min-height: auto;
+        height: auto;
+    }
+}
+
+/* Improve touch targets for mobile devices */
+button,
+.btn,
+a,
+input[type="button"],
+input[type="submit"] {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Fix for mobile images */
+img {
+    height: auto;
+    max-width: 100%;
+}
