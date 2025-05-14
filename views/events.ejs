@@ -17,7 +17,8 @@
                     </div>
                     <p class="card-text flex-grow-1"><%- event.description %></p>
                     <div class="d-flex justify-content-end mt-auto">
-                        <a href="<%- event.path %>" class="btn btn-outline-secondary">Learn More</a>
+                        <a href="<%- event.url || event.path %>" class="btn btn-outline-secondary"
+                            target="<%- event.url ? '_blank' : '_self' %>">Learn More</a>
                     </div>
                 </div>
             </div>
