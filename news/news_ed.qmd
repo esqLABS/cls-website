@@ -1,0 +1,36 @@
+---
+title: "CLS Foundation Achieves US Public Charity Certification—A New Era for Global Open Science Collaboration"
+description: "CLSF is now officially certified as a US Public Charity through NGOsource's Equivalency Determination, opening new doors for global collaboration and support."
+date: "2024-06-07"
+categories: "Announcement"
+image: "/assets/NGOsource ED on File.png"
+draft: false
+---
+
+We are thrilled to announce that the Computational Life Sciences Foundation (CLSF) has been officially certified as a US Public Charity through NGOsource's rigorous Equivalency Determination (ED) process. This milestone not only recognizes our commitment to transparency and public benefit, but also opens new doors for international collaboration and philanthropic support.
+
+![](/assets/NGOsource ED on File.png){fig-align="center"}
+
+## What Does This Mean?
+
+With this certification, CLSF is now recognized as equivalent to a US 501(c)(3) public charity. This status makes it easier than ever for US-based foundations, corporations, and individual philanthropists to support our mission—removing administrative barriers and streamlining the grantmaking process. Our ED certificate is valid through December 31, 2026, and is available to all NGOsource member grantmakers.
+
+## Why Is This Important?
+
+The ED certification is a powerful endorsement of our mission: advancing science and education in the life sciences through open-source software, open data, and open collaboration. It demonstrates that CLSF meets the highest standards of public benefit, accountability, and transparency—qualities that funders and partners value deeply.
+
+## A Call to Action: Join Us in Transforming Life Sciences
+
+This new status comes at a pivotal time. The need for open, accessible, and robust computational tools in the life sciences has never been greater. By supporting CLSF, you are investing in a future where scientific discovery is accelerated, research is more reproducible, and innovation is shared for the benefit of all.
+
+We invite foundations, sponsors, and individual philanthropists to join us in this mission. Your support will directly fund the development and maintenance of vital open-source tools, educational programs, and collaborative research initiatives that empower scientists, students, and the public worldwide.
+
+## How You Can Help
+
+- **Fund our programs:** Enable the next generation of open-source software for life sciences.
+- **Sponsor events and workshops:** Help us train and connect the global scientific community.
+- **Partner with us:** Collaborate on projects that advance open science and public health.
+
+To learn more about how you can support or partner with CLSF, please [contact us](../contact_us.qmd) or visit our [Support Our Mission](../donate.qmd) page.
+
+We are grateful to NGOsource for their support and to all our partners and community members who make our work possible. Together, we can build a more open, collaborative, and impactful future for life sciences.

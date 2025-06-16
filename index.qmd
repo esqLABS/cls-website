@@ -33,6 +33,9 @@ listing:
     max-items: 3
 ---
 
+
+{{< include _includes/ed-news-popup.html >}}
+
 :::{.section .section-hero}
 
 ```{=html}

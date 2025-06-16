@@ -1,0 +1,31 @@
+```{=html}
+<!-- ED News Popup Modal -->
+<div id="ed-news-popup"
+    style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.45);">
+    <div
+        style="background:white; max-width:80%; margin:20% auto; padding:2rem 1.5rem 1.5rem 1.5rem; border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.18); position:relative; text-align:center;">
+        <button onclick="document.getElementById('ed-news-popup').style.display='none'"
+            style="position:absolute; top:10px; right:14px; background:none; border:none; font-size:1.5rem; cursor:pointer;">&times;</button>
+        <img src="/assets/NGOsource ED on File.png" alt="NGOsource Badge"
+            style="display:block; margin:0 auto 1rem auto; width:50%; max-width:260px; min-width:120px;" />
+        <h3 style="margin-top:0;">CLS Foundation Achieves US Public Charity Certification!</h3>
+        <p style="margin:0 0 1.2rem 0; font-size:1.05rem;">We are now officially certified as a US Public Charity
+            through NGOsource's Equivalency Determination. <br><strong>Read more about this milestone and what it means
+                for global open science collaboration.</strong></p>
+        <a href="news/news_ed.qmd"
+            style="display:inline-block; background:#2563eb; color:white; padding:0.7em 1.5em; border-radius:6px; text-decoration:none; font-weight:600;">Read
+            the News</a>
+    </div>
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        if (!sessionStorage.getItem('edNewsPopupDismissed')) {
+            document.getElementById('ed-news-popup').style.display = 'block';
+            document.querySelector('#ed-news-popup button').onclick = function () {
+                document.getElementById('ed-news-popup').style.display = 'none';
+                sessionStorage.setItem('edNewsPopupDismissed', '1');
+            };
+        }
+    });
+</script>
+```
