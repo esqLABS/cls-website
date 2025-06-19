@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fe80dc79d9cd2db903d4fa8f8d993b9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-44c6f9b4d7d1dafbff956aa1d894a249.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -64,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-draft-mode','listing-title','listing-description','listing-date','listing-categories','listing-image','listing-draft','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-draft-mode","listing-title","listing-description","listing-date","listing-categories","listing-image","listing-draft","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -185,7 +185,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QW5ub3VuY2VtZW50">Announcement <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -215,6 +215,19 @@ window.Quarto = {
 
 <div id="listing-news-grid" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-news-grid-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news-grid'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
@@ -222,6 +235,41 @@ window.Quarto = {
 </div>
 <div class="news-list">
     
+        <div class="news-list-item">
+            <article class="news-article">
+                
+                    <div class="news-image">
+                        <img src="./assets/NGOsource ED on File.png" alt="CLS Foundation Achieves US Public Charity Certification—A New Era for Global Open Science Collaboration">
+                    </div>
+                    
+                        <div class="news-content">
+                            <header class="news-header">
+                                <div class="news-meta">
+                                    <time datetime="Jun 7, 2024" class="news-date">
+                                        June 7, 2024
+                                    </time>
+                                    
+                                </div>
+                                <h2 class="news-title">
+                                    <a href="./news/news_ed.html">
+                                        CLS Foundation Achieves US Public Charity Certification—A New Era for Global Open Science Collaboration
+                                    </a>
+                                </h2>
+                            </header>
+                            
+                                <div class="news-excerpt">
+                                    <p>
+                                        CLSF is now officially certified as a US Public Charity through NGOsource's Equivalency Determination, opening new doors for global collaboration and support.
+                                    </p>
+                                </div>
+                                
+                                    <footer class="news-footer">
+                                        <a href="./news/news_ed.html" class="read-more">Read More →</a>
+                                    </footer>
+                        </div>
+            </article>
+        </div>
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
