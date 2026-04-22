@@ -7,8 +7,8 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
 
   <title>CLS Foundation Website Content Management Guide</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -95,7 +98,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -284,7 +287,7 @@
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><strong>Stories Directory:</strong></p>
-<div class="sourceCode" id="cb2" style="font-size: 0.7em;"><pre class="sourceCode numberSource smaller-code number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>stories/</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="font-size: 0.7em;"><pre class="sourceCode numberSource smaller-code number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>stories/</span>
 <span id="cb2-2"><a></a>├── story_1.qmd</span>
 <span id="cb2-3"><a></a>│   ├── title: "How CompanyX Increased Efficiency"</span>
 <span id="cb2-4"><a></a>│   ├── description: "CompanyX streamlined operations..."</span>
@@ -310,7 +313,7 @@
 <span id="cb2-24"><a></a>    ├── thumbnail: "https://picsum.photos/300/200?random=3"</span>
 <span id="cb2-25"><a></a>    ├── date: "2024-01-10"</span>
 <span id="cb2-26"><a></a>    ├── categories: ["Healthcare", "Data Integration"]</span>
-<span id="cb2-27"><a></a>    └── industry: "Healthcare"</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-27"><a></a>    └── industry: "Healthcare"</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column" style="width:60%;">
 <p><strong>Resulting Stories Page:</strong> <img data-src="assets/editing_guide/stories_page.jpeg"></p>
 </div></div>
@@ -321,14 +324,14 @@
 <section id="adding-programs" class="slide level2">
 <h2>Adding Programs</h2>
 <p>Create file in <code>programs/your-program-name.qmd</code> with:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a></a><span class="pp">---</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a></a><span class="pp">---</span></span>
 <span id="cb3-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Program Title"</span></span>
 <span id="cb3-3"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief description of the program"</span></span>
 <span id="cb3-4"><a></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to program image"</span></span>
 <span id="cb3-5"><a></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="st">"Program Category"</span></span>
 <span id="cb3-6"><a></a><span class="fu">priority</span><span class="kw">:</span><span class="at"> </span><span class="dv">4</span><span class="co">  # Lower numbers appear first</span></span>
 <span id="cb3-7"><a></a><span class="fu">url</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to more information"</span></span>
-<span id="cb3-8"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-8"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="section-4" class="slide level2" data-background-image="assets/editing_guide/programs.jpeg" data-background-size="cover">
 <h2></h2>
@@ -336,7 +339,7 @@
 <section id="adding-events" class="slide level2">
 <h2>Adding Events</h2>
 <p>Create file in <code>events/your-event-name.qmd</code> with:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a></a><span class="pp">---</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a></a><span class="pp">---</span></span>
 <span id="cb4-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Event Title"</span></span>
 <span id="cb4-3"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief event description"</span></span>
 <span id="cb4-4"><a></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">"YYYY-MM-DD"</span></span>
@@ -345,7 +348,7 @@
 <span id="cb4-7"><a></a><span class="fu">location</span><span class="kw">:</span><span class="at"> </span><span class="st">"Event Location"</span></span>
 <span id="cb4-8"><a></a><span class="fu">url</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL for more info"</span><span class="co">  # Optional</span></span>
 <span id="cb4-9"><a></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">"Category1"</span><span class="kw">,</span><span class="at"> </span><span class="st">"Category2"</span><span class="kw">]</span></span>
-<span id="cb4-10"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-10"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="section-5" class="slide level2" data-background-image="assets/editing_guide/events.jpeg" data-background-size="cover">
 <h2></h2>
@@ -353,7 +356,7 @@
 <section id="adding-success-stories" class="slide level2">
 <h2>Adding Success Stories</h2>
 <p>Create file in <code>stories/story-name.qmd</code> with:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a></a><span class="pp">---</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a></a><span class="pp">---</span></span>
 <span id="cb5-2"><a></a><span class="fu">draft</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span><span class="co">  # Set to true if the story is not ready to be published</span></span>
 <span id="cb5-3"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Story Title"</span></span>
 <span id="cb5-4"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief description of the story"</span></span>
@@ -362,7 +365,7 @@
 <span id="cb5-7"><a></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to story image"</span><span class="co">  # Optional</span></span>
 <span id="cb5-8"><a></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">"Category1"</span><span class="kw">,</span><span class="at"> </span><span class="st">"Category2"</span><span class="kw">]</span></span>
 <span id="cb5-9"><a></a><span class="fu">industry</span><span class="kw">:</span><span class="at"> </span><span class="st">"Industry Type"</span></span>
-<span id="cb5-10"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-10"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="section-6" class="slide level2" data-background-image="assets/editing_guide/stories.jpeg" data-background-size="cover">
 <h2></h2>
@@ -370,7 +373,7 @@
 <section id="adding-team-members" class="slide level2">
 <h2>Adding Team Members</h2>
 <p>Create file in <code>members/person-name.qmd</code> with:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a></a><span class="pp">---</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a></a><span class="pp">---</span></span>
 <span id="cb6-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Person Name"</span></span>
 <span id="cb6-3"><a></a><span class="fu">draft</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span><span class="co">  # Set to true if the member should not be displayed yet</span></span>
 <span id="cb6-4"><a></a><span class="fu">position</span><span class="kw">:</span><span class="at"> </span><span class="st">"Job Title"</span></span>
@@ -378,7 +381,7 @@
 <span id="cb6-6"><a></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"URL to profile image"</span><span class="co">  # Optional</span></span>
 <span id="cb6-7"><a></a><span class="fu">order</span><span class="kw">:</span><span class="at"> </span><span class="dv">3</span><span class="co">  # Lower numbers appear first</span></span>
 <span id="cb6-8"><a></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Brief bio that appears in the member card"</span></span>
-<span id="cb6-9"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-9"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="default-placeholders" class="slide level2">
 <h2>Default Placeholders</h2>
@@ -645,7 +648,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -719,13 +722,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
