@@ -34,7 +34,7 @@ listing:
 ---
 
 
-{{< include _includes/ed-news-popup.html >}}
+<!-- {{< include _includes/ed-news-popup.html >}} -->
 
 :::{.section .section-hero}
 
